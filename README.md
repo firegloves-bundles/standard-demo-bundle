@@ -1,7 +1,7 @@
 # Standard Demo Bundle
 This is a dump using [entando-bundle-cli](https://github.com/entando-k8s/entando-bundle-cli) and the following environment:
 
-###env.json
+### env.json
 ```
 {
     "coreBaseApi": "http://quickstart-sales-demo.lab.entando.org/entando-de-app",
@@ -11,7 +11,7 @@ This is a dump using [entando-bundle-cli](https://github.com/entando-k8s/entando
 }
 ```
 
-###Dump Command:
+### Dump Command:
 ```
 $ entando-bundle from-env \
     --env env.json \
@@ -40,5 +40,5 @@ Collecting plugins
 Generating bundle...
 ```
 
-###Disclaimer:
+### Disclaimer:
 This hasn't been properly tested on Entando Component Manager (ECR), so please use the issues section to report ECR installation issues or changes required on `entando-bundle-cli` to support other components or formats for a full Getting Started Experience (Standard Demo).
