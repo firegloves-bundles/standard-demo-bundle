@@ -1,0 +1,18 @@
+code: list_item
+used: 6
+titles:
+  en: List item
+  it: Elemento lista
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi:
+  customElement: list-item-config
+  resources:
+    - widgets/list-item/config/js/runtime.js
+    - widgets/list-item/config/js/vendor.js
+    - widgets/list-item/config/js/main.js

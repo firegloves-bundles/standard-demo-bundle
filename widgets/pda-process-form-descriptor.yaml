@@ -1,0 +1,19 @@
+code: pda-process-form
+used: 2
+titles:
+  en: PDA - Process Form
+  it: PDA - Process Form
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi:
+  customElement: process-form-config
+  resources:
+    - entando-pda-plugin-bundle/static/js/2.19f5bd06.chunk.js
+    - entando-pda-plugin-bundle/static/js/main.f0f74b90.chunk.js
+    - entando-pda-plugin-bundle/static/js/runtime-main.19b9e25f.js
+    - entando-pda-plugin-bundle/static/css/2.4b85a2d1.chunk.css

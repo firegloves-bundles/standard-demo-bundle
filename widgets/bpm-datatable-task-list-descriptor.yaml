@@ -1,0 +1,13 @@
+code: bpm-datatable-task-list
+used: 0
+titles:
+  en: PAM-Datatable Task List
+  it: PAM-Datatable Task List
+typology: jpkiebpm
+group: null
+pluginCode: jpkiebpm
+pluginDesc: Entando Red Hat PAM Connector
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi: null

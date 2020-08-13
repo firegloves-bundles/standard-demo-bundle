@@ -1,0 +1,24 @@
+code: seed_insurances
+status: published
+displayedInMenu: true
+pageModel: insurance_home
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: Seed Insurances Home
+  it: Home Seed Assicurazioni
+fullTitles:
+  en: Home / Seed Insurances Home
+  it: Home / Home Seed Assicurazioni
+ownerGroup: free
+joinGroups: []
+children:
+  - products
+  - my_portal
+position: 15
+numWidget: 13
+lastModified: '2020-08-04 12:38:27'
+fullPath: homepage/seed_insurances
+token: null

@@ -1,0 +1,13 @@
+code: Breadcrumb
+used: 8
+titles:
+  en: Breadcrumb
+  it: Briciole di pane
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: ''
+configUi: null

@@ -1,0 +1,13 @@
+code: transfer_money
+used: 0
+titles:
+  en: Transfer Money  notification mock
+  it: Transfer Money notification mock
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

@@ -1,0 +1,22 @@
+code: search_result
+status: published
+displayedInMenu: true
+pageModel: portal_example
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: Search Result
+  it: Risultato ricerca
+fullTitles:
+  en: Home / Search Result
+  it: Home / Risultato ricerca
+ownerGroup: free
+joinGroups: []
+children: []
+position: 13
+numWidget: 6
+lastModified: '2020-08-10 21:16:29'
+fullPath: homepage/search_result
+token: null

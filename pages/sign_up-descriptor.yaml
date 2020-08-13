@@ -1,0 +1,22 @@
+code: sign_up
+status: published
+displayedInMenu: false
+pageModel: seed_home
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: Sign up
+  it: Sign up
+fullTitles:
+  en: Home / Sign up
+  it: Home / Sign up
+ownerGroup: free
+joinGroups: []
+children: []
+position: 3
+numWidget: 3
+lastModified: '2020-05-25 13:42:44'
+fullPath: homepage/sign_up
+token: null

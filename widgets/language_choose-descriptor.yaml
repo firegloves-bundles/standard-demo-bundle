@@ -1,0 +1,13 @@
+code: language_choose
+used: 8
+titles:
+  en: Language choose
+  it: Scelta lingua
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

@@ -1,0 +1,13 @@
+code: pda_sidebar_navigation
+used: 10
+titles:
+  en: PDA Sidebar Navigation
+  it: PDA Sidebar Navigation
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

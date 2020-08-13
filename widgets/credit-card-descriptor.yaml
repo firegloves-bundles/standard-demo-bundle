@@ -1,0 +1,13 @@
+code: Credit-card
+used: 0
+titles:
+  en: Credit Card
+  it: Credit Card
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

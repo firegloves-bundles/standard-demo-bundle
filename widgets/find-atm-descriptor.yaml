@@ -1,0 +1,13 @@
+code: find-atm
+used: 2
+titles:
+  en: Find ATM
+  it: Trova ATM
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

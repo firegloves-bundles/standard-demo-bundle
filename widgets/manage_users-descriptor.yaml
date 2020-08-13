@@ -1,0 +1,13 @@
+code: manage_users
+used: 2
+titles:
+  en: Manage Users
+  it: Gestione Utenti
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

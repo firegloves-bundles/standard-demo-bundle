@@ -1,0 +1,13 @@
+code: back_to_seed
+used: 8
+titles:
+  en: Back to  Seed bank
+  it: Seed bank logo
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

@@ -1,0 +1,22 @@
+code: test_w
+status: unpublished
+displayedInMenu: true
+pageModel: simple_page
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: test-w
+  it: test-w
+fullTitles:
+  en: Home / test-w
+  it: Home / test-w
+ownerGroup: free
+joinGroups: []
+children: []
+position: 16
+numWidget: 2
+lastModified: '2020-08-10 21:50:55'
+fullPath: homepage/test_w
+token: null

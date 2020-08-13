@@ -1,0 +1,204 @@
+kind: EntandoPlugin
+apiVersion: entando.org/v1
+metadata:
+  creationTimestamp: '2020-05-06T07:14:43Z'
+  generation: 1
+  name: seedsdashboard-plugin
+  namespace: sales-demo
+  resourceVersion: '63858571'
+  selfLink: >-
+    /apis/entando.org/v1/namespaces/sales-demo/entandoplugins/seedsdashboard-plugin
+  uid: 42906bf9-8f69-11ea-bbee-a268fb84289a
+spec:
+  image: 'entandodemo/dashboardpage:0.0.1-SNAPSHOT'
+  dbms: postgresql
+  replicas: 1
+  ingressPath: /seedsdashboard
+  healthCheckPath: /management/health
+  securityLevel: strict
+  roles:
+    - code: seedsdashboard-admin
+      name: seedsdashboard-admin
+    - code: statement-admin
+      name: statement-admin
+    - code: alert-admin
+      name: alert-admin
+  permissions: []
+  parameters: {}
+  connectionConfigNames: []
+  companionContainers: []
+entandoStatus:
+  serverStatuses:
+    db:
+      qualifier: db
+      type: DbServerStatus
+      started: '2020-05-06T07:14:49+0000'
+      serviceStatus:
+        loadBalancer: {}
+      deploymentStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:14:50Z'
+            lastUpdateTime: '2020-05-06T07:14:50Z'
+            message: Deployment does not have minimum availability.
+            reason: MinimumReplicasUnavailable
+            status: 'False'
+            type: Available
+          - lastTransitionTime: '2020-05-06T07:14:50Z'
+            lastUpdateTime: '2020-05-06T07:14:50Z'
+            message: >-
+              ReplicaSet "seedsdashboard-plugin-db-deployment-58d8d64d4" is
+              progressing.
+            reason: ReplicaSetUpdated
+            status: 'True'
+            type: Progressing
+        observedGeneration: 1
+        replicas: 1
+        unavailableReplicas: 1
+        updatedReplicas: 1
+      podStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:14:50Z'
+            status: 'True'
+            type: Initialized
+          - lastTransitionTime: '2020-05-06T07:15:08Z'
+            status: 'True'
+            type: Ready
+          - status: 'True'
+            type: ContainersReady
+          - lastTransitionTime: '2020-05-06T07:14:50Z'
+            status: 'True'
+            type: PodScheduled
+        containerStatuses:
+          - containerID: >-
+              docker://ddef8dda0fe4f2b9af5cbf9e5cc3e26237269ab5cf8c8079be2974409eeee1a1
+            image: 'centos/postgresql-96-centos7:latest'
+            imageID: >-
+              docker-pullable://centos/postgresql-96-centos7@sha256:d4331cdfb1cc6ef5048762f416ed2447ac150f7f2305830de1c3af47b6d00c1d
+            lastState: {}
+            name: db-container
+            ready: true
+            restartCount: 0
+            state:
+              running:
+                startedAt: '2020-05-06T07:14:54Z'
+        hostIP: 51.91.30.184
+        phase: Running
+        podIP: 172.17.0.54
+        qosClass: Burstable
+        startTime: '2020-05-06T07:14:50Z'
+      persistentVolumeClaimStatuses:
+        - phase: Pending
+    server:
+      qualifier: server
+      type: WebServerStatus
+      started: '2020-05-06T07:15:13+0000'
+      serviceStatus:
+        loadBalancer: {}
+      deploymentStatus: {}
+      podStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:15:24Z'
+            status: 'True'
+            type: Initialized
+          - lastTransitionTime: '2020-05-06T07:16:01Z'
+            status: 'True'
+            type: Ready
+          - status: 'True'
+            type: ContainersReady
+          - lastTransitionTime: '2020-05-06T07:15:24Z'
+            status: 'True'
+            type: PodScheduled
+        containerStatuses:
+          - containerID: >-
+              docker://3ed105610ee9cd8d81addce7abe4b9c4b8b4ed9a42df67e4c3c1a724d7037336
+            image: 'entandodemo/dashboardpage:0.0.1-SNAPSHOT'
+            imageID: >-
+              docker-pullable://entandodemo/dashboardpage@sha256:1cc486c4dec28df3431b7242d55143828aa30f286f6b75bd17024d435214b9b7
+            lastState: {}
+            name: server-container
+            ready: true
+            restartCount: 0
+            state:
+              running:
+                startedAt: '2020-05-06T07:15:29Z'
+        hostIP: 51.91.30.184
+        phase: Running
+        podIP: 172.17.0.55
+        qosClass: Burstable
+        startTime: '2020-05-06T07:15:24Z'
+      persistentVolumeClaimStatuses:
+        - phase: Pending
+      initPodStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:15:20Z'
+            reason: PodCompleted
+            status: 'True'
+            type: Initialized
+          - lastTransitionTime: '2020-05-06T07:15:13Z'
+            reason: PodCompleted
+            status: 'False'
+            type: Ready
+          - reason: PodCompleted
+            status: 'False'
+            type: ContainersReady
+          - lastTransitionTime: '2020-05-06T07:15:13Z'
+            status: 'True'
+            type: PodScheduled
+        containerStatuses:
+          - containerID: >-
+              docker://61ead5d80380a14baac0d81c6e61e67213bd7db12693f520867381018c325757
+            image: 'busybox:latest'
+            imageID: >-
+              docker-pullable://busybox@sha256:89b54451a47954c0422d873d438509dae87d478f1cb5d67fb130072f67ca5d25
+            lastState: {}
+            name: dummy
+            ready: false
+            restartCount: 0
+            state:
+              terminated:
+                containerID: >-
+                  docker://61ead5d80380a14baac0d81c6e61e67213bd7db12693f520867381018c325757
+                exitCode: 0
+                finishedAt: '2020-05-06T07:15:23Z'
+                reason: Completed
+                startedAt: '2020-05-06T07:15:23Z'
+        hostIP: 51.91.30.184
+        initContainerStatuses:
+          - containerID: >-
+              docker://726f76560bc86d576c2a552ddfd74e05508876793954a55cbc3dc7ebd53781fa
+            image: 'entando/entando-k8s-dbjob:6.0.36'
+            imageID: >-
+              docker-pullable://entando/entando-k8s-dbjob@sha256:8eb0ed5c3855880cb38d35efd39a75f2aa53bc0ba93d2f898ddb52da2b5565a9
+            lastState: {}
+            name: seedsdashboard-plugin-plugindb-schema-creation-job
+            ready: true
+            restartCount: 0
+            state:
+              terminated:
+                containerID: >-
+                  docker://726f76560bc86d576c2a552ddfd74e05508876793954a55cbc3dc7ebd53781fa
+                exitCode: 0
+                finishedAt: '2020-05-06T07:15:20Z'
+                reason: Completed
+                startedAt: '2020-05-06T07:15:16Z'
+        phase: Succeeded
+        podIP: 172.17.0.55
+        qosClass: BestEffort
+        startTime: '2020-05-06T07:15:13Z'
+      ingressStatus:
+        loadBalancer: {}
+  entandoDeploymentPhase: successful
+_links:
+  self:
+    href: >-
+      http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins/seedsdashboard-plugin
+  plugins:
+    href: 'http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins'
+  plugins-in-namespace:
+    href: >-
+      http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins?namespace=sales-demo
+  plugin-ingress:
+    href: >-
+      http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins/seedsdashboard-plugin/ingress
+  namespace:
+    href: 'http://quickstart-eci-sales-demo.lab.entando.org/k8s/namespaces/sales-demo'

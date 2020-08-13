@@ -1,0 +1,13 @@
+code: Notification-Bar
+used: 0
+titles:
+  en: Notification bar
+  it: Notification bar
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

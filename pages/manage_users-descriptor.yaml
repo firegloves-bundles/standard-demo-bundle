@@ -1,0 +1,22 @@
+code: manage_users
+status: published
+displayedInMenu: false
+pageModel: seed_home
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: Manage Users
+  it: Manage Users
+fullTitles:
+  en: Home / Manage Users
+  it: Home / Manage Users
+ownerGroup: free
+joinGroups: []
+children: []
+position: 7
+numWidget: 3
+lastModified: '2020-05-08 14:00:48'
+fullPath: homepage/manage_users
+token: null

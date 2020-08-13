@@ -1,0 +1,6 @@
+code: jacms_content_viewer_list
+locked: true
+widgetType:
+  code: content_viewer_list
+  title: null
+pluginCode: jacms

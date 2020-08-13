@@ -1,0 +1,13 @@
+code: content_viewer_list
+used: 11
+titles:
+  en: Contents - Publish a List of Contents
+  it: Contenuti - Pubblica una Lista di Contenuti
+typology: jacms
+group: free
+pluginCode: jacms
+pluginDesc: Entando CMS
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi: null

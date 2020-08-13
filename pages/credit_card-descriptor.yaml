@@ -1,0 +1,22 @@
+code: credit_card
+status: published
+displayedInMenu: true
+pageModel: seed_home
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: Credit card
+  it: Carta di credito
+fullTitles:
+  en: Home / Credit card
+  it: Home / Carta di credito
+ownerGroup: free
+joinGroups: []
+children: []
+position: 5
+numWidget: 7
+lastModified: '2020-05-08 14:00:48'
+fullPath: homepage/credit_card
+token: null

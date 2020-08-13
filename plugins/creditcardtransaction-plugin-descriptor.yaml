@@ -1,0 +1,214 @@
+kind: EntandoPlugin
+apiVersion: entando.org/v1
+metadata:
+  creationTimestamp: '2020-05-06T07:10:41Z'
+  generation: 1
+  name: creditcardtransaction-plugin
+  namespace: sales-demo
+  resourceVersion: '63857903'
+  selfLink: >-
+    /apis/entando.org/v1/namespaces/sales-demo/entandoplugins/creditcardtransaction-plugin
+  uid: b1d98017-8f68-11ea-bbee-a268fb84289a
+spec:
+  image: 'entandodemo/creditcardtransaction:0.0.1-SNAPSHOT'
+  dbms: postgresql
+  replicas: 1
+  ingressPath: /creditcardtransaction
+  healthCheckPath: /management/health
+  securityLevel: strict
+  roles:
+    - code: creditcardtransaction-admin
+      name: creditcardtransaction-admin
+    - code: creditcardtransaction-admin
+      name: creditcardtransaction-admin
+  permissions: []
+  parameters: {}
+  connectionConfigNames: []
+  companionContainers: []
+entandoStatus:
+  serverStatuses:
+    db:
+      qualifier: db
+      type: DbServerStatus
+      started: '2020-05-06T07:12:29+0000'
+      serviceStatus:
+        loadBalancer: {}
+      deploymentStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:12:29Z'
+            lastUpdateTime: '2020-05-06T07:12:29Z'
+            message: Deployment does not have minimum availability.
+            reason: MinimumReplicasUnavailable
+            status: 'False'
+            type: Available
+          - lastTransitionTime: '2020-05-06T07:12:29Z'
+            lastUpdateTime: '2020-05-06T07:12:29Z'
+            message: >-
+              ReplicaSet "creditcardtransaction-plugin-db-deployment-7587497558"
+              is progressing.
+            reason: ReplicaSetUpdated
+            status: 'True'
+            type: Progressing
+        observedGeneration: 1
+        replicas: 1
+        unavailableReplicas: 1
+        updatedReplicas: 1
+      podStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:12:29Z'
+            status: 'True'
+            type: Initialized
+          - lastTransitionTime: '2020-05-06T07:12:42Z'
+            status: 'True'
+            type: Ready
+          - status: 'True'
+            type: ContainersReady
+          - lastTransitionTime: '2020-05-06T07:12:29Z'
+            status: 'True'
+            type: PodScheduled
+        containerStatuses:
+          - containerID: >-
+              docker://fea76dfdba9f76da1a57d59adefe22d73a88b344811da3d4897a0f2e15c7c2fb
+            image: 'centos/postgresql-96-centos7:latest'
+            imageID: >-
+              docker-pullable://centos/postgresql-96-centos7@sha256:d4331cdfb1cc6ef5048762f416ed2447ac150f7f2305830de1c3af47b6d00c1d
+            lastState: {}
+            name: db-container
+            ready: true
+            restartCount: 0
+            state:
+              running:
+                startedAt: '2020-05-06T07:12:32Z'
+        hostIP: 51.91.30.184
+        phase: Running
+        podIP: 172.17.0.52
+        qosClass: Burstable
+        startTime: '2020-05-06T07:12:29Z'
+      persistentVolumeClaimStatuses:
+        - accessModes:
+            - ReadWriteOnce
+            - ReadWriteMany
+            - ReadOnlyMany
+          capacity:
+            storage: 100Gi
+          phase: Bound
+    server:
+      qualifier: server
+      type: WebServerStatus
+      started: '2020-05-06T07:12:47+0000'
+      serviceStatus:
+        loadBalancer: {}
+      deploymentStatus: {}
+      podStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:13:00Z'
+            status: 'True'
+            type: Initialized
+          - lastTransitionTime: '2020-05-06T07:13:42Z'
+            status: 'True'
+            type: Ready
+          - status: 'True'
+            type: ContainersReady
+          - lastTransitionTime: '2020-05-06T07:13:00Z'
+            status: 'True'
+            type: PodScheduled
+        containerStatuses:
+          - containerID: >-
+              docker://3d18c287bac05d4c1ff1acd323322ddfdae8da4bbabbaf628f9c04194c58a80b
+            image: 'entandodemo/creditcardtransaction:0.0.1-SNAPSHOT'
+            imageID: >-
+              docker-pullable://entandodemo/creditcardtransaction@sha256:8a5ee07a638fb6848ca92b41cecf7703d9bb3f5e6f08afaa0f1999b023479723
+            lastState: {}
+            name: server-container
+            ready: true
+            restartCount: 0
+            state:
+              running:
+                startedAt: '2020-05-06T07:13:08Z'
+        hostIP: 51.91.30.184
+        phase: Running
+        podIP: 172.17.0.53
+        qosClass: Burstable
+        startTime: '2020-05-06T07:13:00Z'
+      persistentVolumeClaimStatuses:
+        - accessModes:
+            - ReadWriteOnce
+            - ReadWriteMany
+            - ReadOnlyMany
+          capacity:
+            storage: 100Gi
+          phase: Bound
+      initPodStatus:
+        conditions:
+          - lastTransitionTime: '2020-05-06T07:12:55Z'
+            reason: PodCompleted
+            status: 'True'
+            type: Initialized
+          - lastTransitionTime: '2020-05-06T07:12:47Z'
+            reason: PodCompleted
+            status: 'False'
+            type: Ready
+          - reason: PodCompleted
+            status: 'False'
+            type: ContainersReady
+          - lastTransitionTime: '2020-05-06T07:12:47Z'
+            status: 'True'
+            type: PodScheduled
+        containerStatuses:
+          - containerID: >-
+              docker://9b7c1663532fc4b4fb67362ba64aa3c42637e37797cce8ddaec6d2dc36716b11
+            image: 'busybox:latest'
+            imageID: >-
+              docker-pullable://busybox@sha256:89b54451a47954c0422d873d438509dae87d478f1cb5d67fb130072f67ca5d25
+            lastState: {}
+            name: dummy
+            ready: false
+            restartCount: 0
+            state:
+              terminated:
+                containerID: >-
+                  docker://9b7c1663532fc4b4fb67362ba64aa3c42637e37797cce8ddaec6d2dc36716b11
+                exitCode: 0
+                finishedAt: '2020-05-06T07:12:58Z'
+                reason: Completed
+                startedAt: '2020-05-06T07:12:58Z'
+        hostIP: 51.91.30.184
+        initContainerStatuses:
+          - containerID: >-
+              docker://19352e84688475f4b50d5023df7f234c39135744971fedfb6ac585483c000001
+            image: 'entando/entando-k8s-dbjob:6.0.36'
+            imageID: >-
+              docker-pullable://entando/entando-k8s-dbjob@sha256:8eb0ed5c3855880cb38d35efd39a75f2aa53bc0ba93d2f898ddb52da2b5565a9
+            lastState: {}
+            name: creditcardtransaction-plugin-plugindb-schema-creation-job
+            ready: true
+            restartCount: 0
+            state:
+              terminated:
+                containerID: >-
+                  docker://19352e84688475f4b50d5023df7f234c39135744971fedfb6ac585483c000001
+                exitCode: 0
+                finishedAt: '2020-05-06T07:12:55Z'
+                reason: Completed
+                startedAt: '2020-05-06T07:12:51Z'
+        phase: Succeeded
+        podIP: 172.17.0.53
+        qosClass: BestEffort
+        startTime: '2020-05-06T07:12:47Z'
+      ingressStatus:
+        loadBalancer: {}
+  entandoDeploymentPhase: successful
+_links:
+  self:
+    href: >-
+      http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins/creditcardtransaction-plugin
+  plugins:
+    href: 'http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins'
+  plugins-in-namespace:
+    href: >-
+      http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins?namespace=sales-demo
+  plugin-ingress:
+    href: >-
+      http://quickstart-eci-sales-demo.lab.entando.org/k8s/plugins/creditcardtransaction-plugin/ingress
+  namespace:
+    href: 'http://quickstart-eci-sales-demo.lab.entando.org/k8s/namespaces/sales-demo'

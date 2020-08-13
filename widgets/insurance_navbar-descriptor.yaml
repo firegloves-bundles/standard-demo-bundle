@@ -1,0 +1,13 @@
+code: insurance_navbar
+used: 0
+titles:
+  en: insurance navbar
+  it: insurance navbar
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

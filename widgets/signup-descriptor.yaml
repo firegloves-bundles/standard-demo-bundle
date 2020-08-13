@@ -1,0 +1,13 @@
+code: signup
+used: 2
+titles:
+  en: Signup
+  it: Registrazione
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

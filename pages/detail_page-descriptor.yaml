@@ -1,0 +1,22 @@
+code: detail_page
+status: published
+displayedInMenu: true
+pageModel: portal_example
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: Detail Page
+  it: Pagina dettaglio
+fullTitles:
+  en: Home / Detail Page
+  it: Home / Pagina dettaglio
+ownerGroup: free
+joinGroups: []
+children: []
+position: 12
+numWidget: 7
+lastModified: '2020-07-23 08:30:09'
+fullPath: homepage/detail_page
+token: null

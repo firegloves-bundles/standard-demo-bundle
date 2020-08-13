@@ -1,0 +1,18 @@
+code: seeds_card
+used: 4
+titles:
+  en: Seeds Card
+  it: Seeds Card
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi:
+  customElement: seeds-card-config
+  resources:
+    - widgets/seeds-card-config/static/js/runtime.js
+    - widgets/seeds-card-config/static/js/vendor.js
+    - widgets/seeds-card-config/static/js/main.js

@@ -1,0 +1,13 @@
+code: row_content_viewer_list
+used: 0
+titles:
+  en: Contents - Publish Contents
+  it: Contenuti - Pubblica Contenuti
+typology: jacms
+group: free
+pluginCode: jacms
+pluginDesc: Entando CMS
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi: null

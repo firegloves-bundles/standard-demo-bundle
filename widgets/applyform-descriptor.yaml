@@ -1,0 +1,13 @@
+code: applyform
+used: 0
+titles:
+  en: Apply form
+  it: Apply form
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

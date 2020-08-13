@@ -1,0 +1,8 @@
+id: 9
+contentType: BNR
+descr: Interest banner-landscape
+contentShape: |-
+  <div class="banner-landscape">
+   <img src=" $content.img.getImagePath('0')" alt="$content.img.text"  />
+  </div>
+stylesheet: null

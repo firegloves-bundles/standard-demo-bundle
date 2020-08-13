@@ -1,0 +1,13 @@
+code: dropdown_sign_in
+used: 0
+titles:
+  en: Dropdown Sign In
+  it: Dropdown Sign In
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

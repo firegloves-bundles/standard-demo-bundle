@@ -1,0 +1,13 @@
+code: pda-connections
+used: 2
+titles:
+  en: PDA - Connections
+  it: PDA - Connections
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

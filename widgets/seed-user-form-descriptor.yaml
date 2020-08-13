@@ -1,0 +1,13 @@
+code: seed-user-form
+used: 0
+titles:
+  en: Seed User form
+  it: Seed User form
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null

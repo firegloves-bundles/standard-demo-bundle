@@ -1,0 +1,18 @@
+code: Brand-Logo
+used: 22
+titles:
+  en: Brand Logo
+  it: Brand Logo
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi:
+  customElement: logo-config
+  resources:
+    - widgets/logo-config/runtime.js
+    - widgets/logo-config/vendor.js
+    - widgets/logo-config/main.js

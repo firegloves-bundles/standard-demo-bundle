@@ -1,0 +1,13 @@
+code: content_viewer
+used: 42
+titles:
+  en: Contents - Publish a Content
+  it: Contenuti - Pubblica un Contenuto
+typology: jacms
+group: null
+pluginCode: jacms
+pluginDesc: Entando CMS
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi: null

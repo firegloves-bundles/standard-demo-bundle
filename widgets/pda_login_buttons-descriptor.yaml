@@ -1,0 +1,13 @@
+code: pda_login_buttons
+used: 10
+titles:
+  en: PDA Login Buttons
+  it: PDA Login Buttons
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null
