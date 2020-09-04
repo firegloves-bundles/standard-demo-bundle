@@ -20,3 +20,41 @@ numWidget: 3
 lastModified: '2020-05-25 13:42:44'
 fullPath: homepage/sign_up
 token: null
+configuration:
+  code: sign_up
+  parentCode: homepage
+  status: draft
+  position: 3
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Sign up
+      it: Sign up
+    extraGroups: null
+    model: seed_home
+    showable: false
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1590414164966
+  widgets:
+    - code: Brand-Logo
+      config: null
+    - null
+    - code: Login_buttons
+      config: null
+    - null
+    - code: signup
+      config: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  changed: false
+  root: false
+  online: true

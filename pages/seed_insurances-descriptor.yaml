@@ -22,3 +22,70 @@ numWidget: 12
 lastModified: '2020-08-26 12:50:51'
 fullPath: homepage/seed_insurances
 token: null
+configuration:
+  code: seed_insurances
+  parentCode: homepage
+  status: draft
+  position: 15
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Seed Insurances Home
+      it: Home Seed Assicurazioni
+    extraGroups: null
+    model: insurance_home
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1598446251739
+  widgets:
+    - code: back_to_seed
+      config: null
+    - code: search_form
+      config: null
+    - code: language_choose
+      config: null
+    - code: brand_insurance
+      config: null
+    - code: entando-widget-navigation_bar
+      config:
+        navSpec: code(seed_insurances) + code(products) + code(my_portal)
+    - code: insurance_login
+      config: null
+    - code: insurance_Breadcrumb
+      config: null
+    - code: content_viewer
+      config:
+        modelId: '100'
+        contentId: MPC895
+    - code: content_viewer
+      config:
+        modelId: '101'
+        contentId: MPC906
+    - code: content_viewer
+      config:
+        modelId: '102'
+        contentId: MPC915
+    - code: content_viewer_list
+      config:
+        title_it: Perchè Seed Assicurazioni
+        maxElemForItem: '3'
+        categories:
+          - benefits
+        maxElements: '3'
+        filters:
+          - attributeFilter: false
+            key: created
+            order: DESC
+        title_en: Why Seed Insurance
+        modelId: '103'
+        contentType: MPC
+    - null
+    - null
+    - null
+    - code: footer-insurance
+      config: null
+  changed: false
+  root: false
+  online: true

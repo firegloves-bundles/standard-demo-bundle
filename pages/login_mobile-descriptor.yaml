@@ -20,3 +20,25 @@ numWidget: 0
 lastModified: '2020-05-08 14:00:48'
 fullPath: homepage/login_mobile
 token: null
+configuration:
+  code: login_mobile
+  parentCode: homepage
+  status: draft
+  position: 4
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Login mobile
+      it: Login mobile
+    extraGroups: null
+    model: loginpagemodel
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1588946448310
+  widgets:
+    - null
+  changed: true
+  root: false
+  online: true

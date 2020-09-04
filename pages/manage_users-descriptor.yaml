@@ -20,3 +20,41 @@ numWidget: 3
 lastModified: '2020-05-08 14:00:48'
 fullPath: homepage/manage_users
 token: null
+configuration:
+  code: manage_users
+  parentCode: homepage
+  status: draft
+  position: 7
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Manage Users
+      it: Manage Users
+    extraGroups: null
+    model: seed_home
+    showable: false
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1588946448296
+  widgets:
+    - code: Brand-Logo
+      config: null
+    - null
+    - code: Login_buttons
+      config: null
+    - null
+    - null
+    - code: manage_users
+      config: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  changed: false
+  root: false
+  online: true

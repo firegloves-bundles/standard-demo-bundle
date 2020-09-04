@@ -20,3 +20,62 @@ numWidget: 4
 lastModified: '2020-06-09 15:09:49'
 fullPath: homepage/mortgages_and_lending
 token: null
+configuration:
+  code: mortgages_and_lending
+  parentCode: homepage
+  status: draft
+  position: 9
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Mortgages and Lending
+      it: Mortgages and Lending
+    extraGroups: null
+    model: simple_page
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1591715389601
+  widgets:
+    - code: Brand-Logo
+      config: {}
+    - null
+    - code: Login_buttons
+      config: null
+    - null
+    - code: pda-process-form
+      config:
+        settings: >-
+          {"processDefinition":"Mortgage_Process.MortgageApprovalProcess@mortgage-process_1.0.0-SNAPSHOT","uiSchemas":"[\n 
+          {\n    \"formSchemaId\": \"*\",\n    \"uiSchema\": {\n     
+          \"ui:options\": {\n        \"size\": 12\n      },\n     
+          \"application\": {\n        \"ui:options\": {\n          \"size\":
+          12\n        },\n        \"mortgageamount\": {\n         
+          \"ui:options\": {\n            \"size\": 6\n          }\n       
+          },\n        \"downpayment\": {\n          \"ui:options\":
+          {\n            \"size\": 6\n          }\n        },\n       
+          \"amortization\": {\n          \"ui:options\": {\n           
+          \"size\": 6\n          }\n        },\n        \"applicant\":
+          {\n          \"ui:options\": {\n            \"size\": 12\n         
+          },\n          \"name\": {\n            \"ui:options\":
+          {\n              \"size\": 6\n            }\n          },\n         
+          \"annualincome\": {\n            \"ui:options\": {\n             
+          \"size\": 6\n            }\n          },\n          \"ssn\":
+          {\n            \"ui:options\": {\n              \"size\":
+          6\n            }\n          }\n        },\n        \"property\":
+          {\n          \"ui:options\": {\n            \"size\": 12\n         
+          },\n          \"age\": {\n            \"ui:options\": {\n             
+          \"size\": 6\n            }\n          },\n          \"address\":
+          {\n            \"ui:options\": {\n              \"size\":
+          6\n            }\n          },\n          \"locale\": {\n           
+          \"ui:options\": {\n              \"size\": 6\n            }\n         
+          },\n          \"saleprice\": {\n            \"ui:options\":
+          {\n              \"size\": 6\n            }\n          }\n       
+          }\n      }\n    }\n  }\n]"}
+        knowledgeSource: lab
+    - code: footer
+      config: null
+  changed: false
+  root: false
+  online: true

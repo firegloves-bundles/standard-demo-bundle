@@ -20,3 +20,42 @@ numWidget: 0
 lastModified: '2020-07-22 11:09:44'
 fullPath: homepage/dashboard
 token: null
+configuration:
+  code: dashboard
+  parentCode: homepage
+  status: draft
+  position: 1
+  ownerGroup: free
+  metadata:
+    titles:
+      en: My dashboard
+      it: La mia Dashboard
+    extraGroups: null
+    model: dashboard
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1595416184624
+  widgets:
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  changed: true
+  root: false
+  online: true

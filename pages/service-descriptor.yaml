@@ -23,3 +23,30 @@ numWidget: 1
 lastModified: '2020-06-03 14:22:53'
 fullPath: homepage/service
 token: null
+configuration:
+  code: service
+  parentCode: homepage
+  status: draft
+  position: 10
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Service
+      it: Pagine di Servizio
+    extraGroups: null
+    model: service
+    showable: false
+    useExtraTitles: false
+    mimeType: null
+    charset: null
+    updatedAt: 1591194173486
+  widgets:
+    - code: content_viewer
+      config:
+        contentDescription: Interest 3 card title - 2nd banner
+        contentId: BNR102
+        modelId: '1'
+    - null
+  changed: true
+  root: false
+  online: true

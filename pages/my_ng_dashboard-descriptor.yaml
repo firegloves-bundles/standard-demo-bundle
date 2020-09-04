@@ -20,3 +20,62 @@ numWidget: 9
 lastModified: '2020-05-08 14:37:47'
 fullPath: homepage/my_ng_dashboard
 token: null
+configuration:
+  code: my_ng_dashboard
+  parentCode: homepage
+  status: draft
+  position: 2
+  ownerGroup: free
+  metadata:
+    titles:
+      en: My NG Dashboard
+      it: My NG Dashboard
+    extraGroups: null
+    model: ng_dashboard
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1588948667648
+  widgets:
+    - code: Brand-Logo
+      config: null
+    - null
+    - code: Login_buttons
+      config: null
+    - null
+    - code: seeds_card_ng_config
+      config:
+        cardname: checking
+    - code: seeds_card_ng_config
+      config:
+        cardname: savings
+    - code: seeds_card
+      config:
+        cardname: creditcard
+    - code: transfer_money_angular
+      config:
+        serviceurl: 'http://quickstart-sales-demo.lab.entando.org'
+        title: Transfer Money
+    - null
+    - null
+    - null
+    - code: list_item
+      config:
+        icon: managealerts
+        count: '0'
+        title: Manage Alerts
+    - code: list_item
+      config:
+        icon: viewstatements
+        count: '0'
+        title: View Statements
+    - code: seedscard-transaction-table
+      config: null
+    - null
+    - null
+    - null
+    - null
+  changed: false
+  root: false
+  online: true

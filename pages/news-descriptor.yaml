@@ -20,3 +20,53 @@ numWidget: 7
 lastModified: '2020-08-10 21:47:05'
 fullPath: homepage/news
 token: null
+configuration:
+  code: news
+  parentCode: homepage
+  status: draft
+  position: 14
+  ownerGroup: free
+  metadata:
+    titles:
+      en: news
+      it: notizie
+    extraGroups: null
+    model: portal_example
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1597096025944
+  widgets:
+    - code: Brand-Logo
+      config: null
+    - code: navigarion_bar
+      config:
+        navSpec: >-
+          code(portal_page_sample) + code(news) + code(interest) +
+          code(credit_card) + code(dashboard)
+    - code: search_form
+      config: null
+    - code: Login_buttons
+      config: null
+    - code: Breadcrumb
+      config: null
+    - code: content_viewer_list
+      config:
+        title_it: Archivio notizie
+        maxElemForItem: '6'
+        title_en: News Archive
+        contentType: NWS
+        modelId: '18'
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - code: footer
+      config: null
+  changed: false
+  root: false
+  online: true
