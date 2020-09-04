@@ -223,6 +223,8 @@ components:
     - pages/news-descriptor.yaml
     - pages/seed_insurances-descriptor.yaml
     - pages/test_w-descriptor.yaml
+  groups:
+    - groups/groups-descriptor.yaml
   contentTypes:
     - contentTypes/bnr-descriptor.yaml
     - contentTypes/mpc-descriptor.yaml
@@ -233,15 +235,15 @@ components:
     - contentModels/banner-light-green-descriptor.yaml
     - contentModels/banner-with-inner-card-descriptor.yaml
     - contentModels/banner-with-accordion-descriptor.yaml
-    - contentModels/banner--dark-green-background-descriptor.yaml
+    - contentModels/banner-dark-green-background-descriptor.yaml
     - contentModels/banner-with-white-background-descriptor.yaml
     - contentModels/credit-light-green-descriptor.yaml
-    - contentModels/credit---benefits-&-features-descriptor.yaml
+    - contentModels/credit-benefits-&-features-descriptor.yaml
     - contentModels/interest-banner-landscape-descriptor.yaml
     - contentModels/interest-simple-composite-banner-descriptor.yaml
     - contentModels/interest-banner-white-descriptor.yaml
     - contentModels/interest-banner-white-img-first-descriptor.yaml
-    - contentModels/interest-3-card-title---2nd-banner-descriptor.yaml
+    - contentModels/interest-3-card-title-2nd-banner-descriptor.yaml
     - contentModels/news-list-descriptor.yaml
     - contentModels/news-details-descriptor.yaml
     - contentModels/list-of-banner-descriptor.yaml
@@ -249,14 +251,14 @@ components:
     - contentModels/news-card-descriptor.yaml
     - contentModels/multi-purpose-header-descriptor.yaml
     - contentModels/multi-purpose-centered-descriptor.yaml
-    - contentModels/multi-purpose-text-right---image-left-descriptor.yaml
-    - contentModels/multi-purpose-card-for-3-columns--list-descriptor.yaml
-    - contentModels/multi-purpose-text-left---image-right-descriptor.yaml
+    - contentModels/multi-purpose-text-right-image-left-descriptor.yaml
+    - contentModels/multi-purpose-card-for-3-columns-list-descriptor.yaml
+    - contentModels/multi-purpose-text-left-image-right-descriptor.yaml
     - contentModels/multi-purpose-card-product-detail-descriptor.yaml
-    - contentModels/multi-purpose-card-3-columns--list-with-categories-descriptor.yaml
-    - contentModels/products-3-columns--list-with-categories-descriptor.yaml
+    - contentModels/multi-purpose-card-3-columns-list-with-categories-descriptor.yaml
+    - contentModels/products-3-columns-list-with-categories-descriptor.yaml
     - contentModels/product-detail-descriptor.yaml
-    - contentModels/products-text-left----image-right-descriptor.yaml
+    - contentModels/products-text-left-image-right-descriptor.yaml
   plugins:
     - plugins/checking-plugin-descriptor.yaml
     - plugins/checkingtransaction-plugin-descriptor.yaml
