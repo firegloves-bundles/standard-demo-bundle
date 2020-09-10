@@ -16,8 +16,8 @@ ownerGroup: free
 joinGroups: []
 children: []
 position: 1
-numWidget: 0
-lastModified: '2020-07-22 11:09:44'
+numWidget: 1
+lastModified: '2020-09-09 09:16:38'
 fullPath: homepage/dashboard
 token: null
 configuration:
@@ -36,7 +36,7 @@ configuration:
     useExtraTitles: false
     mimeType: text/html
     charset: utf-8
-    updatedAt: 1595416184624
+    updatedAt: 1599642998907
   widgets:
     - null
     - null
@@ -45,7 +45,8 @@ configuration:
     - null
     - null
     - null
-    - null
+    - code: Checking-Table
+      config: null
     - null
     - null
     - null

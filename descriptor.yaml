@@ -269,3 +269,5 @@ components:
     - plugins/savings-plugin-descriptor.yaml
     - plugins/savingstransaction-plugin-descriptor.yaml
     - plugins/seedsdashboard-plugin-descriptor.yaml
+  categories:
+    - categories/categories-descriptor.yaml
