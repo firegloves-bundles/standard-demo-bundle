@@ -1,6 +1,4 @@
 code: internal_servlet_generic_error
-locked: true
-widgetType:
-  code: null
-  title: null
-pluginCode: null
+guiCode: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <@wp.i18n key="GENERIC_ERROR" />

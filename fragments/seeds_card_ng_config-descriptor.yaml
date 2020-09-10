@@ -1,6 +1,10 @@
 code: seeds_card_ng_config
-locked: false
-widgetType:
-  code: seeds_card_ng_config
-  title: null
-pluginCode: null
+guiCode: >-
+  <#assign wp=JspTaglibs[ "/aps-core"]>
+
+  <script async src="<@wp.resourceURL
+  />widgets/seeds-card-ng/js/main-es2015.js"></script>
+
+  <@wp.currentWidget param="config" configParam="cardname" var="configName" />
+
+  <ng-seedscard-details cardname="${configName}"/>

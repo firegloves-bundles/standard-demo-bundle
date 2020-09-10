@@ -1,6 +1,7 @@
 code: transfer_money
-locked: false
-widgetType:
-  code: transfer_money
-  title: null
-pluginCode: null
+guiCode: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+                              <div class="NotificationBar__btn">
+                                  <img class="CheckingCard__icon" src="<@wp.imgURL />dashboard/Frametransfer.png" />
+                                  Transfer Money
+                              </div>
