@@ -138,7 +138,7 @@ New Features:
 * [#1815](https://github.com/ckeditor/ckeditor-dev/issues/1815): The [Auto Link](https://ckeditor.com/cke4/addon/autolink) plugin supports typing link completion.
 * [#2478](https://github.com/ckeditor/ckeditor-dev/issues/2478): [Link](https://ckeditor.com/cke4/addon/link) can be inserted using the <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>K</kbd> keystroke.
 * [#651](https://github.com/ckeditor/ckeditor-dev/issues/651): Text pasted using the [Paste from Word](https://ckeditor.com/cke4/addon/pastefromword) plugin preserves indentation in paragraphs.
-* [#2248](https://github.com/ckeditor/ckeditor-dev/issues/2248): Added support for justification in the [BBCode](https://ckeditor.com/cke4/addon/bbcode) plugin. Thanks to [MatÄj KmÃ­nek](https://github.com/KminekMatej)!
+* [#2248](https://github.com/ckeditor/ckeditor-dev/issues/2248): Added support for justification in the [BBCode](https://ckeditor.com/cke4/addon/bbcode) plugin. Thanks to [Matěj Kmínek](https://github.com/KminekMatej)!
 * [#706](https://github.com/ckeditor/ckeditor-dev/issues/706): Added a different cursor style when selecting cells for the [Table Selection](https://ckeditor.com/cke4/addon/tableselection) plugin.
 * [#2072](https://github.com/ckeditor/ckeditor-dev/issues/2072): The [UI Button](https://ckeditor.com/cke4/addon/button) plugin supports custom `aria-haspopup` property values. The [Menu Button](https://ckeditor.com/cke4/addon/menubutton) `aria-haspopup` value is now `menu`, the [Panel Button](https://ckeditor.com/cke4/addon/panelbutton) and [Rich Combo](https://ckeditor.com/cke4/addon/richcombo) `aria-haspopup` value is now `listbox`.
 * [#1176](https://github.com/ckeditor/ckeditor-dev/pull/1176): The [Balloon Panel](https://ckeditor.com/cke4/addon/balloonpanel) can now be attached to a selection instead of an element.
@@ -152,7 +152,7 @@ Fixed Issues:
 * [#2276](https://github.com/ckeditor/ckeditor-dev/issues/2276): [iOS] Fixed: [Button](https://ckeditor.com/cke4/addon/button) state does not refresh properly.
 * [#1489](https://github.com/ckeditor/ckeditor-dev/issues/1489): Fixed: Table contents can be removed in read-only mode when the [Table Selection](https://ckeditor.com/cke4/addon/tableselection) plugin is used.
 * [#1264](https://github.com/ckeditor/ckeditor-dev/issues/1264) Fixed: Right-click does not clear the selection created with the [Table Selection](https://ckeditor.com/cke4/addon/tableselection) plugin.
-* [#586](https://github.com/ckeditor/ckeditor-dev/issues/586) Fixed: The `required` attribute is not correctly recognized by the [Form Elements](https://ckeditor.com/cke4/addon/forms) plugin dialog. Thanks to [Roli ZÃ¼ger](https://github.com/rzueger)!
+* [#586](https://github.com/ckeditor/ckeditor-dev/issues/586) Fixed: The `required` attribute is not correctly recognized by the [Form Elements](https://ckeditor.com/cke4/addon/forms) plugin dialog. Thanks to [Roli Züger](https://github.com/rzueger)!
 * [#2380](https://github.com/ckeditor/ckeditor-dev/issues/2380) Fixed: Styling HTML comments in a top-level element results in extra paragraphs.
 * [#2294](https://github.com/ckeditor/ckeditor-dev/issues/2294) Fixed: Pasting content from Microsoft Outlook and then bolding it results in an error.
 * [#2035](https://github.com/ckeditor/ckeditor-dev/issues/2035) [Edge] Fixed: `Permission denied` is thrown when opening a [Panel](https://ckeditor.com/cke4/addon/panel) instance.
@@ -481,7 +481,7 @@ New Features:
 
 * [#16755](https://dev.ckeditor.com/ticket/16755): Added the [Table Selection](https://ckeditor.com/cke4/addon/tableselection) plugin that lets you select and manipulate an arbitrary rectangular table fragment (a few cells, a row or a column).
 * [#16961](https://dev.ckeditor.com/ticket/16961): Added support for pasting from Microsoft Excel.
-* [#13381](https://dev.ckeditor.com/ticket/13381): Dynamic code evaluation call in [`CKEDITOR.template`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR.template.html) removed. CKEditor can now be used without the `unsafe-eval` Content Security Policy. Thanks to [Caridy PatiÃ±o](http://caridy.name)!
+* [#13381](https://dev.ckeditor.com/ticket/13381): Dynamic code evaluation call in [`CKEDITOR.template`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR.template.html) removed. CKEditor can now be used without the `unsafe-eval` Content Security Policy. Thanks to [Caridy Patiño](http://caridy.name)!
 * [#16971](https://dev.ckeditor.com/ticket/16971): Added support for color in the `background` property containing also other styles for table cells in the [Table Tools](https://ckeditor.com/cke4/addon/tabletools) plugin.
 * [#16847](https://dev.ckeditor.com/ticket/16847): Added support for parsing and inlining any formatting created using the Microsoft Word style system to the [Paste from Word](https://ckeditor.com/cke4/addon/pastefromword) plugin.
 * [#16818](https://dev.ckeditor.com/ticket/16818): Added table cell height parsing in the [Paste from Word](https://ckeditor.com/cke4/addon/pastefromword) plugin.
@@ -580,7 +580,7 @@ New Features:
 	* Backward incompatibility: The [`config.pasteFromWordNumberedHeadingToList`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-pasteFromWordNumberedHeadingToList) and [`config.pasteFromWordRemoveStyles`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-pasteFromWordRemoveStyles) options were dropped and no longer have any effect on pasted content.
 	* Major improvements in preservation of list numbering, styling and indentation (nested lists with multiple levels).
 	* Major improvements in document structure parsing that fix plenty of issues with distorted or missing content after paste.
-* Added new translation: Occitan. Thanks to [CÃ©dric Valmary](https://totenoc.eu/)!
+* Added new translation: Occitan. Thanks to [Cédric Valmary](https://totenoc.eu/)!
 * [#10015](https://dev.ckeditor.com/ticket/10015): Keyboard shortcuts (relevant to the operating system in use) will now be displayed in tooltips and context menus.
 * [#13794](https://dev.ckeditor.com/ticket/13794): The [Upload Image](https://ckeditor.com/cke4/addon/uploadimage) feature now uses `uploaded.width/height` if set.
 * [#12541](https://dev.ckeditor.com/ticket/12541): Added the [Upload File](https://ckeditor.com/cke4/addon/uploadfile) plugin that lets you upload a file by drag&amp;dropping it into the editor content.
@@ -828,7 +828,7 @@ Fixed Issues:
 * [#13422](https://dev.ckeditor.com/ticket/13422): Fixed: A monospaced font should be used in the `<textarea>` element storing editor configuration in the toolbar configurator.
 * [#13494](https://dev.ckeditor.com/ticket/13494): Fixed: Error thrown in the toolbar configurator if plugin requirements are not met.
 * [#13409](https://dev.ckeditor.com/ticket/13409): Fixed: List elements incorrectly merged when pressing *Backspace* or *Delete*.
-* [#13434](https://dev.ckeditor.com/ticket/13434): Fixed: Dialog state indicator broken in RightâToâLeft environments.
+* [#13434](https://dev.ckeditor.com/ticket/13434): Fixed: Dialog state indicator broken in Right–To–Left environments.
 * [#13460](https://dev.ckeditor.com/ticket/13460): [IE8] Fixed: Copying inline widgets is broken when [Advanced Content Filter](https://ckeditor.com/docs/ckeditor4/latest/guide/dev_acf.html) is disabled.
 * [#13495](https://dev.ckeditor.com/ticket/13495): [Firefox, IE] Fixed: Text is not word-wrapped in the Paste dialog window.
 * [#13528](https://dev.ckeditor.com/ticket/13528): [Firefox@Windows] Fixed: Content copied from Microsoft Word and other external applications is pasted as a plain text. Removed the `CKEDITOR.plugins.clipboard.isHtmlInExternalDataTransfer` property as the check must be dynamic.
@@ -1007,8 +1007,8 @@ Fixed Issues:
 * [#12899](https://dev.ckeditor.com/ticket/12899): Fixed: Corrected wrong tag ending for horizontal box definition in the [Dialog User Interface](https://ckeditor.com/cke4/addon/dialogui) plugin. Thanks to [mizafish](https://github.com/mizafish)!
 * [#13254](https://dev.ckeditor.com/ticket/13254): Fixed: Cannot outdent block after indent when using the [Div Editing Area](https://ckeditor.com/cke4/addon/divarea) plugin. Thanks to [Jonathan Cottrill](https://github.com/jcttrll)!
 * [#13268](https://dev.ckeditor.com/ticket/13268): Fixed: Documentation for [`CKEDITOR.dom.text`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR.dom.text.html) is incorrect. Thanks to [Ben Kiefer](https://github.com/benkiefer)!
-* [#12739](https://dev.ckeditor.com/ticket/12739): Fixed: Link loses inline styles when edited without the [Advanced Tab for Dialogs](https://ckeditor.com/cke4/addon/dialogadvtab) plugin. Thanks to [ÐÑÑÐ°Ð»ÑÐ¹ ÐÑÑÑÑÐºÐ¾](https://github.com/asmforce)!
-* [#13292](https://dev.ckeditor.com/ticket/13292): Fixed: Protection pattern does not work in attribute in self-closing elements with no space before `/>`. Thanks to [ÐÑÑÐ°Ð»ÑÐ¹ ÐÑÑÑÑÐºÐ¾](https://github.com/asmforce)!
+* [#12739](https://dev.ckeditor.com/ticket/12739): Fixed: Link loses inline styles when edited without the [Advanced Tab for Dialogs](https://ckeditor.com/cke4/addon/dialogadvtab) plugin. Thanks to [Віталій Крутько](https://github.com/asmforce)!
+* [#13292](https://dev.ckeditor.com/ticket/13292): Fixed: Protection pattern does not work in attribute in self-closing elements with no space before `/>`. Thanks to [Віталій Крутько](https://github.com/asmforce)!
 * [PR#192](https://github.com/ckeditor/ckeditor-dev/pull/192): Fixed: Variable name typo in the [Dialog User Interface](https://ckeditor.com/cke4/addon/dialogui) plugin which caused [`CKEDITOR.ui.dialog.radio`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR.ui.dialog.radio.html) validation to not work. Thanks to [Florian Ludwig](https://github.com/FlorianLudwig)!
 * [#13232](https://dev.ckeditor.com/ticket/13232): [Safari] Fixed: The [`element.appendText()`](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_dom_element.html#method-appendText) method does not work properly for empty elements.
 * [#13233](https://dev.ckeditor.com/ticket/13233): Fixed: [HTMLDataProcessor](https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR.htmlDataProcessor.html) can process `foo:href` attributes.

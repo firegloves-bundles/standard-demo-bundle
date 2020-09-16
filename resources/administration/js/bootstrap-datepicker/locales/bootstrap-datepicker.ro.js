@@ -4,12 +4,12 @@
  */
 ;(function($){
 	$.fn.datepicker.dates['ro'] = {
-		days: ["DuminicÄ", "Luni", "MarÅ£i", "Miercuri", "Joi", "Vineri", "SÃ¢mbÄtÄ", "DuminicÄ"],
-		daysShort: ["Dum", "Lun", "Mar", "Mie", "Joi", "Vin", "SÃ¢m", "Dum"],
-		daysMin: ["Du", "Lu", "Ma", "Mi", "Jo", "Vi", "SÃ¢", "Du"],
+		days: ["Duminică", "Luni", "Marţi", "Miercuri", "Joi", "Vineri", "Sâmbătă", "Duminică"],
+		daysShort: ["Dum", "Lun", "Mar", "Mie", "Joi", "Vin", "Sâm", "Dum"],
+		daysMin: ["Du", "Lu", "Ma", "Mi", "Jo", "Vi", "Sâ", "Du"],
 		months: ["Ianuarie", "Februarie", "Martie", "Aprilie", "Mai", "Iunie", "Iulie", "August", "Septembrie", "Octombrie", "Noiembrie", "Decembrie"],
 		monthsShort: ["Ian", "Feb", "Mar", "Apr", "Mai", "Iun", "Iul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-		today: "AstÄzi",
+		today: "Astăzi",
 		weekStart: 1
 	};
 }(jQuery));

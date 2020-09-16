@@ -6,7 +6,7 @@ SpellCheckAsYouType (SCAYT) instantly underlines spelling and grammar errors whi
 
 This plugin brings the multi-language SCAYT functionality into CKEditor 4. It is integrated by default starting with [Standard Package of CKEditor 4](https://ckeditor.com/ckeditor-4/download/). You can find it on the CKEditor 4 toolbar panel under the ABC button (Enable SCAYT).
 
-If your version of CKEditor doesnât have SCAYT built-in, you can easily add it by following the steps outlined in the Get Started section.
+If your version of CKEditor doesn’t have SCAYT built-in, you can easily add it by following the steps outlined in the Get Started section.
 
 The default version of SCAYT plugin for CKEditor 4 is using the free services of WebSpellChecker. It is provided with a banner ad and has some [limitations](https://docs.webspellchecker.net/display/WebSpellCheckerCloud/Free+and+Paid+WebSpellChecker+Cloud+Services+Comparison+for+CKEditor).
 
@@ -52,10 +52,10 @@ Resources
 
 * Demo: https://webspellchecker.com/wsc-scayt-ckeditor4/
 * Documentation: https://docs.webspellchecker.net/
-* YouTube video âHow to Configure CKEditor 4 and SpellCheckAsYouType Pluginâ: https://youtu.be/D0ahmVjYBq8
+* YouTube video “How to Configure CKEditor 4 and SpellCheckAsYouType Plugin”: https://youtu.be/D0ahmVjYBq8
 * Term of Service: https://webspellchecker.com/terms-of-service/
-* CKEditorâs How-Tos for SCAYT: https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_scayt.html
-* CKEditorâs example of SCAYT: https://ckeditor.com/docs/ckeditor4/latest/examples/spellchecker.html
+* CKEditor’s How-Tos for SCAYT: https://ckeditor.com/docs/ckeditor4/latest/guide/dev_howtos_scayt.html
+* CKEditor’s example of SCAYT: https://ckeditor.com/docs/ckeditor4/latest/examples/spellchecker.html
 
 Technical Support or Questions
 -------

@@ -4,12 +4,12 @@
  */
 ;(function($){
 	$.fn.datepicker.dates['tr'] = {
-		days: ["Pazar", "Pazartesi", "SalÄ±", "ÃarÅamba", "PerÅembe", "Cuma", "Cumartesi", "Pazar"],
-		daysShort: ["Pz", "Pzt", "Sal", "ÃrÅ", "PrÅ", "Cu", "Cts", "Pz"],
-		daysMin: ["Pz", "Pzt", "Sa", "Ãr", "Pr", "Cu", "Ct", "Pz"],
-		months: ["Ocak", "Åubat", "Mart", "Nisan", "MayÄ±s", "Haziran", "Temmuz", "AÄustos", "EylÃ¼l", "Ekim", "KasÄ±m", "AralÄ±k"],
-		monthsShort: ["Oca", "Åub", "Mar", "Nis", "May", "Haz", "Tem", "AÄu", "Eyl", "Eki", "Kas", "Ara"],
-		today: "BugÃ¼n",
+		days: ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi", "Pazar"],
+		daysShort: ["Pz", "Pzt", "Sal", "Çrş", "Prş", "Cu", "Cts", "Pz"],
+		daysMin: ["Pz", "Pzt", "Sa", "Çr", "Pr", "Cu", "Ct", "Pz"],
+		months: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+		monthsShort: ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"],
+		today: "Bugün",
 		format: "dd.mm.yyyy"
 	};
 }(jQuery));
