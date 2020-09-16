@@ -1,5 +1,5 @@
 code: seed_insurances
-status: published
+status: draft
 displayedInMenu: true
 pageModel: insurance_home
 charset: utf-8
@@ -48,29 +48,29 @@ configuration:
       config: null
     - code: brand_insurance
       config: null
+    - code: insurance_login
+      config: null
     - code: entando-widget-navigation_bar
       config:
         navSpec: code(seed_insurances) + code(products) + code(my_portal)
-    - code: insurance_login
-      config: null
     - code: insurance_Breadcrumb
       config: null
     - code: content_viewer
       config:
-        modelId: '100'
         contentId: MPC895
+        modelId: '100'
     - code: content_viewer
       config:
-        modelId: '101'
         contentId: MPC906
+        modelId: '101'
     - code: content_viewer
       config:
-        modelId: '102'
         contentId: MPC915
+        modelId: '102'
     - code: content_viewer_list
       config:
-        title_it: Perchè Seed Assicurazioni
         maxElemForItem: '3'
+        title_it: Perchè Seed Assicurazioni
         categories:
           - benefits
         maxElements: '3'
@@ -79,13 +79,13 @@ configuration:
             key: created
             order: DESC
         title_en: Why Seed Insurance
-        modelId: '103'
         contentType: MPC
+        modelId: '103'
     - null
     - null
     - null
     - code: footer-insurance
       config: null
-  changed: false
+  changed: true
   root: false
   online: true

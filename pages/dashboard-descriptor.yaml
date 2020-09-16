@@ -1,5 +1,5 @@
 code: dashboard
-status: draft
+status: published
 displayedInMenu: true
 pageModel: dashboard
 charset: utf-8
@@ -16,8 +16,8 @@ ownerGroup: free
 joinGroups: []
 children: []
 position: 1
-numWidget: 1
-lastModified: '2020-09-09 09:16:38'
+numWidget: 9
+lastModified: '2020-09-16 13:15:05'
 fullPath: homepage/dashboard
 token: null
 configuration:
@@ -36,27 +36,46 @@ configuration:
     useExtraTitles: false
     mimeType: text/html
     charset: utf-8
-    updatedAt: 1599642998907
+    updatedAt: 1600262105248
   widgets:
+    - code: Brand-Logo
+      config: null
+    - null
+    - code: Login_buttons
+      config: null
+    - null
+    - code: seeds_card
+      config:
+        cardname: checking
+    - code: seeds_card_ng_config
+      config:
+        cardname: savings
+    - code: seeds_card
+      config:
+        cardname: creditcard
+    - code: transfer_money_angular
+      config:
+        serviceurl: 'http://quickstart-sales-demo.lab.entando.org'
+        title: Transfer Money
     - null
     - null
     - null
-    - null
-    - null
-    - null
-    - null
-    - code: Checking-Table
+    - code: list_item
+      config:
+        icon: managealerts
+        count: '0'
+        title: Alerts
+    - code: list_item
+      config:
+        icon: viewstatements
+        count: '0'
+        title: View statements
+    - code: seedscard-transaction-table
       config: null
     - null
     - null
     - null
     - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-  changed: true
+  changed: false
   root: false
   online: true
