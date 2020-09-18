@@ -271,3 +271,5 @@ components:
     - plugins/seedsdashboard-plugin-descriptor.yaml
   categories:
     - categories/categories-descriptor.yaml
+  labels:
+    - labels/labels-descriptor.yaml
