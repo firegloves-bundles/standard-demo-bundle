@@ -19,7 +19,7 @@ children:
   - my_portal
 position: 15
 numWidget: 12
-lastModified: '2020-08-26 12:50:51'
+lastModified: '2020-09-16 13:32:26'
 fullPath: homepage/seed_insurances
 token: null
 configuration:
@@ -38,7 +38,7 @@ configuration:
     useExtraTitles: false
     mimeType: text/html
     charset: utf-8
-    updatedAt: 1598446251739
+    updatedAt: 1600263146360
   widgets:
     - code: back_to_seed
       config: null
@@ -57,20 +57,20 @@ configuration:
       config: null
     - code: content_viewer
       config:
-        contentId: MPC895
         modelId: '100'
+        contentId: MPC895
     - code: content_viewer
       config:
-        contentId: MPC906
         modelId: '101'
+        contentId: MPC906
     - code: content_viewer
       config:
-        contentId: MPC915
         modelId: '102'
+        contentId: MPC915
     - code: content_viewer_list
       config:
-        maxElemForItem: '3'
         title_it: Perchè Seed Assicurazioni
+        maxElemForItem: '3'
         categories:
           - benefits
         maxElements: '3'
@@ -79,8 +79,8 @@ configuration:
             key: created
             order: DESC
         title_en: Why Seed Insurance
-        contentType: MPC
         modelId: '103'
+        contentType: MPC
     - null
     - null
     - null
