@@ -1,6 +1,6 @@
 id: 3
 contentType: BNR
-descr: Banner with inner card
+description: Banner with inner card
 contentShape: |-
   <div class="main-banner-12">
               <div class="main-banner-12-inner-wrapper">
@@ -23,4 +23,3 @@ contentShape: |-
 
               </div>
   </div>
-stylesheet: null

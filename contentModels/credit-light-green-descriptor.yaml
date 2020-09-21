@@ -1,6 +1,6 @@
 id: 7
 contentType: BNR
-descr: "Credit light green\t"
+description: "Credit light green\t"
 contentShape: |
   <div class="credit-banner-green">
       <div class="row">
@@ -17,4 +17,3 @@ contentShape: |
           </div>
       </div>
   </div>
-stylesheet: null

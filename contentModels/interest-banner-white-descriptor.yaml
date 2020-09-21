@@ -1,6 +1,6 @@
 id: 11
 contentType: BNR
-descr: Interest banner white
+description: Interest banner white
 contentShape: |-
   <div class="main-banner-white">
       <div class="row">
@@ -17,4 +17,3 @@ contentShape: |-
       </div>
   </div>
   </div>
-stylesheet: null

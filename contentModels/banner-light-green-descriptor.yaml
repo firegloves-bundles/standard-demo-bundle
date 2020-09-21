@@ -1,6 +1,6 @@
 id: 2
 contentType: BNR
-descr: ' Banner light green'
+description: ' Banner light green'
 contentShape: |2
    <div class="main-banner-green">
 
@@ -19,4 +19,3 @@ contentShape: |2
                   </div>
               </div>
           </div>
-stylesheet: null

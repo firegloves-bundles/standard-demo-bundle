@@ -1,6 +1,6 @@
 id: 5
 contentType: BNR
-descr: Banner  dark green background
+description: Banner  dark green background
 contentShape: |-
   <div class="main-banner-darkgreen ">
               <div class="row">
@@ -19,4 +19,3 @@ contentShape: |-
                   </div>
               </div>
           </div>
-stylesheet: null

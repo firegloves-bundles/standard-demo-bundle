@@ -1,6 +1,6 @@
 id: 13
 contentType: BNR
-descr: Interest 3 card title - 2nd banner
+description: Interest 3 card title - 2nd banner
 contentShape: |-
   <div class="interest-features">
       <div class="row">
@@ -22,4 +22,3 @@ contentShape: |-
           </div>
       </div>
   </div>
-stylesheet: null
