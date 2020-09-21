@@ -3,54 +3,48 @@ description: Process List
 configuration:
   frames:
     - pos: 0
-      descr: brand
+      description: brand
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 0
         y2: 0
         x2: 1
     - pos: 1
-      descr: navbar
+      description: navbar
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 2
         y1: 0
         y2: 0
         x2: 7
     - pos: 2
-      descr: login widget
+      description: login widget
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 8
         y1: 0
         y2: 0
         x2: 9
     - pos: 3
-      descr: empty space
+      description: empty space
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 10
         y1: 0
         y2: 0
         x2: 11
     - pos: 4
-      descr: main page
+      description: main page
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 1
         y2: 3
         x2: 11
     - pos: 5
-      descr: footer
+      description: footer
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 4

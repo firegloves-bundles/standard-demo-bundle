@@ -3,10 +3,8 @@ description: PDA Keycloak
 configuration:
   frames:
     - pos: 0
-      descr: No Frame Required
+      description: No Frame Required
       mainFrame: false
-      defaultWidget: null
-      sketch: null
 template: |-
   <#assign wp=JspTaglibs["/aps-core"]>
   <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>

@@ -3,9 +3,8 @@ description: Login page model
 configuration:
   frames:
     - pos: 0
-      descr: Form frame
+      description: Form frame
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 0

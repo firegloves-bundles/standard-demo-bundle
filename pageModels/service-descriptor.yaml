@@ -3,18 +3,16 @@ description: Service Page
 configuration:
   frames:
     - pos: 0
-      descr: Sample Frame
+      description: Sample Frame
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 0
         y2: 0
         x2: 11
     - pos: 1
-      descr: Sample Frame
+      description: Sample Frame
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 1

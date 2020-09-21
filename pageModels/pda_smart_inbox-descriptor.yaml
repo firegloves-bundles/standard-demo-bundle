@@ -3,81 +3,72 @@ description: PDA Smart Inbox
 configuration:
   frames:
     - pos: 0
-      descr: Search
+      description: Search
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 7
         y1: 0
         y2: 0
         x2: 8
     - pos: 1
-      descr: Notifications
+      description: Notifications
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 9
         y1: 0
         y2: 0
         x2: 10
     - pos: 2
-      descr: Authentication
+      description: Authentication
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 11
         y1: 0
         y2: 0
         x2: 11
     - pos: 3
-      descr: User details
+      description: User details
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 1
         y2: 1
         x2: 1
     - pos: 4
-      descr: Navigation
+      description: Navigation
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 0
         y1: 2
         y2: 3
         x2: 1
     - pos: 5
-      descr: Task list widget
+      description: Task list widget
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 2
         y1: 1
         y2: 1
         x2: 11
     - pos: 6
-      descr: Task details widget
+      description: Task details widget
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 2
         y1: 2
         y2: 3
         x2: 11
     - pos: 7
-      descr: Notes
+      description: Notes
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 2
         y1: 4
         y2: 4
         x2: 7
     - pos: 8
-      descr: Attachments
+      description: Attachments
       mainFrame: false
-      defaultWidget: null
       sketch:
         x1: 8
         y1: 4
