@@ -1,7 +1,12 @@
 code: pda_keycloak
-descr: PDA Keycloak
-mainFrame: -1
-pluginCode: null
+description: PDA Keycloak
+configuration:
+  frames:
+    - pos: 0
+      descr: No Frame Required
+      mainFrame: false
+      defaultWidget: null
+      sketch: null
 template: |-
   <#assign wp=JspTaglibs["/aps-core"]>
   <#assign c=JspTaglibs["http://java.sun.com/jsp/jstl/core"]>
@@ -17,10 +22,3 @@ template: |-
           <@wp.fragment code="entando_keycloak_token_setter" escapeXml=false />
       </body>
   </html>
-configuration:
-  frames:
-    - pos: 0
-      descr: No Frame Required
-      mainFrame: false
-      defaultWidget: null
-      sketch: null
