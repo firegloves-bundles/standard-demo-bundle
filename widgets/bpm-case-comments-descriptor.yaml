@@ -1,13 +1,4 @@
 code: bpm-case-comments
-used: 0
 titles:
   en: PAM-Case comments
   it: Commenti del caso PAM
-typology: jpkiebpm
-group: null
-pluginCode: jpkiebpm
-pluginDesc: Entando Red Hat PAM Connector
-guiFragments: []
-hasConfig: true
-bundleId: null
-configUi: null

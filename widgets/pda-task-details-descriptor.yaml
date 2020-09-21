@@ -1,15 +1,8 @@
 code: pda-task-details
-used: 4
 titles:
   en: PDA - Task Details
   it: PDA - Task Details
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: task-details-config
   resources:

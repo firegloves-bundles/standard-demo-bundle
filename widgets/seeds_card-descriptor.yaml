@@ -1,15 +1,8 @@
 code: seeds_card
-used: 6
 titles:
   en: Seeds Card
   it: Seeds Card
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: seeds-card-config
   resources:

@@ -1,15 +1,8 @@
 code: pda-summary-card
-used: 6
 titles:
   en: PDA - Summary Card
   it: PDA - Summary Card
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: summary-card-config
   resources:

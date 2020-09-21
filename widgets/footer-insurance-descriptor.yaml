@@ -1,13 +1,5 @@
 code: footer-insurance
-used: 8
 titles:
   en: Insurance footer
   it: Footer Assicurazioni
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

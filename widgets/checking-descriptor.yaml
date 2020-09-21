@@ -1,13 +1,5 @@
 code: Checking
-used: 0
 titles:
   en: Checking card dummy
   it: Checking card dummy
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

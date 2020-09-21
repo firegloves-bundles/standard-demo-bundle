@@ -1,13 +1,4 @@
 code: bpm-datatype-form
-used: 0
 titles:
   en: PAM-Form by DataType
   it: PAM-Form by DataType
-typology: jpkiebpm
-group: null
-pluginCode: jpkiebpm
-pluginDesc: Entando Red Hat PAM Connector
-guiFragments: []
-hasConfig: true
-bundleId: null
-configUi: null

@@ -1,13 +1,5 @@
 code: send_money
-used: 0
 titles:
   en: Send money notification mock
   it: Send money notification mock
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

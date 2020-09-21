@@ -1,13 +1,4 @@
 code: formAction
-used: 0
 titles:
   en: Internal Servlet
   it: Invocazione di una Servlet Interna
-typology: stock
-group: null
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
-configUi: null

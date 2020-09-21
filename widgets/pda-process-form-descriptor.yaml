@@ -1,15 +1,8 @@
 code: pda-process-form
-used: 2
 titles:
   en: PDA - Process Form
   it: PDA - Process Form
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: process-form-config
   resources:

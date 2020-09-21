@@ -1,13 +1,5 @@
 code: Login_buttons
-used: 24
 titles:
   en: Seed Login buttons
   it: Seed Login buttons
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

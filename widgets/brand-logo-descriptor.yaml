@@ -1,15 +1,8 @@
 code: Brand-Logo
-used: 24
 titles:
   en: Brand Logo
   it: Brand Logo
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: logo-config
   resources:

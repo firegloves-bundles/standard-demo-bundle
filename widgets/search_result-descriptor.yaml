@@ -1,13 +1,5 @@
 code: search_result
-used: 2
 titles:
   en: Search - Search Result
   it: Ricerca - Risultati della Ricerca
-typology: jacms
 group: free
-pluginCode: jacms
-pluginDesc: Entando CMS
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

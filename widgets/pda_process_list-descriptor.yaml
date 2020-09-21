@@ -1,15 +1,8 @@
 code: pda_process_list
-used: 2
 titles:
   en: PDA - Process List
   it: PDA - Process LIst
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   resources:
     - entando-pda-plugin-bundle/static/js/2.c8d9bae0.chunk.js

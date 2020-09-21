@@ -1,13 +1,5 @@
 code: main_banner_darkgreen
-used: 0
 titles:
   en: Financial Health Dashboard - dark green
   it: Financial Health Dashboard - dark green
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

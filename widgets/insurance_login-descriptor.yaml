@@ -1,13 +1,5 @@
 code: insurance_login
-used: 8
 titles:
   en: Insurance login
   it: Assicurazioni login
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

@@ -1,15 +1,8 @@
 code: pda-process-definition
-used: 2
 titles:
   en: PDA - Process Definition
   it: PDA - Process Definition
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: process-definition-config
   resources:

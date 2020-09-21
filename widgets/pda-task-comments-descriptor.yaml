@@ -1,15 +1,8 @@
 code: pda-task-comments
-used: 4
 titles:
   en: PDA - Task Comments
   it: PDA - Task Comments
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: task-comments-config
   resources:

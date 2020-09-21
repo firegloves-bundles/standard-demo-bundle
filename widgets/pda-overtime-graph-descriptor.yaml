@@ -1,15 +1,8 @@
 code: pda-overtime-graph
-used: 2
 titles:
   en: PDA - Overtime Graph
   it: PDA - Overtime Graph
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: overtime-graph-config
   resources:

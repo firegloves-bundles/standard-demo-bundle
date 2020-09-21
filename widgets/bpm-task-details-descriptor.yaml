@@ -1,13 +1,4 @@
 code: bpm-task-details
-used: 0
 titles:
   en: PAM-Task details
   it: Dettagli task PAM
-typology: jpkiebpm
-group: null
-pluginCode: jpkiebpm
-pluginDesc: Entando Red Hat PAM Connector
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

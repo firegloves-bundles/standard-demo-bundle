@@ -1,15 +1,8 @@
 code: pda-task-completion-form
-used: 2
 titles:
   en: PDA - Task Completion Form
   it: PDA - Task Completion Form
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: task-completion-form-config
   resources:

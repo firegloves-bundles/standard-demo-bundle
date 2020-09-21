@@ -1,15 +1,8 @@
 code: pda-task-list
-used: 2
 titles:
   en: PDA - Task List
   it: PDA - Task List
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: task-list-config
   resources:

@@ -1,13 +1,5 @@
 code: pay_bill
-used: 0
 titles:
   en: Pay bills notification mock
   it: Pay bills notification mock
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

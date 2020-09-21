@@ -1,13 +1,4 @@
 code: bpm-datatable-process-list
-used: 0
 titles:
   en: PAM-Process list
   it: PAM-Lista processi
-typology: jpkiebpm
-group: null
-pluginCode: jpkiebpm
-pluginDesc: Entando Red Hat PAM Connector
-guiFragments: []
-hasConfig: true
-bundleId: null
-configUi: null

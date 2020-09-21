@@ -1,13 +1,5 @@
 code: main_banner_inner
-used: 0
 titles:
   en: Earn interest on your checking account - inner banner
   it: Earn interest on your checking account - inner banner
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

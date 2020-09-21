@@ -1,13 +1,5 @@
 code: navigarion_bar
-used: 6
 titles:
   en: Navigation bar Entando
   it: Navigation bar Entando
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

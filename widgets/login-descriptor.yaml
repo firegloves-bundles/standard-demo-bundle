@@ -1,13 +1,5 @@
 code: login
-used: 1
 titles:
   en: Login
   it: Login
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

@@ -1,15 +1,8 @@
 code: pda-process-list
-used: 0
 titles:
   en: PDA - Process List
   it: PDA - Process List
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: process-list-config
   resources:

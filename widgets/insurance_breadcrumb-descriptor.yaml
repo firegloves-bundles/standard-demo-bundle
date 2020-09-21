@@ -1,13 +1,5 @@
 code: insurance_Breadcrumb
-used: 6
 titles:
   en: Insurance Breadcrumb
   it: Assicurazioni Breadcrumb
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

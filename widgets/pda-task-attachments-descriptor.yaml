@@ -1,15 +1,8 @@
 code: pda-task-attachments
-used: 4
 titles:
   en: PDA - Task Attachments
   it: PDA - Task Attachments
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
 configUi:
   customElement: task-attachments-config
   resources:

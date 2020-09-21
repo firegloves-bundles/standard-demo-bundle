@@ -1,13 +1,5 @@
 code: search_form
-used: 14
 titles:
   en: search form
   it: Barra ricerca
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

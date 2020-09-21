@@ -1,13 +1,5 @@
 code: credit_card_user_apply_form
-used: 2
 titles:
   en: Credit card user apply form
   it: Form di applicazione carta di credito
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null

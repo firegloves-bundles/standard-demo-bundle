@@ -1,13 +1,5 @@
 code: Savings
-used: 0
 titles:
   en: Savings
   it: Savings
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: false
-bundleId: null
-configUi: null
