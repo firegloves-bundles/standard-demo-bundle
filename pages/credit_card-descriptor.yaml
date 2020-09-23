@@ -1,68 +1,12 @@
 code: credit_card
-status: published
-displayedInMenu: true
-pageModel: seed_home
-charset: utf-8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: Credit card
   it: Carta di credito
-fullTitles:
-  en: Home / Credit card
-  it: Home / Carta di credito
+pageModel: seed_home
 ownerGroup: free
 joinGroups: []
-children: []
-position: 5
-numWidget: 7
-lastModified: '2020-05-08 14:00:48'
-fullPath: homepage/credit_card
-token: null
-configuration:
-  code: credit_card
-  parentCode: homepage
-  status: draft
-  position: 5
-  ownerGroup: free
-  metadata:
-    titles:
-      en: Credit card
-      it: Carta di credito
-    extraGroups: null
-    model: seed_home
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1588946448309
-  widgets:
-    - code: Brand-Logo
-      config: null
-    - null
-    - code: Login_buttons
-      config: null
-    - null
-    - code: apply_form_banner
-      config: null
-    - code: content_viewer
-      config:
-        modelId: '8'
-        contentId: BNR80
-    - code: content_viewer
-      config:
-        modelId: '7'
-        contentId: BNR85
-    - code: credit_card_user_apply_form
-      config: null
-    - null
-    - null
-    - null
-    - null
-    - code: footer
-      config: null
-    - null
-  changed: false
-  root: false
-  online: true
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published

@@ -1,91 +1,12 @@
 code: seed_insurances
-status: draft
-displayedInMenu: true
-pageModel: insurance_home
-charset: utf-8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: Seed Insurances Home
   it: Home Seed Assicurazioni
-fullTitles:
-  en: Home / Seed Insurances Home
-  it: Home / Home Seed Assicurazioni
+pageModel: insurance_home
 ownerGroup: free
 joinGroups: []
-children:
-  - products
-  - my_portal
-position: 15
-numWidget: 12
-lastModified: '2020-09-16 13:32:26'
-fullPath: homepage/seed_insurances
-token: null
-configuration:
-  code: seed_insurances
-  parentCode: homepage
-  status: draft
-  position: 15
-  ownerGroup: free
-  metadata:
-    titles:
-      en: Seed Insurances Home
-      it: Home Seed Assicurazioni
-    extraGroups: null
-    model: insurance_home
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1600263146360
-  widgets:
-    - code: back_to_seed
-      config: null
-    - code: search_form
-      config: null
-    - code: language_choose
-      config: null
-    - code: brand_insurance
-      config: null
-    - code: insurance_login
-      config: null
-    - code: entando-widget-navigation_bar
-      config:
-        navSpec: code(seed_insurances) + code(products) + code(my_portal)
-    - code: insurance_Breadcrumb
-      config: null
-    - code: content_viewer
-      config:
-        modelId: '100'
-        contentId: MPC895
-    - code: content_viewer
-      config:
-        modelId: '101'
-        contentId: MPC906
-    - code: content_viewer
-      config:
-        modelId: '102'
-        contentId: MPC915
-    - code: content_viewer_list
-      config:
-        title_it: Perchè Seed Assicurazioni
-        maxElemForItem: '3'
-        categories:
-          - benefits
-        maxElements: '3'
-        filters:
-          - attributeFilter: false
-            key: created
-            order: DESC
-        title_en: Why Seed Insurance
-        modelId: '103'
-        contentType: MPC
-    - null
-    - null
-    - null
-    - code: footer-insurance
-      config: null
-  changed: true
-  root: false
-  online: true
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: draft

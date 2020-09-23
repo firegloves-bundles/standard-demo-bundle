@@ -1,76 +1,12 @@
 code: pda_dashboard
-status: published
-displayedInMenu: true
-pageModel: pda_dashboard
-charset: utf-8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: PDA Dashboard
   it: PDA Dashboard
-fullTitles:
-  en: Home / PDA Dashboard
-  it: Home / PDA Dashboard
+pageModel: pda_dashboard
 ownerGroup: free
 joinGroups: []
-children:
-  - pda_connections
-  - pda_task_details
-  - pda_smart_inbox
-  - pda_process_definition
-position: 8
-numWidget: 7
-lastModified: '2020-05-29 00:16:22'
-fullPath: homepage/pda_dashboard
-token: null
-configuration:
-  code: pda_dashboard
-  parentCode: homepage
-  status: draft
-  position: 8
-  ownerGroup: free
-  metadata:
-    titles:
-      en: PDA Dashboard
-      it: PDA Dashboard
-    extraGroups: null
-    model: pda_dashboard
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1590711382829
-  widgets:
-    - null
-    - null
-    - code: pda_login_buttons
-      config: null
-    - null
-    - code: pda_sidebar_navigation
-      config: null
-    - code: pda_dashboard_title
-      config: null
-    - code: pda-summary-card
-      config:
-        settings: '{"type":"applications-accepted"}'
-        knowledgeSource: lab
-    - code: pda-summary-card
-      config:
-        settings: '{"type":"applications-rejected"}'
-        knowledgeSource: lab
-    - code: pda-summary-card
-      config:
-        settings: '{"type":"applications-total"}'
-        knowledgeSource: lab
-    - null
-    - code: pda-overtime-graph
-      config:
-        settings: >-
-          {"dataType1":"applications-accepted","dataType2":"applications-rejected","dailyFreqPeriods":"30","monthlyFreqPeriods":"12","annualFreqPeriods":"5"}
-        knowledgeSource: lab
-    - null
-    - null
-  changed: false
-  root: false
-  online: true
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published

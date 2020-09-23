@@ -1,81 +1,12 @@
 code: dashboard
-status: published
-displayedInMenu: true
-pageModel: dashboard
-charset: utf-8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: My dashboard
   it: La mia Dashboard
-fullTitles:
-  en: Home / My dashboard
-  it: Home / La mia Dashboard
+pageModel: dashboard
 ownerGroup: free
 joinGroups: []
-children: []
-position: 1
-numWidget: 9
-lastModified: '2020-09-16 13:15:05'
-fullPath: homepage/dashboard
-token: null
-configuration:
-  code: dashboard
-  parentCode: homepage
-  status: draft
-  position: 1
-  ownerGroup: free
-  metadata:
-    titles:
-      en: My dashboard
-      it: La mia Dashboard
-    extraGroups: null
-    model: dashboard
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1600262105248
-  widgets:
-    - code: Brand-Logo
-      config: null
-    - null
-    - code: Login_buttons
-      config: null
-    - null
-    - code: seeds_card
-      config:
-        cardname: checking
-    - code: seeds_card_ng_config
-      config:
-        cardname: savings
-    - code: seeds_card
-      config:
-        cardname: creditcard
-    - code: transfer_money_angular
-      config:
-        serviceurl: 'http://quickstart-sales-demo.lab.entando.org'
-        title: Transfer Money
-    - null
-    - null
-    - null
-    - code: list_item
-      config:
-        icon: managealerts
-        count: '0'
-        title: Alerts
-    - code: list_item
-      config:
-        icon: viewstatements
-        count: '0'
-        title: View statements
-    - code: seedscard-transaction-table
-      config: null
-    - null
-    - null
-    - null
-    - null
-  changed: false
-  root: false
-  online: true
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published

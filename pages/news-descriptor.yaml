@@ -1,72 +1,12 @@
 code: news
-status: published
-displayedInMenu: true
-pageModel: portal_example
-charset: utf-8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: news
   it: notizie
-fullTitles:
-  en: Home / news
-  it: Home / notizie
+pageModel: portal_example
 ownerGroup: free
 joinGroups: []
-children: []
-position: 14
-numWidget: 7
-lastModified: '2020-08-10 21:47:05'
-fullPath: homepage/news
-token: null
-configuration:
-  code: news
-  parentCode: homepage
-  status: draft
-  position: 14
-  ownerGroup: free
-  metadata:
-    titles:
-      en: news
-      it: notizie
-    extraGroups: null
-    model: portal_example
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1597096025944
-  widgets:
-    - code: Brand-Logo
-      config: null
-    - code: navigarion_bar
-      config:
-        navSpec: >-
-          code(portal_page_sample) + code(news) + code(interest) +
-          code(credit_card) + code(dashboard)
-    - code: search_form
-      config: null
-    - code: Login_buttons
-      config: null
-    - code: Breadcrumb
-      config: null
-    - code: content_viewer_list
-      config:
-        title_it: Archivio notizie
-        maxElemForItem: '6'
-        title_en: News Archive
-        contentType: NWS
-        modelId: '18'
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - code: footer
-      config: null
-  changed: false
-  root: false
-  online: true
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published

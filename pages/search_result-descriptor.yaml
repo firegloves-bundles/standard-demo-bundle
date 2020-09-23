@@ -1,66 +1,12 @@
 code: search_result
-status: published
-displayedInMenu: true
-pageModel: portal_example
-charset: utf-8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: Search Result
   it: Risultato ricerca
-fullTitles:
-  en: Home / Search Result
-  it: Home / Risultato ricerca
+pageModel: portal_example
 ownerGroup: free
 joinGroups: []
-children: []
-position: 13
-numWidget: 6
-lastModified: '2020-08-10 21:16:29'
-fullPath: homepage/search_result
-token: null
-configuration:
-  code: search_result
-  parentCode: homepage
-  status: draft
-  position: 13
-  ownerGroup: free
-  metadata:
-    titles:
-      en: Search Result
-      it: Risultato ricerca
-    extraGroups: null
-    model: portal_example
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1597094189042
-  widgets:
-    - code: Brand-Logo
-      config: null
-    - code: navigarion_bar
-      config:
-        navSpec: >-
-          code(portal_page_sample) + code(news) + code(interest) +
-          code(credit_card) + code(dashboard)
-    - code: search_form
-      config: null
-    - code: Login_buttons
-      config: null
-    - code: Breadcrumb
-      config: null
-    - null
-    - null
-    - code: search_result
-      config: null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - null
-  changed: false
-  root: false
-  online: true
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
