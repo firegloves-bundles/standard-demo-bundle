@@ -16,8 +16,8 @@
     it: Accedi con client avanzato
 - key: ALL
   titles:
-    en: Category
-    it: Categorie
+    en: All
+    it: Tutte
 - key: ATTACHES
   titles:
     en: Documents list
@@ -354,7 +354,7 @@
     it: Avanti di
 - key: PAGE_MODEL
   titles:
-    en: page model
+    en: page template
     it: modello pagina
 - key: PAGE_NOT_FOUND
   titles:
