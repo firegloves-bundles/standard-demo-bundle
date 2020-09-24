@@ -207,6 +207,7 @@ components:
     - fragments/userprofile_editcurrentuser_profile-descriptor.yaml
     - fragments/userprofile_is_currentwithoutprofile-descriptor.yaml
   pages:
+    - pages/landing-descriptor.yaml
     - pages/dashboard-descriptor.yaml
     - pages/my_ng_dashboard-descriptor.yaml
     - pages/sign_up-descriptor.yaml

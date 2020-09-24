@@ -1,5 +1,5 @@
 code: login_mobile
-parentCode: homepage
+parentCode: landing
 titles:
   en: Login mobile
   it: Login mobile
