@@ -418,7 +418,6 @@
     it: Testo
 - key: TEXT_PLACEHOLDER
   titles:
-    fr: Titre
     en: Title
     it: Titolo
 - key: USERNAME
