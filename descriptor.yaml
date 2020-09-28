@@ -15,11 +15,9 @@ components:
     - widgets/back_to_seed-descriptor.yaml
     - widgets/brand_insurance-descriptor.yaml
     - widgets/carmela_bottoni-descriptor.yaml
-    - widgets/content_viewer-descriptor.yaml
     - widgets/content_viewer_list-descriptor.yaml
     - widgets/credit_card_user_apply_form-descriptor.yaml
     - widgets/dropdown_sign_in-descriptor.yaml
-    - widgets/entando-widget-navigation_bar-descriptor.yaml
     - widgets/entando_apis-descriptor.yaml
     - widgets/find-atm-descriptor.yaml
     - widgets/footer-descriptor.yaml
@@ -31,14 +29,12 @@ components:
     - widgets/list_item-descriptor.yaml
     - widgets/login-descriptor.yaml
     - widgets/login-widget-descriptor.yaml
-    - widgets/login_form-descriptor.yaml
     - widgets/main_banner_accordion-descriptor.yaml
     - widgets/main_banner_darkgreen-descriptor.yaml
     - widgets/main_banner_green-descriptor.yaml
     - widgets/main_banner_inner-descriptor.yaml
     - widgets/main_banner_white-descriptor.yaml
     - widgets/manage_users-descriptor.yaml
-    - widgets/messages_system-descriptor.yaml
     - widgets/pay_bill-descriptor.yaml
     - widgets/pda-connections-descriptor.yaml
     - widgets/pda-overtime-graph-descriptor.yaml
@@ -66,8 +62,6 @@ components:
     - widgets/signup-descriptor.yaml
     - widgets/transfer_money-descriptor.yaml
     - widgets/transfer_money_angular-descriptor.yaml
-    - widgets/userprofile_editcurrentuser_password-descriptor.yaml
-    - widgets/userprofile_editcurrentuser_profile-descriptor.yaml
   pageModels:
     - pageModels/dashboard-descriptor.yaml
     - pageModels/insurance_home-descriptor.yaml
