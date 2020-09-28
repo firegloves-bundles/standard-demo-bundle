@@ -3,3 +3,9 @@ titles:
   en: Investments  notification mock
   it: Investments  notification mock
 group: free
+customUi: |-
+  <#assign wp=JspTaglibs["/aps-core"]>
+  <div class="NotificationBar__btn">
+      <img class="CheckingCard__icon" src="<@wp.imgURL />dashboard/Frameinvest.png" />
+      Investments
+  </div>
