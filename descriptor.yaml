@@ -247,3 +247,5 @@ components:
     - categories/categories-descriptor.yaml
   labels:
     - labels/labels-descriptor.yaml
+  languages:
+    - languages/languages-descriptor.yaml
