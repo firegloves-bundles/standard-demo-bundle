@@ -10,3 +10,36 @@ displayedInMenu: true
 seo: false
 charset: utf-8
 status: published
+configuration:
+  code: mortgage_status
+  parentCode: homepage
+  status: draft
+  position: 11
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Mortgage Status
+      it: Mortgage Status
+    extraGroups: null
+    model: process_list
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1591212711508
+  widgets:
+    - code: Brand-Logo
+      config: {}
+    - null
+    - code: Login_buttons
+      config: null
+    - null
+    - code: pda_process_list
+      config:
+        settings: '{"processDefinitionId":"Mortgage_Process.MortgageApprovalProcess"}'
+        knowledgeSource: lab
+    - code: footer
+      config: null
+  changed: false
+  root: false
+  online: true

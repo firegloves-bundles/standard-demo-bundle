@@ -10,3 +10,47 @@ displayedInMenu: true
 seo: false
 charset: utf-8
 status: published
+configuration:
+  code: search_result
+  parentCode: homepage
+  status: draft
+  position: 13
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Search Result
+      it: Risultato ricerca
+    extraGroups: null
+    model: portal_example
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: utf-8
+    updatedAt: 1597094189042
+  widgets:
+    - code: Brand-Logo
+      config: null
+    - code: navigarion_bar
+      config:
+        navSpec: >-
+          code(portal_page_sample) + code(news) + code(interest) +
+          code(credit_card) + code(dashboard)
+    - code: search_form
+      config: null
+    - code: Login_buttons
+      config: null
+    - code: Breadcrumb
+      config: null
+    - null
+    - null
+    - code: search_result
+      config: null
+    - null
+    - null
+    - null
+    - null
+    - null
+    - null
+  changed: false
+  root: false
+  online: true

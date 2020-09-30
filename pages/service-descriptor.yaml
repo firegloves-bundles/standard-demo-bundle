@@ -10,3 +10,30 @@ displayedInMenu: false
 seo: false
 charset: utf8
 status: draft
+configuration:
+  code: service
+  parentCode: homepage
+  status: draft
+  position: 10
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Service
+      it: Pagine di Servizio
+    extraGroups: null
+    model: service
+    showable: false
+    useExtraTitles: false
+    mimeType: null
+    charset: null
+    updatedAt: 1591194173486
+  widgets:
+    - code: content_viewer
+      config:
+        contentDescription: Interest 3 card title - 2nd banner
+        contentId: BNR102
+        modelId: '1'
+    - null
+  changed: true
+  root: false
+  online: true

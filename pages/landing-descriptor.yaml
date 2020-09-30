@@ -10,3 +10,60 @@ displayedInMenu: true
 seo: false
 charset: utf8
 status: published
+configuration:
+  code: homepage
+  parentCode: homepage
+  status: draft
+  position: -1
+  ownerGroup: free
+  metadata:
+    titles:
+      en: Home
+      it: Home
+    extraGroups: null
+    model: seed_home
+    showable: true
+    useExtraTitles: false
+    mimeType: text/html
+    charset: null
+    updatedAt: 1600332893308
+  widgets:
+    - code: Brand-Logo
+      config: null
+    - null
+    - null
+    - code: Login_buttons
+      config: null
+    - code: Breadcrumb
+      config: null
+    - code: content_viewer
+      config:
+        modelId: '1'
+        contentId: BNR37
+    - code: content_viewer
+      config:
+        modelId: '2'
+        contentId: BNR34
+    - code: content_viewer
+      config:
+        modelId: '3'
+        contentId: BNR31
+    - code: content_viewer
+      config:
+        modelId: '4'
+        contentId: BNR16
+    - code: content_viewer
+      config:
+        modelId: '5'
+        contentId: BNR28
+    - code: content_viewer
+      config:
+        modelId: '6'
+        contentId: BNR19
+    - null
+    - null
+    - code: footer
+      config: null
+  changed: false
+  root: true
+  online: true
