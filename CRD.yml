@@ -1,0 +1,27 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: standard-demo-bundle
+spec:
+  details:
+    author: entando
+    description: Standard Entando Bundle
+    dist-tags:
+      latest: v0.0.2
+    time:
+      created: '2020-09-29T16:17:00.000Z'
+      modified: '2020-09-01T08:56:00.000Z'
+      v0.0.1: '2020-09-29T16:17:00.000Z'
+      v0.0.2: '2020-09-01T08:56:00.000Z'
+    versions:
+      - v0.0.1
+      - v0.0.2
+  tags:
+    - integrity: ''
+      shasum: ''
+      tarball: 'https://github.com/entando/standard-demo-bundle.git'
+      version: v0.0.1
+    - integrity: ''
+      shasum: ''
+      tarball: 'https://github.com/entando/standard-demo-bundle.git'
+      version: v0.0.2
