@@ -10,58 +10,31 @@ displayedInMenu: true
 seo: false
 charset: utf-8
 status: published
-configuration:
-  code: dashboard
-  parentCode: homepage
-  status: draft
-  position: 1
-  ownerGroup: free
-  metadata:
-    titles:
-      en: My dashboard
-      it: La mia Dashboard
-    extraGroups: null
-    model: dashboard
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1601472585172
-  widgets:
-    - code: Brand-Logo
-      config: null
-    - null
-    - code: Login_buttons
-      config: null
-    - null
-    - code: seeds_card
-      config:
-        cardname: checking
-    - code: seeds_card_ng_config
-      config:
-        cardname: savings
-    - code: seeds_card
-      config:
-        cardname: creditcard
-    - code: transfer_money_angular
-      config:
-        serviceurl: 'http://quickstart-sales-demo.lab.entando.org'
-        title: Transfer Money
-    - null
-    - null
-    - null
-    - code: list_item
-      config:
-        icon: managealerts
-        count: '0'
-        title: Alerts
-    - null
-    - code: seedscard-transaction-table
-      config: null
-    - null
-    - null
-    - null
-    - null
-  changed: false
-  root: false
-  online: true
+widgets:
+  - code: Brand-Logo
+    config: null
+    pos: 0
+  - code: Login_buttons
+    config: null
+    pos: 2
+  - code: seeds_card
+    config:
+      cardname: checking
+    pos: 4
+  - code: seeds_card_ng_config
+    config:
+      cardname: savings
+    pos: 5
+  - code: seeds_card
+    config:
+      cardname: creditcard
+    pos: 6
+  - code: list_item
+    config:
+      icon: managealerts
+      count: '0'
+      title: Alerts
+    pos: 11
+  - code: seedscard-transaction-table
+    config: null
+    pos: 13

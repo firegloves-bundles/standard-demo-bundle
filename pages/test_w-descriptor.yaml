@@ -10,37 +10,15 @@ displayedInMenu: true
 seo: false
 charset: utf-8
 status: unpublished
-configuration:
-  code: test_w
-  parentCode: homepage
-  status: draft
-  position: 16
-  ownerGroup: free
-  metadata:
-    titles:
-      en: test-w
-      it: test-w
-    extraGroups: null
-    model: simple_page
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1597096255810
-  widgets:
-    - null
-    - null
-    - null
-    - null
-    - code: content_viewer_list
-      config:
-        maxElemForItem: '1'
-        maxElements: '3'
-        contentType: NWS
-    - code: content_viewer
-      config:
-        contentDescription: Banner with white background
-        contentId: BNR19
-  changed: false
-  root: false
-  online: false
+widgets:
+  - code: content_viewer_list
+    config:
+      maxElemForItem: '1'
+      maxElements: '3'
+      contentType: NWS
+    pos: 4
+  - code: content_viewer
+    config:
+      contentDescription: Banner with white background
+      contentId: BNR19
+    pos: 5

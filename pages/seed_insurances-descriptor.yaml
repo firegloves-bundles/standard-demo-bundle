@@ -10,70 +10,59 @@ displayedInMenu: true
 seo: false
 charset: utf-8
 status: draft
-configuration:
-  code: seed_insurances
-  parentCode: homepage
-  status: draft
-  position: 15
-  ownerGroup: free
-  metadata:
-    titles:
-      en: Seed Insurances Home
-      it: Home Seed Assicurazioni
-    extraGroups: null
-    model: insurance_home
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1600263146360
-  widgets:
-    - code: back_to_seed
-      config: null
-    - code: search_form
-      config: null
-    - code: language_choose
-      config: null
-    - code: brand_insurance
-      config: null
-    - code: insurance_login
-      config: null
-    - code: entando-widget-navigation_bar
-      config:
-        navSpec: code(seed_insurances) + code(products) + code(my_portal)
-    - code: insurance_Breadcrumb
-      config: null
-    - code: content_viewer
-      config:
-        modelId: '100'
-        contentId: MPC895
-    - code: content_viewer
-      config:
-        modelId: '101'
-        contentId: MPC906
-    - code: content_viewer
-      config:
-        modelId: '102'
-        contentId: MPC915
-    - code: content_viewer_list
-      config:
-        title_it: Perchè Seed Assicurazioni
-        maxElemForItem: '3'
-        categories:
-          - benefits
-        maxElements: '3'
-        filters:
-          - attributeFilter: false
-            key: created
-            order: DESC
-        title_en: Why Seed Insurance
-        modelId: '103'
-        contentType: MPC
-    - null
-    - null
-    - null
-    - code: footer-insurance
-      config: null
-  changed: true
-  root: false
-  online: true
+widgets:
+  - code: back_to_seed
+    config: null
+    pos: 0
+  - code: search_form
+    config: null
+    pos: 1
+  - code: language_choose
+    config: null
+    pos: 2
+  - code: brand_insurance
+    config: null
+    pos: 3
+  - code: insurance_login
+    config: null
+    pos: 4
+  - code: entando-widget-navigation_bar
+    config:
+      navSpec: code(seed_insurances) + code(products) + code(my_portal)
+    pos: 5
+  - code: insurance_Breadcrumb
+    config: null
+    pos: 6
+  - code: content_viewer
+    config:
+      modelId: '100'
+      contentId: MPC895
+    pos: 7
+  - code: content_viewer
+    config:
+      modelId: '101'
+      contentId: MPC906
+    pos: 8
+  - code: content_viewer
+    config:
+      modelId: '102'
+      contentId: MPC915
+    pos: 9
+  - code: content_viewer_list
+    config:
+      title_it: Perchè Seed Assicurazioni
+      maxElemForItem: '3'
+      categories:
+        - benefits
+      maxElements: '3'
+      filters:
+        - attributeFilter: false
+          key: created
+          order: DESC
+      title_en: Why Seed Insurance
+      modelId: '103'
+      contentType: MPC
+    pos: 10
+  - code: footer-insurance
+    config: null
+    pos: 14

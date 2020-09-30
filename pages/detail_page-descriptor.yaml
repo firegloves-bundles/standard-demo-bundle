@@ -10,48 +10,28 @@ displayedInMenu: true
 seo: false
 charset: utf-8
 status: published
-configuration:
-  code: detail_page
-  parentCode: homepage
-  status: draft
-  position: 12
-  ownerGroup: free
-  metadata:
-    titles:
-      en: Detail Page
-      it: Pagina dettaglio
-    extraGroups: null
-    model: portal_example
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1595493009029
-  widgets:
-    - code: Brand-Logo
-      config: null
-    - code: navigarion_bar
-      config:
-        navSpec: >-
-          code(portal_page_sample) + code(news) + code(interest) +
-          code(credit_card) + code(dashboard)
-    - code: search_form
-      config: null
-    - code: Login_buttons
-      config: null
-    - code: Breadcrumb
-      config: null
-    - null
-    - null
-    - code: content_viewer
-      config: null
-    - null
-    - null
-    - null
-    - null
-    - null
-    - code: footer
-      config: null
-  changed: false
-  root: false
-  online: true
+widgets:
+  - code: Brand-Logo
+    config: null
+    pos: 0
+  - code: navigarion_bar
+    config:
+      navSpec: >-
+        code(portal_page_sample) + code(news) + code(interest) +
+        code(credit_card) + code(dashboard)
+    pos: 1
+  - code: search_form
+    config: null
+    pos: 2
+  - code: Login_buttons
+    config: null
+    pos: 3
+  - code: Breadcrumb
+    config: null
+    pos: 4
+  - code: content_viewer
+    config: null
+    pos: 7
+  - code: footer
+    config: null
+    pos: 13

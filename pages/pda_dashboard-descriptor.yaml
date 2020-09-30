@@ -10,53 +10,34 @@ displayedInMenu: true
 seo: false
 charset: utf-8
 status: published
-configuration:
-  code: pda_dashboard
-  parentCode: homepage
-  status: draft
-  position: 8
-  ownerGroup: free
-  metadata:
-    titles:
-      en: PDA Dashboard
-      it: PDA Dashboard
-    extraGroups: null
-    model: pda_dashboard
-    showable: true
-    useExtraTitles: false
-    mimeType: text/html
-    charset: utf-8
-    updatedAt: 1590711382829
-  widgets:
-    - null
-    - null
-    - code: pda_login_buttons
-      config: null
-    - null
-    - code: pda_sidebar_navigation
-      config: null
-    - code: pda_dashboard_title
-      config: null
-    - code: pda-summary-card
-      config:
-        settings: '{"type":"applications-accepted"}'
-        knowledgeSource: lab
-    - code: pda-summary-card
-      config:
-        settings: '{"type":"applications-rejected"}'
-        knowledgeSource: lab
-    - code: pda-summary-card
-      config:
-        settings: '{"type":"applications-total"}'
-        knowledgeSource: lab
-    - null
-    - code: pda-overtime-graph
-      config:
-        settings: >-
-          {"dataType1":"applications-accepted","dataType2":"applications-rejected","dailyFreqPeriods":"30","monthlyFreqPeriods":"12","annualFreqPeriods":"5"}
-        knowledgeSource: lab
-    - null
-    - null
-  changed: false
-  root: false
-  online: true
+widgets:
+  - code: pda_login_buttons
+    config: null
+    pos: 2
+  - code: pda_sidebar_navigation
+    config: null
+    pos: 4
+  - code: pda_dashboard_title
+    config: null
+    pos: 5
+  - code: pda-summary-card
+    config:
+      settings: '{"type":"applications-accepted"}'
+      knowledgeSource: lab
+    pos: 6
+  - code: pda-summary-card
+    config:
+      settings: '{"type":"applications-rejected"}'
+      knowledgeSource: lab
+    pos: 7
+  - code: pda-summary-card
+    config:
+      settings: '{"type":"applications-total"}'
+      knowledgeSource: lab
+    pos: 8
+  - code: pda-overtime-graph
+    config:
+      settings: >-
+        {"dataType1":"applications-accepted","dataType2":"applications-rejected","dailyFreqPeriods":"30","monthlyFreqPeriods":"12","annualFreqPeriods":"5"}
+      knowledgeSource: lab
+    pos: 10
