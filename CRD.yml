@@ -4,6 +4,7 @@ metadata:
   name: standard-demo-bundle
 spec:
   details:
+    name: Standard Entando Bundle
     author: entando
     description: Standard Entando Bundle
     dist-tags:
