@@ -1,6 +1,6 @@
 id: 103
 contentType: MPC
-descr: Multi-Purpose Card for 3 Columns  List
+description: Multi-Purpose Card for 3 Columns  List
 contentShape: |-
   <div class="card-insurance">
       <img src="$content.image.getImagePath('0')"  alt="$content.image.text">
@@ -15,4 +15,3 @@ contentShape: |-
       #end
       #end
   </div>
-stylesheet: null

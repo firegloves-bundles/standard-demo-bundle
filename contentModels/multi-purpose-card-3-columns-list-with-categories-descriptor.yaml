@@ -1,6 +1,6 @@
 id: 106
 contentType: MPC
-descr: Multi-Purpose Card 3 Columns  List with categories
+description: Multi-Purpose Card 3 Columns  List with categories
 contentShape: >-
   <div class="card-insurance with-categories">
 
@@ -26,4 +26,3 @@ contentShape: >-
       #end
      </a> 
    </div>
-stylesheet: null

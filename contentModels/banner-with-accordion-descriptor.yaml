@@ -1,6 +1,6 @@
 id: 4
 contentType: BNR
-descr: Banner with accordion
+description: Banner with accordion
 contentShape: |-
   <div class="main-banner-accordion">
       <div class="row">
@@ -46,4 +46,3 @@ contentShape: |-
     $('#collapse-1').addClass('show');
   });
   </script>
-stylesheet: null

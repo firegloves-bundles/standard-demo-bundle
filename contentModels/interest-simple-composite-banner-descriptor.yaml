@@ -1,6 +1,6 @@
 id: 10
 contentType: BNR
-descr: 'Interest simple composite banner  '
+description: 'Interest simple composite banner  '
 contentShape: |-
   <div class="interests-composite">
       <div class="row">
@@ -22,4 +22,3 @@ contentShape: |-
           </div>
       </div>
   </div>
-stylesheet: null

@@ -1,6 +1,6 @@
 id: 8
 contentType: BNR
-descr: Credit - benefits & features
+description: Credit - benefits & features
 contentShape: |
   <div class="benefits-features">
       <div class="row">
@@ -22,4 +22,3 @@ contentShape: |
           </div>
       </div>
   </div>
-stylesheet: null

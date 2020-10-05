@@ -1,57 +1,12 @@
 code: dashboard
-status: published
-onlineInstance: false
-displayedInMenu: true
-pageModel: dashboard
-charset: utf-8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: My dashboard
   it: La mia Dashboard
-fullTitles:
-  en: Home / My dashboard
-  it: Home / La mia Dashboard
+pageModel: dashboard
 ownerGroup: free
 joinGroups: []
-children: []
-position: 2
-numWidget: 8
-lastModified: '2020-10-01 09:38:21'
-fullPath: homepage/dashboard
-token: null
-widgets:
-  - code: Brand-Logo
-    config: null
-    pos: 0
-  - code: Login_buttons
-    config: null
-    pos: 2
-  - code: seeds_card
-    config:
-      cardname: checking
-    pos: 4
-  - code: seeds_card_ng
-    config:
-      cardname: savings
-    pos: 5
-  - code: seeds_card
-    config:
-      cardname: creditcard
-    pos: 6
-  - code: list_item
-    config:
-      icon: managealerts
-      count: '0'
-      title: Alerts
-    pos: 7
-  - code: list_item
-    config:
-      icon: viewstatements
-      count: '0'
-      title: View Statements
-    pos: 11
-  - code: seedscard-transaction-table
-    config: null
-    pos: 13
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: draft

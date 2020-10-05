@@ -1,6 +1,6 @@
 id: 14
 contentType: NWS
-descr: News List
+description: News List
 contentShape: |-
   <div class="default-list-model">
       <div class="row no-gutters">
@@ -22,4 +22,3 @@ contentShape: |-
       </div>
   </div>
   </div>
-stylesheet: null

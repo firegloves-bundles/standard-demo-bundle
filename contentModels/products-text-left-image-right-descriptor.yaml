@@ -1,6 +1,6 @@
 id: 109
 contentType: PRD
-descr: Products Text Left  - Image Right
+description: Products Text Left  - Image Right
 contentShape: |-
   <section class="image-on-right products" style="background:#fff">
       <div class="content-text-wrapper">
@@ -33,4 +33,3 @@ contentShape: |-
       </div>
 
   </section>
-stylesheet: null

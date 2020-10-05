@@ -1,6 +1,6 @@
 id: 100
 contentType: MPC
-descr: Multi-Purpose Header
+description: Multi-Purpose Header
 contentShape: >-
   <div class="insurance-main-banner" style="background:
   url($content.image.getImagePath('0'))">
@@ -15,4 +15,3 @@ contentShape: >-
           </div>
       </div>
   </div>
-stylesheet: null

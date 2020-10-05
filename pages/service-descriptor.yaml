@@ -1,27 +1,12 @@
 code: service
-status: published
-onlineInstance: false
-displayedInMenu: false
-pageModel: service
-charset: utf8
-contentType: text/html
 parentCode: homepage
-seo: false
 titles:
   en: Service
   it: Pagine di Servizio
-fullTitles:
-  en: Home / Service
-  it: Home / Pagine di Servizio
+pageModel: service
 ownerGroup: free
 joinGroups: []
-children:
-  - notfound
-  - errorpage
-  - login
-position: 1
-numWidget: 0
-lastModified: '2020-09-30 08:08:38'
-fullPath: homepage/service
-token: null
-widgets: []
+displayedInMenu: false
+seo: false
+charset: utf8
+status: published

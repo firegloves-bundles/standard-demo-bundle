@@ -1,6 +1,6 @@
 id: 1
 contentType: BNR
-descr: Main Banner
+description: Main Banner
 contentShape: |-
   <div class="main-banner">
       <div class="row">
@@ -12,4 +12,3 @@ contentShape: |-
           </div>
       </div>
   </div>
-stylesheet: null

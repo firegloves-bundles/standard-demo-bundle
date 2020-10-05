@@ -1,6 +1,6 @@
 id: 108
 contentType: PRD
-descr: Product detail
+description: Product detail
 contentShape: |-
   <section class="image-on-right detail" style="background:#fff">
       <div class="content-text-wrapper">
@@ -65,4 +65,3 @@ contentShape: |-
       });
 
   </script>
-stylesheet: null

@@ -1,6 +1,6 @@
 id: 105
 contentType: MPC
-descr: Multi-Purpose Card Product detail
+description: Multi-Purpose Card Product detail
 contentShape: |-
   <section class="image-on-right" style="background:#fff">
       <div class="content-text-wrapper">
@@ -36,4 +36,3 @@ contentShape: |-
       </div>
 
   </section>
-stylesheet: null

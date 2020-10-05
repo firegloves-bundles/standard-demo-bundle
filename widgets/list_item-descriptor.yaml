@@ -1,23 +1,24 @@
 code: list_item
-used: 1
 titles:
   en: List item
   it: Elemento lista
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
+customUi: >-
+  <#assign wp=JspTaglibs[ "/aps-core"]><link rel="stylesheet" type="text/css"
+  href="<@wp.resourceURL />widgets/list-item/css/main.css"><link
+  rel="stylesheet" type="text/css" href="<@wp.resourceURL
+  />widgets/list-item/css/vendor.css"><script async src="<@wp.resourceURL
+  />widgets/list-item/js/runtime.js"></script><script async
+  src="<@wp.resourceURL />widgets/list-item/js/vendor.js"></script><script async
+  src="<@wp.resourceURL
+  />widgets/list-item/js/main.js"></script><@wp.currentWidget param="config"
+  configParam="icon" var="iconString"/><@wp.currentWidget param="config"
+  configParam="title" var="titleString"/><@wp.currentWidget param="config"
+  configParam="count" var="countNumber"/><list-item icon="${iconString}"
+  title="${titleString}"/>
 configUi:
   customElement: list-item-config
   resources:
     - widgets/list-item/config/js/runtime.js
     - widgets/list-item/config/js/vendor.js
     - widgets/list-item/config/js/main.js
-parameters: []
-config: null
-parentType: null
-action: null
-locked: false

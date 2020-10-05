@@ -1,12 +1,12 @@
-code: test
+code: homepage
 parentCode: homepage
 titles:
-  en: test
-pageModel: dashboard
+  en: Home
+  it: Home
+pageModel: seed_home
 ownerGroup: free
-joinGroups:
-  - free
+joinGroups: []
 displayedInMenu: true
 seo: false
-charset: utf-8
+charset: utf8
 status: published

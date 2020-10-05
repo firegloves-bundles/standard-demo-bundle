@@ -1,23 +1,19 @@
 code: seeds_card
-used: 2
 titles:
   en: Seeds Card
   it: Seeds Card
-typology: user
 group: free
-pluginCode: null
-pluginDesc: null
-guiFragments: []
-hasConfig: true
-bundleId: null
+customUi: >-
+  <#assign wp=JspTaglibs[ "/aps-core"]><script async src="<@wp.resourceURL
+  />widgets/seeds-card/js/runtime.js"></script><script async
+  src="<@wp.resourceURL />widgets/seeds-card/js/vendor.js"></script><script
+  async src="<@wp.resourceURL
+  />widgets/seeds-card/js/main.js"></script><@wp.currentWidget param="config"
+  configParam="cardname" var="configName" /><seedscard-details 
+  cardname="${configName}" />
 configUi:
   customElement: seeds-card-config
   resources:
     - widgets/seeds-card-config/static/js/runtime.js
     - widgets/seeds-card-config/static/js/vendor.js
     - widgets/seeds-card-config/static/js/main.js
-parameters: []
-config: null
-parentType: null
-action: null
-locked: false

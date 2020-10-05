@@ -1,6 +1,6 @@
 id: 15
 contentType: NWS
-descr: News Details
+description: News Details
 contentShape: |
   <div class="search-result">
       <div class="default-detail-model">
@@ -37,4 +37,3 @@ contentShape: |
           </div>
       </div>
   </div>
-stylesheet: null
