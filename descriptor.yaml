@@ -9,7 +9,6 @@ components:
     - widgets/back_to_seed-descriptor.yaml
     - widgets/brand_insurance-descriptor.yaml
     - widgets/credit_card_user_apply_form-descriptor.yaml
-    - widgets/entando_apis-descriptor.yaml
     - widgets/find-atm-descriptor.yaml
     - widgets/footer-descriptor.yaml
     - widgets/footer-insurance-descriptor.yaml
@@ -17,8 +16,6 @@ components:
     - widgets/language_choose-descriptor.yaml
     - widgets/list_item-descriptor.yaml
     - widgets/manage_users-descriptor.yaml
-    - widgets/row_content_viewer_list-descriptor.yaml
-    - widgets/search_form-descriptor.yaml
     - widgets/seeds_card-descriptor.yaml
     - widgets/seeds_card_ng-descriptor.yaml
     - widgets/seedscard-transaction-table-descriptor.yaml
