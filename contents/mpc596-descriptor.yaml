@@ -1,0 +1,82 @@
+id: MPC596
+typeCode: MPC
+description: Insurance in many sectors
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: |
+        <p>Insurance in many sectors</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: >
+        <p>Seed offers a range of insurance products to meet the risk protection
+        needs of policyholders. Brokers, insurers and agents can find insurance
+        products various types of cover to respond to the widespread growth of
+        uncertainty and to the increase in protection needs of people and
+        businesses.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        id: '597'
+        type: image
+        name: Seed_Bikes_d0.png
+        description: Seed_Bikes_d0.png
+        createdAt: '2020-08-27T07:28:56Z'
+        updatedAt: '2020-08-27T07:28:56Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_d0.png
+            size: 284 Kb
+          - dimensions: 90x90 px
+            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_d1.png
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_d2.png
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_d3.png
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!P;products!#'
+          destType: 2
+          urlDest: null
+          pageDest: products
+          contentDest: null
+          resourceDest: null
+        values:
+          en: Products
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

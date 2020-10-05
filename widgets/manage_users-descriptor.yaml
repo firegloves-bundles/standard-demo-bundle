@@ -1,22 +1,18 @@
 code: manage_users
+used: 1
 titles:
   en: Manage Users
   it: Gestione Utenti
+typology: user
 group: free
-customUi: >-
-  <#assign wp=JspTaglibs[ "/aps-core"]>
-
-
-  <script async src="<@wp.resourceURL
-  />widgets/manageusers/js/runtime.js"></script>
-
-  <script async src="<@wp.resourceURL
-  />widgets/manageusers/js/vendor.js"></script>
-
-  <script async src="<@wp.resourceURL
-  />widgets/manageusers/js/main.js"></script>
-
-  <manageusers-table  pagination-mode="pagination"
-  service-url="http://quickstart-sales-demo.lab.entando.org"
-  keycloak-url="http://quickstart-kc-sales-demo.lab.entando.org"
-  realm="entando"/>
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null
+parameters: []
+config: null
+parentType: null
+action: null
+locked: false

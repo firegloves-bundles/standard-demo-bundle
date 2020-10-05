@@ -12,7 +12,7 @@
   parentCode: home
   titles:
     en: My Product
-    it: I miei Prodotti
+    it: My Product
 - code: news
   parentCode: home
   titles:
@@ -22,4 +22,4 @@
   parentCode: home
   titles:
     en: Products
-    it: Prodotti
+    it: Products

@@ -1,6 +1,18 @@
 code: back_to_seed
+used: 4
 titles:
   en: Back to  Seed bank
-  it: Seed bank logo
+  it: Back to  Seed bank
+typology: user
 group: free
-customUi: "<#assign wp=JspTaglibs[\"/aps-core\"]>\r\n\r\n<@wp.currentWidget param=\"config\" configParam=\"name\" var=\"configName\" />\r\n<a class=\"btn go-back\" href=\"<@wp.url page=\"homepage\" />\"  >\r\n        <@wp.i18n key=\"GO_SEED_BANK\" />\r\n  </a>"
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null
+parameters: []
+config: null
+parentType: null
+action: null
+locked: false

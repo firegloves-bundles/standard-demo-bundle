@@ -1,0 +1,124 @@
+id: NWS650
+typeCode: NWS
+description: Dealing with a financial emergency
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Dealing with a financial emergency
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: |
+        <p>How to tackle financial stress</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: >
+        <p>For many Americans, financial concerns are their number-one stress
+        point. Here are 6 ways to help reduce your money stress and get
+        motivated to take control of your finances.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        id: '651'
+        type: image
+        name: bank_750xx684385064_d0.jpg
+        description: bank_750xx684385064_d0.jpg
+        createdAt: '2020-08-27T08:51:37Z'
+        updatedAt: '2020-08-27T08:51:37Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: >-
+              /entando-de-app/cmsresources/cms/images/bank_750xx684385064_d0_2_d0.jpg
+            size: 27 Kb
+          - dimensions: 90x90 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/bank_750xx684385064_d0_2_d1.jpg
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/bank_750xx684385064_d0_2_d2.jpg
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/bank_750xx684385064_d0_2_d3.jpg
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.mysite.com/!#'
+          destType: 1
+          urlDest: 'http://www.mysite.com/'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+        values:
+          en: mio sito
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.mysite.com/!#'
+          destType: 1
+          urlDest: 'http://www.mysite.com/'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+        values:
+          en: mio sito 2
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: attaches
+    value: null
+    values: {}
+    elements:
+      - code: attaches
+        value: null
+        values:
+          en:
+            id: '205'
+            type: file
+            name: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            description: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            createdAt: '2020-04-01T01:26:32Z'
+            updatedAt: '2020-04-01T01:26:32Z'
+            group: free
+            categories: []
+            owner: admin
+            folderPath: null
+            size: 4244 Kb
+            path: >-
+              /entando-de-app/cmsresources/cms/documents/Entando_Admin_Console_Overview_4.3.3_EN.pdf
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

@@ -1,15 +1,26 @@
 code: credit_card
-parentCode: landing
+status: published
+onlineInstance: false
+displayedInMenu: true
+pageModel: seed_home
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
 titles:
   en: Credit card
   it: Carta di credito
-pageModel: seed_home
+fullTitles:
+  en: Home / Credit card
+  it: Home / Carta di credito
 ownerGroup: free
 joinGroups: []
-displayedInMenu: true
-seo: false
-charset: utf-8
-status: published
+children: []
+position: 4
+numWidget: 7
+lastModified: '2020-07-15 13:30:13'
+fullPath: homepage/credit_card
+token: null
 widgets:
   - code: Brand-Logo
     config: null

@@ -1,19 +1,18 @@
 code: signup
+used: 1
 titles:
   en: Signup
   it: Registrazione
+typology: user
 group: free
-customUi: >-
-  <#assign wp=JspTaglibs[ "/aps-core"]>
-
-
-  <script async src="<@wp.resourceURL
-  />widgets/signup/form/js/runtime.js"></script>
-
-  <script async src="<@wp.resourceURL
-  />widgets/signup/form/js/vendor.js"></script>
-
-  <script async src="<@wp.resourceURL
-  />widgets/signup/form/js/main.js"></script>
-
-  <user-form/>
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null
+parameters: []
+config: null
+parentType: null
+action: null
+locked: false

@@ -1,0 +1,215 @@
+id: PRD673
+typeCode: PRD
+description: Seed International Travel
+mainGroup: administrators
+groups:
+  - administrators
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Seed International Travel
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: >
+        <p>Seed International travel provides comprehensive cover for expats who
+        are living or travelling outside of their home country for an extended
+        period of time.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: paragraphs
+    value: null
+    values: {}
+    elements:
+      - code: paragraphs
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mbody
+            value: null
+            values:
+              en: >
+                <p>International Travel Insurance protects you in the event of
+                an illness or injury when traveling outside of your country of
+                residence. It provides key medical benefits in case of an
+                emergency.<br />
+
+                Traveling abroad is an exciting experience, but unpredictable
+                illnesses and accidents can happen. Even worse, the resulting
+                medical bills can be overwhelming. The level of international
+                medical coverage provided by your domestic insurance provider
+                can vary greatly depending on your plan, so you may have very
+                limited coverage or no coverage at all. A travel medical
+                insurance plan can provide the coverage you need.</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimage
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+      - code: paragraphs
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mbody
+            value: null
+            values:
+              en: >
+                <p>Depending on where you travel, you may encounter language and
+                currency barriers that prevent you from accessing high-quality
+                medical care.<br />
+
+                Traveling unprotected can leave you vulnerable to paying high
+                out-of-pocket medical expenses, and navigating a foreign health
+                care system without the assistance you need.<br />
+
+                However, with a travel medical insurance plan, you can worry
+                less and experience more knowing you have medical coverage and a
+                trusted health advisor who can support you in your time of
+                need.</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimage
+            value: null
+            values:
+              en:
+                id: '705'
+                type: image
+                name: null
+                description: Paragraph_Image_d0 (1).png
+                createdAt: '2020-08-27T03:51:17Z'
+                updatedAt: '2020-08-27T03:51:17Z'
+                group: free
+                categories: []
+                owner: null
+                folderPath: null
+                versions:
+                  - dimensions: null
+                    path: >-
+                      /entando-de-app/cmsresources/cms/images/Paragraph_Image_d0_1_d0.png
+                    size: 428 Kb
+                  - dimensions: 90x90 px
+                    path: >-
+                      /entando-de-app/cmsresources/cms/images/Paragraph_Image_d0_1_d1.png
+                    size: 0 Kb
+                  - dimensions: 130x130 px
+                    path: >-
+                      /entando-de-app/cmsresources/cms/images/Paragraph_Image_d0_1_d2.png
+                    size: 0 Kb
+                  - dimensions: 150x150 px
+                    path: >-
+                      /entando-de-app/cmsresources/cms/images/Paragraph_Image_d0_1_d3.png
+                    size: 0 Kb
+                metadata: null
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values:
+              en: Why Do I Need Travel Medical Insurance?
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        id: '674'
+        type: image
+        name: Travel_Insurance_Image_d0 (1).png
+        description: Travel_Insurance_Image_d0 (1).png
+        createdAt: '2020-08-27T09:38:42Z'
+        updatedAt: '2020-08-27T09:38:42Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Travel_Insurance_Image_d0_1_d0.png
+            size: 254 Kb
+          - dimensions: 90x90 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Travel_Insurance_Image_d0_1_d1.png
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Travel_Insurance_Image_d0_1_d2.png
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Travel_Insurance_Image_d0_1_d3.png
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.google.it!#'
+          destType: 1
+          urlDest: 'http://www.google.it'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+        values:
+          en: Discover more
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: attaches
+    value: null
+    values: {}
+    elements:
+      - code: attaches
+        value: null
+        values:
+          en:
+            id: '205'
+            type: file
+            name: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            description: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            createdAt: '2020-04-01T01:26:32Z'
+            updatedAt: '2020-04-01T01:26:32Z'
+            group: free
+            categories: []
+            owner: admin
+            folderPath: null
+            size: 4244 Kb
+            path: >-
+              /entando-de-app/cmsresources/cms/documents/Entando_Admin_Console_Overview_4.3.3_EN.pdf
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

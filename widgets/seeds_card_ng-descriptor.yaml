@@ -1,0 +1,23 @@
+code: seeds_card_ng
+used: 1
+titles:
+  en: Seeds Card NG
+  it: Seeds Card NG
+typology: user
+group: free
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: true
+bundleId: null
+configUi:
+  customElement: seeds-card-config
+  resources:
+    - widgets/seeds-card-config/static/js/runtime.js
+    - widgets/seeds-card-config/static/js/vendor.js
+    - widgets/seeds-card-config/static/js/main.js
+parameters: []
+config: null
+parentType: null
+action: null
+locked: false

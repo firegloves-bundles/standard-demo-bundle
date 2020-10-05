@@ -4,12 +4,14 @@ status: '0'
 attributes:
   - code: title
     type: Hypertext
-    name: Title
+    name: title
+    names:
+      en: title
     roles: []
     disablingCodes: []
     mandatory: false
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -40,12 +42,14 @@ attributes:
     compositeAttributes: null
   - code: subtitle
     type: Hypertext
-    name: Subtitle
+    name: subtitle
+    names:
+      en: subtitle
     roles: []
     disablingCodes: []
     mandatory: false
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -76,12 +80,14 @@ attributes:
     compositeAttributes: null
   - code: body
     type: Hypertext
-    name: Main content
+    name: content body
+    names:
+      en: body
     roles: []
     disablingCodes: []
     mandatory: false
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -112,7 +118,9 @@ attributes:
     compositeAttributes: null
   - code: image
     type: Image
-    name: Image
+    name: image
+    names:
+      en: image
     roles: []
     disablingCodes: []
     mandatory: false
@@ -148,7 +156,9 @@ attributes:
     compositeAttributes: null
   - code: links
     type: Monolist
-    name: List of links
+    name: list of links
+    names:
+      en: links
     roles: []
     disablingCodes: []
     mandatory: false
@@ -184,6 +194,8 @@ attributes:
       code: links
       type: Link
       name: null
+      names:
+        en: links
       roles: []
       disablingCodes: []
       mandatory: false

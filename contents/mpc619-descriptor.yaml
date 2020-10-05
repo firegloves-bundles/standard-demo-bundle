@@ -1,0 +1,71 @@
+id: MPC619
+typeCode: MPC
+description: Seed International Travel and Medical Insurance
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: |
+        <p>Seed International Travel and Medical Insurance</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: >
+        <p>Seed Home and Contents&nbsp; insurance, also called house insurance,
+        is a general term used to describe the two main ways to insure you home.
+        These are buildings insurance and contents insurance.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        id: '620'
+        type: image
+        name: Card_1_Picture_Green_1_d0.png
+        description: Card_1_Picture_Green_1_d0.png
+        createdAt: '2020-08-27T08:25:54Z'
+        updatedAt: '2020-08-27T08:25:54Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_d0.png
+            size: 54 Kb
+          - dimensions: 90x90 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_d1.png
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_d2.png
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_d3.png
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

@@ -1,0 +1,86 @@
+id: MPC616
+typeCode: MPC
+description: Customized Insurance Products
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: |
+        <p>Customized Insurance Products</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: >
+        <p>Each insurance product can be customized thanks to a modular
+        structure that defines and selects the levels of principal guarantees
+        and which allows the contractor to build a tailor-made insurance
+        product.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: >
+        <p>Each insurance product can be customized thanks to a modular
+        structure that defines and selects the levels of principal guarantees
+        and which allows the contractor to build a tailor-made insurance
+        product.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        id: '617'
+        type: image
+        name: Image_DX_1_d0 (1).png
+        description: Image_DX_1_d0 (1).png
+        createdAt: '2020-08-27T08:23:57Z'
+        updatedAt: '2020-08-27T08:23:57Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: /entando-de-app/cmsresources/cms/images/Image_DX_1_d0_1_d0.png
+            size: 282 Kb
+          - dimensions: 90x90 px
+            path: /entando-de-app/cmsresources/cms/images/Image_DX_1_d0_1_d1.png
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: /entando-de-app/cmsresources/cms/images/Image_DX_1_d0_1_d2.png
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: /entando-de-app/cmsresources/cms/images/Image_DX_1_d0_1_d3.png
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!P;products!#'
+          destType: 2
+          urlDest: null
+          pageDest: products
+          contentDest: null
+          resourceDest: null
+        values:
+          en: Products
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

@@ -1,0 +1,105 @@
+id: PRD653
+typeCode: PRD
+description: Seed Home and Contents
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Seed Home and Contents
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: >
+        <p>Seed Home and Contents insurance, also called house insurance, is a
+        general term used to describe the two main ways to insure you home.
+        These are buildings insurance and contents insurance.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: paragraphs
+    value: null
+    values: {}
+    elements:
+      - code: paragraphs
+        value: null
+        values: {}
+        elements: []
+        compositeelements:
+          - code: mbody
+            value: null
+            values:
+              en: >
+                <p>Seed Home and Contents insurance, also called house
+                insurance, is a general term used to describe the two main ways
+                to insure you home. These are buildings insurance and contents
+                insurance.</p>
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mimage
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+          - code: mtitle
+            value: null
+            values: {}
+            elements: []
+            compositeelements: []
+            listelements: {}
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        id: '654'
+        type: image
+        name: Card_1_Picture_Green_1_d0 (1).png
+        description: Card_1_Picture_Green_1_d0 (1).png
+        createdAt: '2020-08-27T09:19:43Z'
+        updatedAt: '2020-08-27T09:19:43Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_1_d0.png
+            size: 54 Kb
+          - dimensions: 90x90 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_1_d1.png
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_1_d2.png
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Card_1_Picture_Green_1_d0_1_d3.png
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: attaches
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

@@ -1,11 +1,11 @@
 id: 7
 contentType: BNR
-description: "Credit light green\t"
+descr: "Credit light green\t"
 contentShape: |
   <div class="credit-banner-green">
       <div class="row">
-          <div class="col-12 col-lg-6">
-              <div class="centered-image">
+          <div class="col-12 col-lg-6 image-center">
+              <div class="centered-image ">
                   <img src=" $content.img.getImagePath('0')" alt="$content.img.text"  />
               </div>
           </div>
@@ -17,3 +17,4 @@ contentShape: |
           </div>
       </div>
   </div>
+stylesheet: null

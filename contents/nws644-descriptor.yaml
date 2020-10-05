@@ -1,0 +1,122 @@
+id: NWS644
+typeCode: NWS
+description: 'Emergency cash: What are your options?'
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: 'Emergency cash: What are your options?'
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: |
+        <p>Before you borrow, address existing debts</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: >
+        <p>When unexpected difficulties arise, you may need money fast. If you
+        don&rsquo;t have an emergency fund or other savings to tap into, you may
+        feel as if there are no good options. By carefully weighing your
+        choices, you can make sure you secure the best possible terms for your
+        situation, with the least risk.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        id: '645'
+        type: image
+        name: download_d0.jpeg
+        description: download_d0.jpeg
+        createdAt: '2020-08-27T08:48:01Z'
+        updatedAt: '2020-08-27T08:48:01Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: /entando-de-app/cmsresources/cms/images/download_d0_d0.jpeg
+            size: 6 Kb
+          - dimensions: 90x90 px
+            path: /entando-de-app/cmsresources/cms/images/download_d0_d1.jpeg
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: /entando-de-app/cmsresources/cms/images/download_d0_d2.jpeg
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: /entando-de-app/cmsresources/cms/images/download_d0_d3.jpeg
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.mysite.com/!#'
+          destType: 1
+          urlDest: 'http://www.mysite.com/'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+        values:
+          en: mio sito
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.mysite.com/!#'
+          destType: 1
+          urlDest: 'http://www.mysite.com/'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+        values:
+          en: mio sito 2
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: attaches
+    value: null
+    values: {}
+    elements:
+      - code: attaches
+        value: null
+        values:
+          en:
+            id: '205'
+            type: file
+            name: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            description: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            createdAt: '2020-04-01T01:26:32Z'
+            updatedAt: '2020-04-01T01:26:32Z'
+            group: free
+            categories: []
+            owner: admin
+            folderPath: null
+            size: 4244 Kb
+            path: >-
+              /entando-de-app/cmsresources/cms/documents/Entando_Admin_Console_Overview_4.3.3_EN.pdf
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

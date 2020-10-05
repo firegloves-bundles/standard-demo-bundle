@@ -1,7 +1,0 @@
-code: send_money
-guiCode: |-
-  <#assign wp=JspTaglibs["/aps-core"]>
-  <div class="NotificationBar__btn">
-      <img class="CheckingCard__icon" src="<@wp.imgURL />dashboard/Framemoney.png" />
-      Send money
-  </div>

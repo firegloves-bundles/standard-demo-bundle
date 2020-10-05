@@ -1,15 +1,26 @@
 code: interest
-parentCode: landing
+status: published
+onlineInstance: false
+displayedInMenu: true
+pageModel: seed_home
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
 titles:
   en: Interest Checking
   it: Interest Checking
-pageModel: seed_home
+fullTitles:
+  en: Home / Interest Checking
+  it: Home / Interest Checking
 ownerGroup: free
 joinGroups: []
-displayedInMenu: true
-seo: false
-charset: utf-8
-status: published
+children: []
+position: 5
+numWidget: 10
+lastModified: '2020-04-08 07:38:16'
+fullPath: homepage/interest
+token: null
 widgets:
   - code: Brand-Logo
     config: null

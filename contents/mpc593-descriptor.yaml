@@ -1,0 +1,70 @@
+id: MPC593
+typeCode: MPC
+description: Flexible cover
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: |
+        <p>Flexible cover</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: >
+        <p>Choose the cover that&#39;s right for you - home, contents, home and
+        contents, optional covers - and your preferred start date.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: image
+    value: null
+    values:
+      en:
+        id: '594'
+        type: image
+        name: Flexible Cover Icon
+        description: Flexible_Cover_Icon_d0.svg
+        createdAt: '2020-08-27T07:27:14Z'
+        updatedAt: '2020-08-27T07:27:14Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Flexible_Cover_Icon_d0_d0.svg
+            size: 7 Kb
+          - dimensions: 90x90 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Flexible_Cover_Icon_d0_d1.svg
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Flexible_Cover_Icon_d0_d2.svg
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/Flexible_Cover_Icon_d0_d3.svg
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements: []
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

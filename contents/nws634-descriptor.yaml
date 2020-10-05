@@ -1,0 +1,127 @@
+id: NWS634
+typeCode: NWS
+description: Employees are moving into ergonomic home-work setups
+mainGroup: free
+attributes:
+  - code: title
+    value: null
+    values:
+      en: Employees are moving into ergonomic home-work setups
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: subtitle
+    value: null
+    values:
+      en: >
+        <p>Both individual buyers and companies are investing in creating
+        enabling workspaces at home</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: body
+    value: null
+    values:
+      en: >
+        <p>Both individual buyers and companies are investing in creating
+        enabling workspaces at home, as the likes of Google, Uber, Razorpay,
+        SpringWorks, Freshworks and Salesforce have either started paying
+        allowances for work-from-home expenses or expanded the scope of existing
+        allowances to include WFH furniture.</p>
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: img
+    value: null
+    values:
+      en:
+        id: '635'
+        type: image
+        name: reviewing_paperwork_and_on_computer_pierld_d0.jpeg
+        description: reviewing_paperwork_and_on_computer_pierld_d0.jpeg
+        createdAt: '2020-08-27T08:40:52Z'
+        updatedAt: '2020-08-27T08:40:52Z'
+        group: free
+        categories: []
+        owner: null
+        folderPath: null
+        versions:
+          - dimensions: null
+            path: >-
+              /entando-de-app/cmsresources/cms/images/reviewing_paperwork_and_on_computer_pierld_d0_d0.jpeg
+            size: 47 Kb
+          - dimensions: 90x90 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/reviewing_paperwork_and_on_computer_pierld_d0_d1.jpeg
+            size: 0 Kb
+          - dimensions: 130x130 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/reviewing_paperwork_and_on_computer_pierld_d0_d2.jpeg
+            size: 0 Kb
+          - dimensions: 150x150 px
+            path: >-
+              /entando-de-app/cmsresources/cms/images/reviewing_paperwork_and_on_computer_pierld_d0_d3.jpeg
+            size: 0 Kb
+        metadata: null
+    elements: []
+    compositeelements: []
+    listelements: {}
+  - code: links
+    value: null
+    values: {}
+    elements:
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.mysite.com/!#'
+          destType: 1
+          urlDest: 'http://www.mysite.com/'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+        values:
+          en: mio sito
+        elements: []
+        compositeelements: []
+        listelements: {}
+      - code: links
+        value:
+          symbolicDestination: '#!U;http://www.mysite.com/!#'
+          destType: 1
+          urlDest: 'http://www.mysite.com/'
+          pageDest: null
+          contentDest: null
+          resourceDest: null
+        values:
+          en: mio sito 2
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+  - code: attaches
+    value: null
+    values: {}
+    elements:
+      - code: attaches
+        value: null
+        values:
+          en:
+            id: '205'
+            type: file
+            name: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            description: Entando_Admin_Console_Overview_4.3.3_EN.pdf
+            createdAt: '2020-04-01T01:26:32Z'
+            updatedAt: '2020-04-01T01:26:32Z'
+            group: free
+            categories: []
+            owner: admin
+            folderPath: null
+            size: 4244 Kb
+            path: >-
+              /entando-de-app/cmsresources/cms/documents/Entando_Admin_Console_Overview_4.3.3_EN.pdf
+        elements: []
+        compositeelements: []
+        listelements: {}
+    compositeelements: []
+    listelements: {}
+status: PUBLIC

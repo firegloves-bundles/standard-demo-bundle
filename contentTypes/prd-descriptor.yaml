@@ -4,7 +4,9 @@ status: '0'
 attributes:
   - code: title
     type: Text
-    name: Product name
+    name: title
+    names:
+      en: title
     roles: []
     disablingCodes: []
     mandatory: true
@@ -15,7 +17,7 @@ attributes:
     enumeratorExtractorBean: null
     validationRules:
       minLength: null
-      maxLength: 200
+      maxLength: null
       regex: null
       rangeStartString: null
       rangeEndString: null
@@ -40,12 +42,14 @@ attributes:
     compositeAttributes: null
   - code: subtitle
     type: Hypertext
-    name: Subtitle
+    name: subtitle
+    names:
+      en: subtitle
     roles: []
     disablingCodes: []
     mandatory: false
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -76,7 +80,9 @@ attributes:
     compositeAttributes: null
   - code: paragraphs
     type: Monolist
-    name: Paragraphs list
+    name: paragraphs list
+    names:
+      en: paragraphs
     roles: []
     disablingCodes: []
     mandatory: false
@@ -112,6 +118,8 @@ attributes:
       code: paragraphs
       type: Composite
       name: null
+      names:
+        en: paragraphs
       roles: []
       disablingCodes: []
       mandatory: false
@@ -147,7 +155,9 @@ attributes:
       compositeAttributes:
         - code: mtitle
           type: Text
-          name: Title
+          name: title
+          names:
+            en: mtitle
           roles: []
           disablingCodes: []
           mandatory: false
@@ -183,7 +193,9 @@ attributes:
           compositeAttributes: null
         - code: mbody
           type: Hypertext
-          name: Main content
+          name: content body
+          names:
+            en: mbody
           roles: []
           disablingCodes: []
           mandatory: false
@@ -219,7 +231,9 @@ attributes:
           compositeAttributes: null
         - code: mimage
           type: Image
-          name: Image
+          name: image
+          names:
+            en: mimage
           roles: []
           disablingCodes: []
           mandatory: false
@@ -256,7 +270,9 @@ attributes:
     compositeAttributes: null
   - code: image
     type: Image
-    name: Image
+    name: image
+    names:
+      en: image
     roles: []
     disablingCodes: []
     mandatory: false
@@ -292,7 +308,9 @@ attributes:
     compositeAttributes: null
   - code: links
     type: Monolist
-    name: List of links
+    name: list of links
+    names:
+      en: links
     roles: []
     disablingCodes: []
     mandatory: false
@@ -328,6 +346,8 @@ attributes:
       code: links
       type: Link
       name: null
+      names:
+        en: links
       roles: []
       disablingCodes: []
       mandatory: false
@@ -364,7 +384,9 @@ attributes:
     compositeAttributes: null
   - code: attaches
     type: Monolist
-    name: List of attachments
+    name: list of attaches
+    names:
+      en: attaches
     roles: []
     disablingCodes: []
     mandatory: false
@@ -400,6 +422,8 @@ attributes:
       code: attaches
       type: Attach
       name: null
+      names:
+        en: attaches
       roles: []
       disablingCodes: []
       mandatory: false

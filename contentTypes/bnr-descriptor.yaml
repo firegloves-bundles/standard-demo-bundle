@@ -4,7 +4,9 @@ status: '0'
 attributes:
   - code: title
     type: Text
-    name: Title
+    name: Titolo
+    names:
+      en: title
     roles: []
     disablingCodes: []
     mandatory: true
@@ -40,12 +42,14 @@ attributes:
     compositeAttributes: null
   - code: subtitle
     type: Hypertext
-    name: Subtitle
+    name: Sottotitolo
+    names:
+      en: subtitle
     roles: []
     disablingCodes: []
     mandatory: true
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -77,11 +81,13 @@ attributes:
   - code: descr
     type: Hypertext
     name: Description
+    names:
+      en: descr
     roles: []
     disablingCodes: []
     mandatory: false
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -113,6 +119,8 @@ attributes:
   - code: img
     type: Image
     name: Lateral Image
+    names:
+      en: img
     roles: []
     disablingCodes: []
     mandatory: false
@@ -149,6 +157,8 @@ attributes:
   - code: link
     type: Link
     name: CTA Link
+    names:
+      en: link
     roles: []
     disablingCodes: []
     mandatory: false
@@ -185,6 +195,8 @@ attributes:
   - code: accord
     type: Monolist
     name: Accordion or Card list
+    names:
+      en: accord
     roles: []
     disablingCodes: []
     mandatory: false
@@ -220,6 +232,8 @@ attributes:
       code: accord
       type: Composite
       name: null
+      names:
+        en: accord
       roles: []
       disablingCodes: []
       mandatory: false
@@ -256,6 +270,8 @@ attributes:
         - code: idcard
           type: Number
           name: Card number
+          names:
+            en: idcard
           roles: []
           disablingCodes: []
           mandatory: true
@@ -292,6 +308,8 @@ attributes:
         - code: headtitle
           type: Text
           name: Header title
+          names:
+            en: headtitle
           roles: []
           disablingCodes: []
           mandatory: true
@@ -328,6 +346,8 @@ attributes:
         - code: atitle
           type: Text
           name: Accordion item title
+          names:
+            en: atitle
           roles: []
           disablingCodes: []
           mandatory: true
@@ -364,6 +384,8 @@ attributes:
         - code: asubtitle
           type: Hypertext
           name: Accordion item description
+          names:
+            en: asubtitle
           roles: []
           disablingCodes: []
           mandatory: false
@@ -400,6 +422,8 @@ attributes:
         - code: aimg
           type: Image
           name: Logo on card
+          names:
+            en: aimg
           roles: []
           disablingCodes: []
           mandatory: false
@@ -436,6 +460,8 @@ attributes:
         - code: open
           type: Enumerator
           name: Open accordion
+          names:
+            en: open
           roles: []
           disablingCodes: []
           mandatory: false

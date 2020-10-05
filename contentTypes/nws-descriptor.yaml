@@ -4,7 +4,9 @@ status: '0'
 attributes:
   - code: title
     type: Text
-    name: Title
+    name: title
+    names:
+      en: title
     roles: []
     disablingCodes: []
     mandatory: true
@@ -40,12 +42,14 @@ attributes:
     compositeAttributes: null
   - code: subtitle
     type: Hypertext
-    name: Subtitle
+    name: subtitle
+    names:
+      en: subtitle
     roles: []
     disablingCodes: []
     mandatory: true
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -76,12 +80,14 @@ attributes:
     compositeAttributes: null
   - code: body
     type: Hypertext
-    name: Body
+    name: content body
+    names:
+      en: body
     roles: []
     disablingCodes: []
     mandatory: true
     listFilter: false
-    indexable: true
+    indexable: false
     enumeratorStaticItems: null
     enumeratorStaticItemsSeparator: null
     enumeratorExtractorBean: null
@@ -112,7 +118,9 @@ attributes:
     compositeAttributes: null
   - code: img
     type: Image
-    name: Image
+    name: image
+    names:
+      en: img
     roles: []
     disablingCodes: []
     mandatory: false
@@ -148,7 +156,9 @@ attributes:
     compositeAttributes: null
   - code: links
     type: Monolist
-    name: List of Links
+    name: list of links
+    names:
+      en: links
     roles: []
     disablingCodes: []
     mandatory: false
@@ -184,6 +194,8 @@ attributes:
       code: links
       type: Link
       name: null
+      names:
+        en: links
       roles: []
       disablingCodes: []
       mandatory: false
@@ -220,7 +232,9 @@ attributes:
     compositeAttributes: null
   - code: attaches
     type: Monolist
-    name: List of Attaches
+    name: list of attaches
+    names:
+      en: attaches
     roles: []
     disablingCodes: []
     mandatory: false
@@ -256,6 +270,8 @@ attributes:
       code: attaches
       type: Attach
       name: null
+      names:
+        en: attaches
       roles: []
       disablingCodes: []
       mandatory: false

@@ -1,6 +1,6 @@
 id: 6
 contentType: BNR
-description: Banner with white background
+descr: Banner with white background
 contentShape: |
   <div class="main-banner-white">
               <div class="row">
@@ -13,10 +13,11 @@ contentShape: |
                           </a>
                       </div>
                   </div>
-                  <div class="col-lg-6 col-xs-12">
+                  <div class="col-lg-6 col-xs-12 image-center">
                       <div class="centered-image">
                           <img  src="$content.img.getImagePath('0')" alt="$content.img.text" />
                       </div>
                   </div>
               </div>
           </div>
+stylesheet: null

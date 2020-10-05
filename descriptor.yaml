@@ -4,125 +4,72 @@ components:
   widgets:
     - widgets/brand-logo-descriptor.yaml
     - widgets/breadcrumb-descriptor.yaml
-    - widgets/checking-descriptor.yaml
-    - widgets/checking-table-descriptor.yaml
-    - widgets/credit-card-descriptor.yaml
     - widgets/login_buttons-descriptor.yaml
-    - widgets/notification-bar-descriptor.yaml
-    - widgets/savings-descriptor.yaml
     - widgets/apply_form_banner-descriptor.yaml
-    - widgets/applyform-descriptor.yaml
     - widgets/back_to_seed-descriptor.yaml
     - widgets/brand_insurance-descriptor.yaml
-    - widgets/carmela_bottoni-descriptor.yaml
+    - widgets/content_viewer-descriptor.yaml
     - widgets/content_viewer_list-descriptor.yaml
     - widgets/credit_card_user_apply_form-descriptor.yaml
-    - widgets/dropdown_sign_in-descriptor.yaml
+    - widgets/entando-widget-navigation_bar-descriptor.yaml
     - widgets/entando_apis-descriptor.yaml
     - widgets/find-atm-descriptor.yaml
     - widgets/footer-descriptor.yaml
     - widgets/footer-insurance-descriptor.yaml
-    - widgets/insurance_breadcrumb-descriptor.yaml
+    - widgets/formaction-descriptor.yaml
     - widgets/insurance_login-descriptor.yaml
-    - widgets/investments-descriptor.yaml
     - widgets/language_choose-descriptor.yaml
     - widgets/list_item-descriptor.yaml
-    - widgets/login-descriptor.yaml
-    - widgets/login-widget-descriptor.yaml
-    - widgets/main_banner_accordion-descriptor.yaml
-    - widgets/main_banner_darkgreen-descriptor.yaml
-    - widgets/main_banner_green-descriptor.yaml
-    - widgets/main_banner_inner-descriptor.yaml
-    - widgets/main_banner_white-descriptor.yaml
+    - widgets/login_form-descriptor.yaml
     - widgets/manage_users-descriptor.yaml
-    - widgets/pay_bill-descriptor.yaml
-    - widgets/pda-connections-descriptor.yaml
-    - widgets/pda-overtime-graph-descriptor.yaml
-    - widgets/pda-process-definition-descriptor.yaml
-    - widgets/pda-process-form-descriptor.yaml
-    - widgets/pda-process-list-descriptor.yaml
-    - widgets/pda-summary-card-descriptor.yaml
-    - widgets/pda-task-attachments-descriptor.yaml
-    - widgets/pda-task-comments-descriptor.yaml
-    - widgets/pda-task-completion-form-descriptor.yaml
-    - widgets/pda-task-details-descriptor.yaml
-    - widgets/pda-task-list-descriptor.yaml
-    - widgets/pda_dashboard_title-descriptor.yaml
-    - widgets/pda_login_buttons-descriptor.yaml
-    - widgets/pda_process_list-descriptor.yaml
-    - widgets/pda_sidebar_navigation-descriptor.yaml
+    - widgets/messages_system-descriptor.yaml
     - widgets/row_content_viewer_list-descriptor.yaml
     - widgets/search_form-descriptor.yaml
     - widgets/search_result-descriptor.yaml
-    - widgets/seed-user-form-descriptor.yaml
     - widgets/seeds_card-descriptor.yaml
-    - widgets/seeds_card_ng_config-descriptor.yaml
+    - widgets/seeds_card_ng-descriptor.yaml
     - widgets/seedscard-transaction-table-descriptor.yaml
-    - widgets/send_money-descriptor.yaml
     - widgets/signup-descriptor.yaml
-    - widgets/transfer_money-descriptor.yaml
-    - widgets/transfer_money_angular-descriptor.yaml
+    - widgets/userprofile_editcurrentuser-descriptor.yaml
+    - widgets/userprofile_editcurrentuser_password-descriptor.yaml
+    - widgets/userprofile_editcurrentuser_profile-descriptor.yaml
   pageModels:
     - pageModels/dashboard-descriptor.yaml
     - pageModels/insurance_home-descriptor.yaml
     - pageModels/loginpagemodel-descriptor.yaml
-    - pageModels/ng_dashboard-descriptor.yaml
-    - pageModels/pda_dashboard-descriptor.yaml
-    - pageModels/pda_keycloak-descriptor.yaml
-    - pageModels/pda_single_widget-descriptor.yaml
-    - pageModels/pda_smart_inbox-descriptor.yaml
-    - pageModels/pda_task_details-descriptor.yaml
-    - pageModels/portal_example-descriptor.yaml
-    - pageModels/process_list-descriptor.yaml
     - pageModels/seed_home-descriptor.yaml
     - pageModels/service-descriptor.yaml
-    - pageModels/simple_page-descriptor.yaml
-    - pageModels/test-descriptor.yaml
   fragments:
+    - fragments/brand-logo-descriptor.yaml
+    - fragments/breadcrumb-descriptor.yaml
+    - fragments/login_buttons-descriptor.yaml
     - fragments/angular-descriptor.yaml
-    - fragments/applyform-descriptor.yaml
     - fragments/apply_form_banner-descriptor.yaml
     - fragments/back_to_seed-descriptor.yaml
     - fragments/brand_insurance-descriptor.yaml
-    - fragments/brand-logo-descriptor.yaml
-    - fragments/breadcrumb-descriptor.yaml
-    - fragments/carmela_bottoni-descriptor.yaml
-    - fragments/carmelafragments-descriptor.yaml
-    - fragments/checking-descriptor.yaml
-    - fragments/checking-table-descriptor.yaml
-    - fragments/credit-card-descriptor.yaml
     - fragments/credit_card_user_apply_form-descriptor.yaml
     - fragments/default_pagerblock-descriptor.yaml
     - fragments/default_pagerformblock_is-descriptor.yaml
     - fragments/default_pagerinfo_is-descriptor.yaml
-    - fragments/dropdown_sign_in-descriptor.yaml
+    - fragments/entando-widget-navigation_bar-descriptor.yaml
+    - fragments/entando-widget-navigation_bar_include-descriptor.yaml
     - fragments/entandoapi_is_resource_detail-descriptor.yaml
     - fragments/entandoapi_is_resource_detail_include-descriptor.yaml
     - fragments/entandoapi_is_resource_list-descriptor.yaml
     - fragments/entandoapi_is_service_detail-descriptor.yaml
     - fragments/entandoapi_is_service_list-descriptor.yaml
-    - fragments/entando_keycloak_check-descriptor.yaml
-    - fragments/entando_pda_css_reset-descriptor.yaml
-    - fragments/entando_pda_header-descriptor.yaml
-    - fragments/entando_pda_import_react-descriptor.yaml
-    - fragments/entando_pda_shared_css_js-descriptor.yaml
-    - fragments/entando_pda_styles-descriptor.yaml
-    - fragments/entando-widget-navigation_bar-descriptor.yaml
-    - fragments/entando-widget-navigation_bar_include-descriptor.yaml
     - fragments/find-atm-descriptor.yaml
     - fragments/footer-descriptor.yaml
     - fragments/footer-insurance-descriptor.yaml
-    - fragments/insurance_breadcrumb-descriptor.yaml
     - fragments/insurance_inclusions-descriptor.yaml
     - fragments/insurance_inclusions_footer-descriptor.yaml
     - fragments/insurance_login-descriptor.yaml
     - fragments/internal_servlet_generic_error-descriptor.yaml
     - fragments/internal_servlet_user_not_allowed-descriptor.yaml
-    - fragments/investments-descriptor.yaml
     - fragments/jacms_content_viewer-descriptor.yaml
     - fragments/jacms_content_viewer_list-descriptor.yaml
-    - fragments/jacms_content_viewer_list_userfilter_ent_boolean-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilter_ent_bool_io-descriptor.yaml
+    - fragments/jacms_content_viewer_list_userfilter_ent_boolean-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilter_ent_checkbox-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilter_ent_date-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilter_ent_enumer-descriptor.yaml
@@ -137,66 +84,48 @@ components:
     - fragments/keycloak-descriptor.yaml
     - fragments/language_choose-descriptor.yaml
     - fragments/list_item-descriptor.yaml
-    - fragments/login-descriptor.yaml
-    - fragments/login_buttons-descriptor.yaml
     - fragments/login_form-descriptor.yaml
-    - fragments/login-widget-descriptor.yaml
-    - fragments/main_banner_accordion-descriptor.yaml
-    - fragments/main_banner_darkgreen-descriptor.yaml
-    - fragments/main_banner_green-descriptor.yaml
-    - fragments/main_banner_inner-descriptor.yaml
-    - fragments/main_banner_white-descriptor.yaml
     - fragments/manage_users-descriptor.yaml
     - fragments/messages_system-descriptor.yaml
-    - fragments/notification-bar-descriptor.yaml
-    - fragments/pay_bill-descriptor.yaml
-    - fragments/pda-connections-descriptor.yaml
-    - fragments/pda_dashboard_title-descriptor.yaml
-    - fragments/pda_login_buttons-descriptor.yaml
-    - fragments/pda-overtime-graph-descriptor.yaml
-    - fragments/pda-process-definition-descriptor.yaml
-    - fragments/pda-process-form-descriptor.yaml
-    - fragments/pda_process_list-descriptor.yaml
-    - fragments/pda-process-list-descriptor.yaml
-    - fragments/pda_sidebar_navigation-descriptor.yaml
-    - fragments/pda-summary-card-descriptor.yaml
-    - fragments/pda-task-attachments-descriptor.yaml
-    - fragments/pda-task-comments-descriptor.yaml
-    - fragments/pda-task-completion-form-descriptor.yaml
-    - fragments/pda-task-details-descriptor.yaml
-    - fragments/pda-task-list-descriptor.yaml
-    - fragments/savings-descriptor.yaml
+    - fragments/navigation_menu_include-descriptor.yaml
     - fragments/search_form-descriptor.yaml
     - fragments/search_result-descriptor.yaml
     - fragments/seeds_card-descriptor.yaml
-    - fragments/seeds_card_ng_config-descriptor.yaml
+    - fragments/seeds_card_ng-descriptor.yaml
     - fragments/seedscard-transaction-table-descriptor.yaml
-    - fragments/seed-user-form-descriptor.yaml
-    - fragments/send_money-descriptor.yaml
     - fragments/signup-descriptor.yaml
-    - fragments/transfer_money-descriptor.yaml
-    - fragments/transfer_money_angular-descriptor.yaml
     - fragments/userprofile_editcurrentuser_password-descriptor.yaml
     - fragments/userprofile_editcurrentuser_profile-descriptor.yaml
+    - fragments/userprofile_is_iteratorattribute-descriptor.yaml
     - fragments/userprofile_is_currentwithoutprofile-descriptor.yaml
+    - fragments/userprofile_is_entrycurrentprofile-descriptor.yaml
+    - fragments/userprofile_is_front-alllist-addelementbutton-descriptor.yaml
+    - fragments/userprofile_is_front-booleanattribute-descriptor.yaml
+    - fragments/userprofile_is_front-checkboxattribute-descriptor.yaml
+    - fragments/userprofile_is_front-compositeattribute-descriptor.yaml
+    - fragments/userprofile_is_front-dateattribute-descriptor.yaml
+    - fragments/userprofile_is_front-enumeratorattribute-descriptor.yaml
+    - fragments/userprofile_is_front-enumeratormapattribute-descriptor.yaml
+    - fragments/userprofile_is_front-hypertextattribute-descriptor.yaml
+    - fragments/userprofile_is_front-longtextattribute-descriptor.yaml
+    - fragments/userprofile_is_front-monolistattribute-descriptor.yaml
+    - fragments/userprofile_is_front-monotextattribute-descriptor.yaml
+    - fragments/userprofile_is_front-numberattribute-descriptor.yaml
+    - fragments/userprofile_is_front-threestateattribute-descriptor.yaml
+    - fragments/userprofile_is_front_alllist_operationmodule-descriptor.yaml
+    - fragments/userprofile_is_front_attributeinfo-descriptor.yaml
+    - fragments/userprofile_is_front_attributeinfo-help-block-descriptor.yaml
+    - fragments/userprofile_is_passwordchanged-descriptor.yaml
+    - fragments/userprofile_is_profilechangeconfirmation-descriptor.yaml
   pages:
-    - pages/landing-descriptor.yaml
+    - pages/service-descriptor.yaml
     - pages/dashboard-descriptor.yaml
-    - pages/my_ng_dashboard-descriptor.yaml
     - pages/sign_up-descriptor.yaml
-    - pages/login_mobile-descriptor.yaml
     - pages/credit_card-descriptor.yaml
     - pages/interest-descriptor.yaml
     - pages/manage_users-descriptor.yaml
-    - pages/pda_dashboard-descriptor.yaml
-    - pages/mortgages_and_lending-descriptor.yaml
-    - pages/service-descriptor.yaml
-    - pages/mortgage_status-descriptor.yaml
-    - pages/detail_page-descriptor.yaml
-    - pages/search_result-descriptor.yaml
-    - pages/news-descriptor.yaml
     - pages/seed_insurances-descriptor.yaml
-    - pages/test_w-descriptor.yaml
+    - pages/test-descriptor.yaml
   groups:
     - groups/groups-descriptor.yaml
   contentTypes:
@@ -220,8 +149,6 @@ components:
     - contentModels/interest-3-card-title-2nd-banner-descriptor.yaml
     - contentModels/news-list-descriptor.yaml
     - contentModels/news-details-descriptor.yaml
-    - contentModels/list-of-banner-descriptor.yaml
-    - contentModels/banner-details-descriptor.yaml
     - contentModels/news-card-descriptor.yaml
     - contentModels/multi-purpose-header-descriptor.yaml
     - contentModels/multi-purpose-centered-descriptor.yaml
@@ -233,16 +160,52 @@ components:
     - contentModels/products-3-columns-list-with-categories-descriptor.yaml
     - contentModels/product-detail-descriptor.yaml
     - contentModels/products-text-left-image-right-descriptor.yaml
+  contents:
+    - contents/bnr16-descriptor.yaml
+    - contents/bnr19-descriptor.yaml
+    - contents/bnr28-descriptor.yaml
+    - contents/bnr31-descriptor.yaml
+    - contents/bnr34-descriptor.yaml
+    - contents/bnr37-descriptor.yaml
+    - contents/bnr80-descriptor.yaml
+    - contents/bnr85-descriptor.yaml
+    - contents/bnr102-descriptor.yaml
+    - contents/bnr140-descriptor.yaml
+    - contents/bnr144-descriptor.yaml
+    - contents/bnr147-descriptor.yaml
+    - contents/bnr149-descriptor.yaml
+    - contents/bnr164-descriptor.yaml
+    - contents/mpc584-descriptor.yaml
+    - contents/mpc587-descriptor.yaml
+    - contents/mpc590-descriptor.yaml
+    - contents/mpc593-descriptor.yaml
+    - contents/mpc596-descriptor.yaml
+    - contents/mpc606-descriptor.yaml
+    - contents/mpc608-descriptor.yaml
+    - contents/mpc611-descriptor.yaml
+    - contents/mpc614-descriptor.yaml
+    - contents/mpc616-descriptor.yaml
+    - contents/mpc619-descriptor.yaml
+    - contents/mpc622-descriptor.yaml
+    - contents/mpc625-descriptor.yaml
+    - contents/nws628-descriptor.yaml
+    - contents/nws631-descriptor.yaml
+    - contents/nws634-descriptor.yaml
+    - contents/nws638-descriptor.yaml
+    - contents/nws641-descriptor.yaml
+    - contents/nws644-descriptor.yaml
+    - contents/nws647-descriptor.yaml
+    - contents/nws650-descriptor.yaml
+    - contents/prd653-descriptor.yaml
+    - contents/prd656-descriptor.yaml
+    - contents/prd659-descriptor.yaml
+    - contents/prd662-descriptor.yaml
+    - contents/prd666-descriptor.yaml
+    - contents/prd670-descriptor.yaml
+    - contents/prd673-descriptor.yaml
   plugins:
-    - plugins/checking-plugin-descriptor.yaml
-    - plugins/checkingtransaction-plugin-descriptor.yaml
-    - plugins/creditcard-plugin-descriptor.yaml
-    - plugins/creditcardform-plugin-descriptor.yaml
-    - plugins/creditcardtransaction-plugin-descriptor.yaml
-    - plugins/pda-plugin-descriptor.yaml
-    - plugins/savings-plugin-descriptor.yaml
-    - plugins/savingstransaction-plugin-descriptor.yaml
-    - plugins/seedsdashboard-plugin-descriptor.yaml
+    - plugins/standard-demo-banking-descriptor.yaml
+    - plugins/std-demo-customer-descriptor.yaml
   categories:
     - categories/categories-descriptor.yaml
   labels:

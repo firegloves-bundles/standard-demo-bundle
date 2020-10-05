@@ -1,18 +1,18 @@
 code: seedscard-transaction-table
+used: 1
 titles:
   en: Seedscard Transaction Table
   it: Seedscard Transaction Table
+typology: user
 group: free
-customUi: >-
-  <#assign wp=JspTaglibs[ "/aps-core"]>
-
-  <script async src="<@wp.resourceURL
-  />widgets/seedscard-transaction/runtime.js"></script>
-
-  <script async src="<@wp.resourceURL
-  />widgets/seedscard-transaction/vendor.js"></script>
-
-  <script async src="<@wp.resourceURL
-  />widgets/seedscard-transaction/main.js"></script>
-
-  <seedscardtransaction-table   pagination-mode="pagination" />
+pluginCode: null
+pluginDesc: null
+guiFragments: []
+hasConfig: false
+bundleId: null
+configUi: null
+parameters: []
+config: null
+parentType: null
+action: null
+locked: false

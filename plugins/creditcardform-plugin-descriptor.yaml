@@ -1,7 +1,0 @@
-name: creditcardform-plugin
-image: 'entandodemo/credit-card-form:0.0.1-SNAPSHOT'
-dbms: postgresql
-healthCheckPath: /management/health
-roles:
-  - creditCardForm-admin
-  - credit-card-user-admin

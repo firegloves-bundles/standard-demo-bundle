@@ -1,15 +1,26 @@
 code: sign_up
-parentCode: landing
+status: published
+onlineInstance: false
+displayedInMenu: false
+pageModel: seed_home
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
 titles:
   en: Sign up
   it: Sign up
-pageModel: seed_home
+fullTitles:
+  en: Home / Sign up
+  it: Home / Sign up
 ownerGroup: free
 joinGroups: []
-displayedInMenu: false
-seo: false
-charset: utf-8
-status: published
+children: []
+position: 3
+numWidget: 3
+lastModified: '2020-04-17 14:25:11'
+fullPath: homepage/sign_up
+token: null
 widgets:
   - code: Brand-Logo
     config: null

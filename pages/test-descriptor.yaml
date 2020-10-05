@@ -1,0 +1,27 @@
+code: test
+status: published
+onlineInstance: false
+displayedInMenu: true
+pageModel: dashboard
+charset: utf-8
+contentType: text/html
+parentCode: homepage
+seo: false
+titles:
+  en: test
+fullTitles:
+  en: Home / test
+ownerGroup: free
+joinGroups:
+  - free
+children: []
+position: 8
+numWidget: 1
+lastModified: '2020-09-30 18:21:28'
+fullPath: homepage/test
+token: null
+widgets:
+  - code: seeds_card
+    config:
+      cardname: creditcard
+    pos: 6
