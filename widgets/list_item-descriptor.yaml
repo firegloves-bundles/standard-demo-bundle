@@ -1,7 +1,7 @@
 code: list_item
 titles:
-  en: List item
-  it: Elemento lista
+  en: Alert Icon
+  it: Icona di avviso
 group: free
 customUi: >-
   <#assign wp=JspTaglibs[ "/aps-core"]><link rel="stylesheet" type="text/css"

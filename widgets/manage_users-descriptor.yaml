@@ -3,12 +3,4 @@ titles:
   en: Manage Users
   it: Gestione Utenti
 group: free
-customUi: >-
-  <#assign wp=JspTaglibs[ "/aps-core"]><script async src="<@wp.resourceURL
-  />widgets/manageusers/js/runtime.js"></script><script async
-  src="<@wp.resourceURL />widgets/manageusers/js/vendor.js"></script><script
-  async src="<@wp.resourceURL
-  />widgets/manageusers/js/main.js"></script><manageusers-table 
-  pagination-mode="pagination"
-  service-url="http://sd-sales-demo.sales.entando.org"
-  keycloak-url="http://sd-kc-sales-demo.sales.entando.org" realm="entando"/>
+customUi: "<#assign wp=JspTaglibs[ \"/aps-core\"]>\r\n<script async src=\"<@wp.resourceURL />widgets/manageusers/js/runtime~main.6d24a6fd.js\"></script>\r\n<script async src=\"<@wp.resourceURL />widgets/manageusers/js/2.e134525e.chunk.js\"></script>\r\n<script async src=\"<@wp.resourceURL />widgets/manageusers/js/main.a8d6777e.chunk.js\"></script>\r\n\r\n<script>\r\nconst keycloakUrl = '/entando-de-app/keycloak.json';\r\nconst serviceUrl = 'http://sd-sales-demo.sales.entando.org';\r\n\r\ndocument.addEventListener(\"DOMContentLoaded\", function(){\r\n    const wrapper = document.getElementById('manageusers-table');\r\n    fetch(keycloakUrl)\r\n      .then(function(response) {\r\n        return response.json();\r\n      })\r\n      .then(function (data) {\r\n        console.log(data);\r\n        const mfe = document.createElement('manageusers-table');\r\n        mfe.setAttribute('realm', data.realm);\r\n        // /auth is already beeing added in the widget\r\n        mfe.setAttribute('keycloak-url', data['auth-server-url'].replace('/auth', ''));\r\n        mfe.setAttribute('service-url', serviceUrl);\r\n        mfe.setAttribute('pagination-mode', 'pagination');\r\n\r\n        wrapper.appendChild(mfe);\r\n      })\r\n      .catch(function (error) {\r\n        wrapper.innerHTML(\"Unable to load widget.\");\r\n      });\r\n});\r\n</script>\r\n\r\n<div id=\"manageusers-table\"></div>"

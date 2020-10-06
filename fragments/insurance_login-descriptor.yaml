@@ -31,5 +31,5 @@ guiCode: >-
   (evt.detail.payload) {            login();        }    });</script><div
   class="btn-group login-drop">    <button type="button" class="btn login
   dropdown-toggle mr-3"  onclick="login()" >        <@wp.i18n key="ESLF_SIGNIN"
-  />    </button>    <a class="btn sign-up " href="<@wp.url page="sign_up" />"
-  >       <@wp.i18n key="SIGN_UP" /></a></div></#if>
+  />    </button>    <a class="btn sign-up " style="line-height: 38px;"
+  href="<@wp.url page="sign_up" />" ><@wp.i18n key="SIGN_UP" /></a></div></#if>

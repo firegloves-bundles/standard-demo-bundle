@@ -152,8 +152,8 @@ template: >-
   user-scalable=no" />        <meta name="description" content="" />       
   <meta name="author" content="" />        <link rel="icon" href="<@wp.info
   key="systemParam" paramName="applicationBaseURL" />favicon.png"
-  type="image/png" />              <!--<@wp.fragment code="keycloak"
-  escapeXml=false/>-->              <@wp.fragment code="insurance_inclusions"
+  type="image/png" />              <@wp.fragment code="keycloak"
+  escapeXml=false/>              <@wp.fragment code="insurance_inclusions"
   escapeXml=false />    </head>    <body class="insurance">       
   <!--Navbar-->        <nav class="navbar first-nav navbar-expand-lg
   navbar-light ">            <!-- Collapsible content -->            <div
