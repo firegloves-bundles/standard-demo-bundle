@@ -1,5 +1,4 @@
 # Standard Demo Bundle
-This is a dump using [entando-bundle-cli](https://github.com/entando-k8s/entando-bundle-cli) and the following environment:
 
 ### Disclaimer:
 This is not supposed to be installable by Entando Repository Manager.
@@ -18,6 +17,7 @@ should compose your bundles based on these extracted components.
 ```
 
 ### Dump Command:
+This is a dump using [entando-bundle-cli](https://github.com/entando-k8s/entando-bundle-cli) and the following environment:
 ```
 $ entando-bundle from-env \
     --env env.json \
