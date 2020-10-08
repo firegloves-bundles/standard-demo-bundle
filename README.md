@@ -25,7 +25,7 @@ $ entando-bundle from-env \
     --description "Standard Demo Bundle"
 ```
 
-or use the interactive command to following the cli interactive version:
+or use the interactive command to execute the cli interactive version:
 ```
 $ entando-bundle
 ? What do you want to do? Create a new bundle using components from an environment
