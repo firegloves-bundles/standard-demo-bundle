@@ -1,4 +1,2 @@
 code: Brand-Logo
-guiCode: >-
-  <#assign wp=JspTaglibs["/aps-core"]><a class="logo" href="<@wp.url
-  page="homepage" />" >        <img src="<@wp.imgURL />seed-logo.svg" />  </a>
+guiCode: '<#assign wp=JspTaglibs["/aps-core"]><a class="logo" href="<@wp.url page="homepage" />" >        <img src="<@wp.imgURL />seed-logo.svg" />  </a>'

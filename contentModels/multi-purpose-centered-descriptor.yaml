@@ -1,9 +1,8 @@
 id: 101
 contentType: MPC
 description: Multi-Purpose Centered
-contentShape: >-
-  <div class="insurance-centered-content" style="background:
-  url($content.image.getImagePath('0'))">
+contentShape: |-
+  <div class="insurance-centered-content" style="background: url($content.image.getImagePath('0'))">
       <div class="row no-gutters">
           <div class="text-center col-12">
               <h2> $content.title.text</h2>

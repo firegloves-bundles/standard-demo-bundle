@@ -61,9 +61,7 @@
 - key: ENTANDO_API_EXTENSION_NOTE
   titles:
     en: '''.xml'' for response in xml format and ''.json'' for json.'
-    it: >-
-      '.xml' per la risposta in formato xml e '.json' per la risposta in formato
-      json.
+    it: '''.xml'' per la risposta in formato xml e ''.json'' per la risposta in formato json.'
 - key: ENTANDO_API_GOTO_DETAILS
   titles:
     en: Go to details
@@ -106,14 +104,8 @@
     it: Disponibile
 - key: ENTANDO_API_METHOD_PARAMS_SUMM
   titles:
-    en: >-
-      This table shows the request parameters for this method. For each of them
-      there are three columns: the parameter name, the parameter description and
-      whether if it's mandatory or not.
-    it: >-
-      Questa tabella mostra i parametri per la richiesta del metodo. Per
-      ciascuno di essi ci sono tre colonne: il nome del parametro, la
-      descrizione del parametro e l'indicazione di obbligatorietà.
+    en: 'This table shows the request parameters for this method. For each of them there are three columns: the parameter name, the parameter description and whether if it''s mandatory or not.'
+    it: 'Questa tabella mostra i parametri per la richiesta del metodo. Per ciascuno di essi ci sono tre colonne: il nome del parametro, la descrizione del parametro e l''indicazione di obbligatorietà.'
 - key: ENTANDO_API_METHOD_REQUEST_PARAMS
   titles:
     en: Parameters
@@ -220,12 +212,8 @@
     it: URI
 - key: ENTANDO_API_TABLE_SUMMARY
   titles:
-    en: >-
-      The table lists the API Resources available in the system. Method name,
-      description, group and the status of each method.
-    it: >-
-      La tabella elenaca le Risorse API disponibile nel sistema. Nome della
-      risorsa, la sua descrizione e lo stato di ciascun metodo.
+    en: 'The table lists the API Resources available in the system. Method name, description, group and the status of each method.'
+    it: 'La tabella elenaca le Risorse API disponibile nel sistema. Nome della risorsa, la sua descrizione e lo stato di ciascun metodo.'
 - key: ERRORS
   titles:
     en: Whoops! You're doing it wrong!
@@ -293,9 +281,7 @@
 - key: LIST_VIEWER_EMPTY
   titles:
     en: No result found. Broaden your search and try again!
-    it: >-
-      Nessun risultato trovato. Imposta dei parametri meno stringenti e prova
-      ancora!
+    it: Nessun risultato trovato. Imposta dei parametri meno stringenti e prova ancora!
 - key: LOGOUT
   titles:
     en: Logout
