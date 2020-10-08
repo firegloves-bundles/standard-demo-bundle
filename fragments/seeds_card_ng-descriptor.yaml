@@ -1,10 +1,10 @@
 code: seeds_card_ng
 guiCode: >-
   <#assign wp=JspTaglibs[ "/aps-core"]><script async src="<@wp.resourceURL
-  />widgets/seeds-card-ng/js/main-es2015.js"></script><script async
-  src="<@wp.resourceURL
-  />widgets/angular/list-item/js/runtime-es2015.js"></script><script async
-  src="<@wp.resourceURL
-  />widgets/angular/list-item/js/polyfills-es2015.js"></script><@wp.currentWidget
+  />standard-demo-bundle/widgets/seeds-card-ng/js/main-es2015.js"></script><script
+  async src="<@wp.resourceURL
+  />standard-demo-bundle/widgets/angular/list-item/js/runtime-es2015.js"></script><script
+  async src="<@wp.resourceURL
+  />standard-demo-bundle/widgets/angular/list-item/js/polyfills-es2015.js"></script><@wp.currentWidget
   param="config" configParam="cardname" var="configName" /><ng-seedscard-details
   cardname="${configName}"/>

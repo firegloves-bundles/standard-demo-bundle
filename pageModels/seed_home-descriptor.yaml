@@ -125,15 +125,17 @@ template: >-
   key="systemParam" paramName="applicationBaseURL" />favicon.png"
   type="image/png" />        <@wp.fragment code="keycloak"
   escapeXml=false/>              <!-- FA -->              <link rel="stylesheet"
-  href="<@wp.resourceURL />static/css/all.css">        <!-- Bootstrap core
-  -->        <link href="<@wp.resourceURL />static/css/bootstrap.min.css"
-  rel="stylesheet">        <!-- Material Design Bootstrap -->        <link
-  href="<@wp.resourceURL />static/css/mdb.min.css" rel="stylesheet">        <!--
+  href="<@wp.resourceURL />standard-demo-bundle/static/css/all.css">        <!--
+  Bootstrap core -->        <link href="<@wp.resourceURL
+  />standard-demo-bundle/static/css/bootstrap.min.css" rel="stylesheet">       
+  <!-- Material Design Bootstrap -->        <link href="<@wp.resourceURL
+  />standard-demo-bundle/static/css/mdb.min.css" rel="stylesheet">        <!--
   custom styles -->        <link rel="stylesheet" href="<@wp.resourceURL
-  />static/css/seed.css" rel="stylesheet">        <link rel="stylesheet"
-  href="<@wp.resourceURL />static/css/media-queries.css"
-  rel="stylesheet">        <!-- JQuery -->        <script type="text/javascript"
-  src="<@wp.resourceURL />static/js/jquery.min.js"></script>    </head>   
+  />standard-demo-bundle/static/css/seed.css" rel="stylesheet">        <link
+  rel="stylesheet" href="<@wp.resourceURL
+  />standard-demo-bundle/static/css/media-queries.css" rel="stylesheet">       
+  <!-- JQuery -->        <script type="text/javascript" src="<@wp.resourceURL
+  />standard-demo-bundle/static/js/jquery.min.js"></script>    </head>   
   <body>        <div class="custom-navbar ">            <!--Navbar-->           
   <nav class="navbar fixed-top navbar-expand-lg navbar-light ">               
   <!-- Navbar brand -->                <@wp.show frame=0 />                <!--
@@ -229,6 +231,6 @@ template: >-
   frame=10 />        <@wp.show frame=11 />        <@wp.show frame=12 />       
   <@wp.show frame=13 />    </div>                <!-- Bootstrap core js
   -->        <script type="text/javascript"  src="<@wp.resourceURL
-  />static/js/bootstrap.min.js"></script>        <!-- MDB core js -->       
-  <script type="text/javascript" src="<@wp.resourceURL
-  />static/js/mdb.min.js"></script>    </body></html>
+  />standard-demo-bundle/static/js/bootstrap.min.js"></script>        <!-- MDB
+  core js -->        <script type="text/javascript" src="<@wp.resourceURL
+  />standard-demo-bundle/static/js/mdb.min.js"></script>    </body></html>

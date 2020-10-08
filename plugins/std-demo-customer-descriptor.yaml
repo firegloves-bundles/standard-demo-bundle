@@ -1,5 +1,5 @@
 name: std-demo-customer
-image: 'docker.io/jwhite101/customer:0.0.3'
+image: 'docker.io/entandodemo/customer:0.0.10'
 dbms: none
 healthCheckPath: /management/health
 roles:
