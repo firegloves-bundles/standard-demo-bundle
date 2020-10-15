@@ -4,6 +4,7 @@ description: Seed Bikes
 mainGroup: administrators
 groups:
   - administrators
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -15,10 +16,8 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >
-        <p>Seed offers comprehensive Bikes insurance to our valued clients
-        around the globe. You can drive at home or abroad with confidence
-        knowing you and your car are protected.</p>
+      en: |
+        <p>Seed offers comprehensive Bikes insurance to our valued clients around the globe. You can drive at home or abroad with confidence knowing you and your car are protected.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -34,10 +33,8 @@ attributes:
           - code: mbody
             value: null
             values:
-              en: >
-                <p>Seed offers comprehensive Bikes insurance to our valued
-                clients around the globe. You can drive at home or abroad with
-                confidence knowing you and your car are protected.</p>
+              en: |
+                <p>Seed offers comprehensive Bikes insurance to our valued clients around the globe. You can drive at home or abroad with confidence knowing you and your car are protected.</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -61,29 +58,7 @@ attributes:
     values:
       en:
         id: '667'
-        type: image
         name: Seed_Bikes_d0 (1).png
-        description: Seed_Bikes_d0 (1).png
-        createdAt: '2020-08-27T09:33:29Z'
-        updatedAt: '2020-08-27T09:33:29Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_1_d0.png
-            size: 284 Kb
-          - dimensions: 90x90 px
-            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_1_d1.png
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_1_d2.png
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: /entando-de-app/cmsresources/cms/images/Seed_Bikes_d0_1_d3.png
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -99,4 +74,3 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-status: PUBLIC

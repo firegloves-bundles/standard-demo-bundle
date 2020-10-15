@@ -2,6 +2,7 @@ id: NWS638
 typeCode: NWS
 description: Manufacturers Respond to Coronavirus
 mainGroup: free
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -13,26 +14,16 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >
-        <p>Companies are moving quickly to stay viable and position themselves
-        for recovery</p>
+      en: |
+        <p>Companies are moving quickly to stay viable and position themselves for recovery</p>
     elements: []
     compositeelements: []
     listelements: {}
   - code: body
     value: null
     values:
-      en: >
-        <p>For manufacturers of every size in every industry, it&rsquo;s no
-        exaggeration to say that the coronavirus crisis has changed everything.
-        Demand for products has been upended, relationships with suppliers and
-        customers are being tested and liquidity issues have multiplied. Some
-        manufacturers are pivoting to create essential gear to help combat the
-        pandemic, while others are retooling in advance of future needs, and all
-        are trying to keep their workers safe. Abhijit Bhide, managing director,
-        Bank of America Global Banking and Markets, answers questions about this
-        unprecedented upheaval and how businesses can respond now and in the
-        months ahead.</p>
+      en: |
+        <p>For manufacturers of every size in every industry, it&rsquo;s no exaggeration to say that the coronavirus crisis has changed everything. Demand for products has been upended, relationships with suppliers and customers are being tested and liquidity issues have multiplied. Some manufacturers are pivoting to create essential gear to help combat the pandemic, while others are retooling in advance of future needs, and all are trying to keep their workers safe. Abhijit Bhide, managing director, Bank of America Global Banking and Markets, answers questions about this unprecedented upheaval and how businesses can respond now and in the months ahead.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -41,29 +32,7 @@ attributes:
     values:
       en:
         id: '639'
-        type: image
         name: coronavirus
-        description: coronavirus_d0.jpg
-        createdAt: '2020-08-27T08:43:53Z'
-        updatedAt: '2020-08-27T08:43:53Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: /entando-de-app/cmsresources/cms/images/coronavirus_d0_d0.jpg
-            size: 22 Kb
-          - dimensions: 90x90 px
-            path: /entando-de-app/cmsresources/cms/images/coronavirus_d0_d1.jpg
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: /entando-de-app/cmsresources/cms/images/coronavirus_d0_d2.jpg
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: /entando-de-app/cmsresources/cms/images/coronavirus_d0_d3.jpg
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -108,21 +77,9 @@ attributes:
         values:
           en:
             id: '205'
-            type: file
             name: Entando_Admin_Console_Overview_4.3.3_EN.pdf
-            description: Entando_Admin_Console_Overview_4.3.3_EN.pdf
-            createdAt: '2020-04-01T01:26:32Z'
-            updatedAt: '2020-04-01T01:26:32Z'
-            group: free
-            categories: []
-            owner: admin
-            folderPath: null
-            size: 4244 Kb
-            path: >-
-              /entando-de-app/cmsresources/cms/documents/Entando_Admin_Console_Overview_4.3.3_EN.pdf
         elements: []
         compositeelements: []
         listelements: {}
     compositeelements: []
     listelements: {}
-status: PUBLIC

@@ -2,6 +2,7 @@ id: PRD659
 typeCode: PRD
 description: Seed Life Family
 mainGroup: free
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -13,11 +14,8 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >
-        <p>Seed Life Family insurance&nbsp; pays out a lump sum to your
-        dependants should you pass away or be diagnosed with a terminal illness
-        during the term of the contract, in order to provide for them after
-        you&#39;re not around.</p>
+      en: |
+        <p>Seed Life Family insurance&nbsp; pays out a lump sum to your dependants should you pass away or be diagnosed with a terminal illness during the term of the contract, in order to provide for them after you&#39;re not around.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -33,11 +31,8 @@ attributes:
           - code: mbody
             value: null
             values:
-              en: >
-                <p>Seed Life Family insurance&nbsp; pays out a lump sum to your
-                dependants should you pass away or be diagnosed with a terminal
-                illness during the term of the contract, in order to provide for
-                them after you&#39;re not around.</p>
+              en: |
+                <p>Seed Life Family insurance&nbsp; pays out a lump sum to your dependants should you pass away or be diagnosed with a terminal illness during the term of the contract, in order to provide for them after you&#39;re not around.</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -61,33 +56,7 @@ attributes:
     values:
       en:
         id: '660'
-        type: image
         name: Seed Life Family
-        description: Card_3_Picture_Green_1_d0.png
-        createdAt: '2020-08-27T09:23:11Z'
-        updatedAt: '2020-08-27T09:23:11Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: >-
-              /entando-de-app/cmsresources/cms/images/Card_3_Picture_Green_1_d0_d0.png
-            size: 48 Kb
-          - dimensions: 90x90 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/Card_3_Picture_Green_1_d0_d1.png
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/Card_3_Picture_Green_1_d0_d2.png
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/Card_3_Picture_Green_1_d0_d3.png
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -103,4 +72,3 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-status: PUBLIC

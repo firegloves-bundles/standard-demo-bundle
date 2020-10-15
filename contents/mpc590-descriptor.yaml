@@ -4,6 +4,7 @@ description: Live Chat
 mainGroup: administrators
 groups:
   - administrators
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -16,9 +17,8 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >
-        <p>If you need to talk to someone right now we suggest you use our Live
-        chat service</p>
+      en: |
+        <p>If you need to talk to someone right now we suggest you use our Live chat service</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -33,29 +33,7 @@ attributes:
     values:
       en:
         id: '591'
-        type: image
         name: Live Chat
-        description: Live_Chat_d0.svg
-        createdAt: '2020-08-27T07:25:57Z'
-        updatedAt: '2020-08-27T07:25:57Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: /entando-de-app/cmsresources/cms/images/Live_Chat_d0_d0.svg
-            size: 6 Kb
-          - dimensions: 90x90 px
-            path: /entando-de-app/cmsresources/cms/images/Live_Chat_d0_d1.svg
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: /entando-de-app/cmsresources/cms/images/Live_Chat_d0_d2.svg
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: /entando-de-app/cmsresources/cms/images/Live_Chat_d0_d3.svg
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -65,4 +43,3 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-status: PUBLIC

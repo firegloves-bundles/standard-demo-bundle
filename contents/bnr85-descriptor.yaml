@@ -2,6 +2,7 @@ id: BNR85
 typeCode: BNR
 description: Credit light green
 mainGroup: free
+status: DRAFT
 attributes:
   - code: title
     value: null
@@ -13,11 +14,9 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >-
+      en: |-
         When you spend $1,000 in purchases in the first 3 months.
-
-        Reward points can be redeemed for airfare, hotels, car rentals, cruises
-        and gift cards to popular retailers.
+        Reward points can be redeemed for airfare, hotels, car rentals, cruises and gift cards to popular retailers.
     elements: []
     compositeelements: []
     listelements: {}
@@ -32,29 +31,7 @@ attributes:
     values:
       en:
         id: '86'
-        type: image
         name: Framepresent.png
-        description: Framepresent.png
-        createdAt: '2020-03-27T06:56:23Z'
-        updatedAt: '2020-03-27T06:56:23Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: /entando-de-app/cmsresources/cms/images/Framepresent_d0.png
-            size: 8 Kb
-          - dimensions: 90x90 px
-            path: /entando-de-app/cmsresources/cms/images/Framepresent_d1.png
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: /entando-de-app/cmsresources/cms/images/Framepresent_d2.png
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: /entando-de-app/cmsresources/cms/images/Framepresent_d3.png
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -70,4 +47,3 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-status: DRAFT

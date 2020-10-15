@@ -2,6 +2,7 @@ id: BNR102
 typeCode: BNR
 description: Interest 3 card title - 2nd banner
 mainGroup: free
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -82,33 +83,7 @@ attributes:
             values:
               en:
                 id: '103'
-                type: image
                 name: Checking v Savings.png
-                description: Checking v Savings.png
-                createdAt: '2020-03-30T03:18:45Z'
-                updatedAt: '2020-03-30T03:18:45Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Checking_v_Savings_d0.png
-                    size: 5 Kb
-                  - dimensions: 90x90 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Checking_v_Savings_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Checking_v_Savings_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Checking_v_Savings_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
@@ -156,33 +131,7 @@ attributes:
             values:
               en:
                 id: '104'
-                type: image
                 name: Checking v Savings.png
-                description: High Yield Accounts.png
-                createdAt: '2020-03-30T03:19:27Z'
-                updatedAt: '2020-03-30T03:19:27Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accounts_d0.png
-                    size: 3 Kb
-                  - dimensions: 90x90 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accounts_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accounts_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accounts_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
@@ -202,9 +151,7 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >-
-                Ways to Invest: What are the ways people invest their money, and
-                reasons to keep your money liquid.
+              en: 'Ways to Invest: What are the ways people invest their money, and reasons to keep your money liquid.'
             elements: []
             compositeelements: []
             listelements: {}
@@ -232,37 +179,10 @@ attributes:
             values:
               en:
                 id: '105'
-                type: image
                 name: Checking v Savings.png
-                description: Ways to Invest.png
-                createdAt: '2020-03-30T03:19:59Z'
-                updatedAt: '2020-03-30T03:19:59Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Ways_to_Invest_d0.png
-                    size: 4 Kb
-                  - dimensions: 90x90 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Ways_to_Invest_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Ways_to_Invest_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Ways_to_Invest_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
         listelements: {}
     compositeelements: []
     listelements: {}
-status: PUBLIC

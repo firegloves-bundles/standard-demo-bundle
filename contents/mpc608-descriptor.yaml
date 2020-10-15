@@ -2,6 +2,7 @@ id: MPC608
 typeCode: MPC
 description: Seed Insurance The safety net for your net worth
 mainGroup: free
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -20,9 +21,8 @@ attributes:
   - code: body
     value: null
     values:
-      en: >
-        <p>A comprehensive range of insurance products to meet your investment,
-        retirement planning and wealth preservation needs.</p>
+      en: |
+        <p>A comprehensive range of insurance products to meet your investment, retirement planning and wealth preservation needs.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -31,29 +31,7 @@ attributes:
     values:
       en:
         id: '609'
-        type: image
         name: Header_Image1_1_d0.png
-        description: Header_Image1_1_d0.png
-        createdAt: '2020-08-27T08:14:33Z'
-        updatedAt: '2020-08-27T08:14:33Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: /entando-de-app/cmsresources/cms/images/Header_Image1_1_d0_d0.png
-            size: 822 Kb
-          - dimensions: 90x90 px
-            path: /entando-de-app/cmsresources/cms/images/Header_Image1_1_d0_d1.png
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: /entando-de-app/cmsresources/cms/images/Header_Image1_1_d0_d2.png
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: /entando-de-app/cmsresources/cms/images/Header_Image1_1_d0_d3.png
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -76,4 +54,3 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-status: PUBLIC

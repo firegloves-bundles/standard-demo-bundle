@@ -2,6 +2,7 @@ id: BNR37
 typeCode: BNR
 description: main-banner
 mainGroup: free
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -13,10 +14,7 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >-
-        Seed is looking to change how people bank by eliminating fees, and using
-        technology to provide you with tools that help you take charge of your
-        finances.
+      en: 'Seed is looking to change how people bank by eliminating fees, and using technology to provide you with tools that help you take charge of your finances.'
     elements: []
     compositeelements: []
     listelements: {}
@@ -44,4 +42,3 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-status: PUBLIC

@@ -2,6 +2,7 @@ id: BNR16
 typeCode: BNR
 description: Banner with accordion
 mainGroup: free
+status: DRAFT
 attributes:
   - code: title
     value: null
@@ -13,10 +14,8 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >
-        <p>It&#39;s easier to make money once you have money. But how do you get
-        there? At Seed, we help you build savings, and get your money to work
-        for you.</p>
+      en: |
+        <p>It&#39;s easier to make money once you have money. But how do you get there? At Seed, we help you build savings, and get your money to work for you.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -31,33 +30,7 @@ attributes:
     values:
       en:
         id: '57'
-        type: image
         name: flowers
-        description: ad3c5d5f06a76ff82aad86eaa31c66e6_d0.png
-        createdAt: '2020-03-26T06:49:56Z'
-        updatedAt: '2020-03-26T06:49:56Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: >-
-              /entando-de-app/cmsresources/cms/images/ad3c5d5f06a76ff82aad86eaa31c66e6_d0_d0.png
-            size: 26 Kb
-          - dimensions: 90x90 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/ad3c5d5f06a76ff82aad86eaa31c66e6_d0_d1.png
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/ad3c5d5f06a76ff82aad86eaa31c66e6_d0_d2.png
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/ad3c5d5f06a76ff82aad86eaa31c66e6_d0_d3.png
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -86,12 +59,8 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >
-                <p>No Hidden Fees No monthly service fees, minimum balance fees,
-                or overdraft fees. Get peace of mind knowing that your money in
-                the bank stays in the bank, and you&rsquo;re not getting hit by
-                hidden charges. Get instant alerts whenever a fee is charged to
-                your account, and know up front what fees we do charge for.</p>
+              en: |
+                <p>No Hidden Fees No monthly service fees, minimum balance fees, or overdraft fees. Get peace of mind knowing that your money in the bank stays in the bank, and you&rsquo;re not getting hit by hidden charges. Get instant alerts whenever a fee is charged to your account, and know up front what fees we do charge for.</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -136,11 +105,8 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >
-                <p>Put money in your pocket. Earn 1.00% APY on our basic
-                checking account, and automatically earn more as your average
-                monthly balance increases. Always get a return on your money
-                with Seed checking and savings.</p>
+              en: |
+                <p>Put money in your pocket. Earn 1.00% APY on our basic checking account, and automatically earn more as your average monthly balance increases. Always get a return on your money with Seed checking and savings.</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -185,10 +151,8 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >
-                <p>Whether you?re saving for your wedding, investing in a new
-                business, or preparing for retirement, having a clear goal will
-                help you take concrete steps to achieve it.</p>
+              en: |
+                <p>Whether you?re saving for your wedding, investing in a new business, or preparing for retirement, having a clear goal will help you take concrete steps to achieve it.</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -220,4 +184,3 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-status: DRAFT

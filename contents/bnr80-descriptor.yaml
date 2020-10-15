@@ -2,6 +2,7 @@ id: BNR80
 typeCode: BNR
 description: Credit & benefits & features
 mainGroup: free
+status: DRAFT
 attributes:
   - code: title
     value: null
@@ -54,9 +55,7 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >-
-                Dining, Travel, Groceries, Entainment, Earn points on every
-                purchase
+              en: 'Dining, Travel, Groceries, Entainment, Earn points on every purchase'
             elements: []
             compositeelements: []
             listelements: {}
@@ -84,29 +83,7 @@ attributes:
             values:
               en:
                 id: '81'
-                type: image
                 name: Frame3x.png
-                description: Frame3x.png
-                createdAt: '2020-03-27T06:54:16Z'
-                updatedAt: '2020-03-27T06:54:16Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: /entando-de-app/cmsresources/cms/images/Frame3x_d0.png
-                    size: 3 Kb
-                  - dimensions: 90x90 px
-                    path: /entando-de-app/cmsresources/cms/images/Frame3x_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: /entando-de-app/cmsresources/cms/images/Frame3x_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: /entando-de-app/cmsresources/cms/images/Frame3x_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
@@ -126,9 +103,7 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >-
-                No annual fees, late payment fees, foreign transaction fees,
-                absolutely no fees.
+              en: 'No annual fees, late payment fees, foreign transaction fees, absolutely no fees.'
             elements: []
             compositeelements: []
             listelements: {}
@@ -156,29 +131,7 @@ attributes:
             values:
               en:
                 id: '82'
-                type: image
                 name: Frame3x.png
-                description: Framedollar.png
-                createdAt: '2020-03-27T06:54:53Z'
-                updatedAt: '2020-03-27T06:54:53Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: /entando-de-app/cmsresources/cms/images/Framedollar_d0.png
-                    size: 4 Kb
-                  - dimensions: 90x90 px
-                    path: /entando-de-app/cmsresources/cms/images/Framedollar_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: /entando-de-app/cmsresources/cms/images/Framedollar_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: /entando-de-app/cmsresources/cms/images/Framedollar_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
@@ -198,9 +151,7 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >-
-                Feel secure all day, everyday. Know that all your information is
-                safe and secure.
+              en: 'Feel secure all day, everyday. Know that all your information is safe and secure.'
             elements: []
             compositeelements: []
             listelements: {}
@@ -228,33 +179,10 @@ attributes:
             values:
               en:
                 id: '83'
-                type: image
                 name: Frame3x.png
-                description: Frameshield.png
-                createdAt: '2020-03-27T06:55:27Z'
-                updatedAt: '2020-03-27T06:55:27Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: /entando-de-app/cmsresources/cms/images/Frameshield_d0.png
-                    size: 4 Kb
-                  - dimensions: 90x90 px
-                    path: /entando-de-app/cmsresources/cms/images/Frameshield_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: /entando-de-app/cmsresources/cms/images/Frameshield_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: /entando-de-app/cmsresources/cms/images/Frameshield_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
         listelements: {}
     compositeelements: []
     listelements: {}
-status: DRAFT

@@ -2,6 +2,7 @@ id: BNR164
 typeCode: BNR
 description: Interest 3 card title
 mainGroup: free
+status: DRAFT
 attributes:
   - code: title
     value: null
@@ -13,10 +14,7 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >-
-        Get interest while doing your normal banking with Seed. Have peace of
-        mind knowing that you’re making a return, while keeping your money
-        liquid so it’s available when you need it.
+      en: 'Get interest while doing your normal banking with Seed. Have peace of mind knowing that you’re making a return, while keeping your money liquid so it’s available when you need it.'
     elements: []
     compositeelements: []
     listelements: {}
@@ -57,10 +55,7 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >-
-                No fine print. No minimums. No monthly service fees. Unlike
-                other banks, we protect customers from overdraft fees by denying
-                transactions if you have no funds in your account.
+              en: 'No fine print. No minimums. No monthly service fees. Unlike other banks, we protect customers from overdraft fees by denying transactions if you have no funds in your account.'
             elements: []
             compositeelements: []
             listelements: {}
@@ -88,33 +83,7 @@ attributes:
             values:
               en:
                 id: '165'
-                type: image
                 name: Hidden Feesnomoney.png
-                description: Hidden Feesnomoney.png
-                createdAt: '2020-03-31T02:33:55Z'
-                updatedAt: '2020-03-31T02:33:55Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Hidden_Feesnomoney_d0.png
-                    size: 4 Kb
-                  - dimensions: 90x90 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Hidden_Feesnomoney_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Hidden_Feesnomoney_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Hidden_Feesnomoney_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
@@ -134,10 +103,7 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >-
-                We regularly monitor the market to provide you with the best
-                rates nationwide. At Seed, you have peace of mind knowing that
-                you’re earning one of the best rates in the market.
+              en: 'We regularly monitor the market to provide you with the best rates nationwide. At Seed, you have peace of mind knowing that you’re earning one of the best rates in the market.'
             elements: []
             compositeelements: []
             listelements: {}
@@ -165,33 +131,7 @@ attributes:
             values:
               en:
                 id: '166'
-                type: image
                 name: Hidden Feesnomoney.png
-                description: High Yield Accountsyieldaccounts.png
-                createdAt: '2020-03-31T02:34:23Z'
-                updatedAt: '2020-03-31T02:34:23Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accountsyieldaccounts_d0.png
-                    size: 3 Kb
-                  - dimensions: 90x90 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accountsyieldaccounts_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accountsyieldaccounts_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/High_Yield_Accountsyieldaccounts_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
@@ -211,11 +151,7 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >-
-                Whether you’re a novice or an expert, we provide education to
-                help you make better decisions with your money. Our automated
-                tools deliver timely alerts as you reach different milestones in
-                your financial journey.
+              en: 'Whether you’re a novice or an expert, we provide education to help you make better decisions with your money. Our automated tools deliver timely alerts as you reach different milestones in your financial journey.'
             elements: []
             compositeelements: []
             listelements: {}
@@ -243,37 +179,10 @@ attributes:
             values:
               en:
                 id: '167'
-                type: image
                 name: Hidden Feesnomoney.png
-                description: Financial Educationfinancialedu.png
-                createdAt: '2020-03-31T02:35:07Z'
-                updatedAt: '2020-03-31T02:35:07Z'
-                group: free
-                categories: []
-                owner: null
-                folderPath: null
-                versions:
-                  - dimensions: null
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Financial_Educationfinancialedu_d0.png
-                    size: 3 Kb
-                  - dimensions: 90x90 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Financial_Educationfinancialedu_d1.png
-                    size: 0 Kb
-                  - dimensions: 130x130 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Financial_Educationfinancialedu_d2.png
-                    size: 0 Kb
-                  - dimensions: 150x150 px
-                    path: >-
-                      /entando-de-app/cmsresources/cms/images/Financial_Educationfinancialedu_d3.png
-                    size: 0 Kb
-                metadata: null
             elements: []
             compositeelements: []
             listelements: {}
         listelements: {}
     compositeelements: []
     listelements: {}
-status: DRAFT

@@ -4,6 +4,7 @@ description: Welcome to My Portal
 mainGroup: administrators
 groups:
   - administrators
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -24,11 +25,8 @@ attributes:
   - code: body
     value: null
     values:
-      en: >
-        <p>My Account provides you with a safe and flexible way to access your
-        products&nbsp; and your personalised information. When you sign in to
-        your Seed Account, you can see and manage your info, activity, security
-        options and privacy preferences.</p>
+      en: |
+        <p>My Account provides you with a safe and flexible way to access your products&nbsp; and your personalised information. When you sign in to your Seed Account, you can see and manage your info, activity, security options and privacy preferences.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -57,4 +55,3 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-status: PUBLIC

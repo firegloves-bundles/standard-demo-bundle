@@ -2,6 +2,7 @@ id: BNR19
 typeCode: BNR
 description: Banner with white background
 mainGroup: free
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -28,33 +29,7 @@ attributes:
     values:
       en:
         id: '20'
-        type: image
         name: cta-image
-        description: 30d47c78b930b47935f968f8b0141732_d0.png
-        createdAt: '2020-03-26T03:51:24Z'
-        updatedAt: '2020-03-26T03:51:24Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: >-
-              /entando-de-app/cmsresources/cms/images/30d47c78b930b47935f968f8b0141732_d0_d0.png
-            size: 862 Kb
-          - dimensions: 90x90 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/30d47c78b930b47935f968f8b0141732_d0_d1.png
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/30d47c78b930b47935f968f8b0141732_d0_d2.png
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/30d47c78b930b47935f968f8b0141732_d0_d3.png
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -77,4 +52,3 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-status: PUBLIC

@@ -4,7 +4,6 @@ status: '0'
 attributes:
   - code: title
     type: Text
-    name: title
     names:
       en: title
     roles: []
@@ -12,9 +11,6 @@ attributes:
     mandatory: true
     listFilter: true
     indexable: true
-    enumeratorStaticItems: null
-    enumeratorStaticItemsSeparator: null
-    enumeratorExtractorBean: null
     validationRules:
       minLength: null
       maxLength: null
@@ -38,11 +34,8 @@ attributes:
       equalNumber: null
       equalNumberAttribute: null
       ognlValidation: null
-    nestedAttribute: null
-    compositeAttributes: null
   - code: subtitle
     type: Hypertext
-    name: subtitle
     names:
       en: subtitle
     roles: []
@@ -50,9 +43,6 @@ attributes:
     mandatory: false
     listFilter: false
     indexable: false
-    enumeratorStaticItems: null
-    enumeratorStaticItemsSeparator: null
-    enumeratorExtractorBean: null
     validationRules:
       minLength: null
       maxLength: null
@@ -76,11 +66,8 @@ attributes:
       equalNumber: null
       equalNumberAttribute: null
       ognlValidation: null
-    nestedAttribute: null
-    compositeAttributes: null
   - code: paragraphs
     type: Monolist
-    name: paragraphs list
     names:
       en: paragraphs
     roles: []
@@ -88,9 +75,6 @@ attributes:
     mandatory: false
     listFilter: false
     indexable: false
-    enumeratorStaticItems: null
-    enumeratorStaticItemsSeparator: null
-    enumeratorExtractorBean: null
     validationRules:
       minLength: null
       maxLength: null
@@ -267,10 +251,8 @@ attributes:
             ognlValidation: null
           nestedAttribute: null
           compositeAttributes: null
-    compositeAttributes: null
   - code: image
     type: Image
-    name: image
     names:
       en: image
     roles: []
@@ -278,9 +260,6 @@ attributes:
     mandatory: false
     listFilter: false
     indexable: false
-    enumeratorStaticItems: null
-    enumeratorStaticItemsSeparator: null
-    enumeratorExtractorBean: null
     validationRules:
       minLength: null
       maxLength: null
@@ -304,11 +283,8 @@ attributes:
       equalNumber: null
       equalNumberAttribute: null
       ognlValidation: null
-    nestedAttribute: null
-    compositeAttributes: null
   - code: links
     type: Monolist
-    name: list of links
     names:
       en: links
     roles: []
@@ -316,9 +292,6 @@ attributes:
     mandatory: false
     listFilter: false
     indexable: false
-    enumeratorStaticItems: null
-    enumeratorStaticItemsSeparator: null
-    enumeratorExtractorBean: null
     validationRules:
       minLength: null
       maxLength: null
@@ -381,10 +354,8 @@ attributes:
         ognlValidation: null
       nestedAttribute: null
       compositeAttributes: null
-    compositeAttributes: null
   - code: attaches
     type: Monolist
-    name: list of attaches
     names:
       en: attaches
     roles: []
@@ -392,9 +363,6 @@ attributes:
     mandatory: false
     listFilter: false
     indexable: false
-    enumeratorStaticItems: null
-    enumeratorStaticItemsSeparator: null
-    enumeratorExtractorBean: null
     validationRules:
       minLength: null
       maxLength: null
@@ -457,4 +425,3 @@ attributes:
         ognlValidation: null
       nestedAttribute: null
       compositeAttributes: null
-    compositeAttributes: null

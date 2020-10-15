@@ -2,6 +2,7 @@ id: BNR147
 typeCode: BNR
 description: Interest simple composite banner
 mainGroup: free
+status: DRAFT
 attributes:
   - code: title
     value: null
@@ -55,11 +56,8 @@ attributes:
           - code: asubtitle
             value: null
             values:
-              en: >
-                <p>When you open a Seed savings account, you get our highest
-                rate of return. No monthly fees. No minimums. No tiers. We make
-                savings simple. Add or transfer money to your account. Earn
-                interest. Take it out when you&rsquo;re ready to invest.</p>
+              en: |
+                <p>When you open a Seed savings account, you get our highest rate of return. No monthly fees. No minimums. No tiers. We make savings simple. Add or transfer money to your account. Earn interest. Take it out when you&rsquo;re ready to invest.</p>
             elements: []
             compositeelements: []
             listelements: {}
@@ -91,4 +89,3 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-status: DRAFT

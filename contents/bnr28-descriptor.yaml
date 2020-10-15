@@ -2,6 +2,7 @@ id: BNR28
 typeCode: BNR
 description: Banner with dark green background
 mainGroup: free
+status: DRAFT
 attributes:
   - code: title
     value: null
@@ -13,12 +14,7 @@ attributes:
   - code: subtitle
     value: null
     values:
-      en: >-
-        Take charge of your finances. Stay informed of your cash and savings,
-        and know where your money is going so you can invest your money where
-        you want it to go. Seed automatically organizes the data from all of
-        your Seed accounts so you can see how much and where your money is being
-        spent.
+      en: 'Take charge of your finances. Stay informed of your cash and savings, and know where your money is going so you can invest your money where you want it to go. Seed automatically organizes the data from all of your Seed accounts so you can see how much and where your money is being spent.'
     elements: []
     compositeelements: []
     listelements: {}
@@ -33,33 +29,7 @@ attributes:
     values:
       en:
         id: '29'
-        type: image
         name: dashboard.png
-        description: 9845de699fbe125c4c342c139044e1a0_d0.png
-        createdAt: '2020-03-26T03:55:49Z'
-        updatedAt: '2020-03-26T03:55:49Z'
-        group: free
-        categories: []
-        owner: null
-        folderPath: null
-        versions:
-          - dimensions: null
-            path: >-
-              /entando-de-app/cmsresources/cms/images/9845de699fbe125c4c342c139044e1a0_d0_d0.png
-            size: 356 Kb
-          - dimensions: 90x90 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/9845de699fbe125c4c342c139044e1a0_d0_d1.png
-            size: 0 Kb
-          - dimensions: 130x130 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/9845de699fbe125c4c342c139044e1a0_d0_d2.png
-            size: 0 Kb
-          - dimensions: 150x150 px
-            path: >-
-              /entando-de-app/cmsresources/cms/images/9845de699fbe125c4c342c139044e1a0_d0_d3.png
-            size: 0 Kb
-        metadata: null
     elements: []
     compositeelements: []
     listelements: {}
@@ -75,4 +45,3 @@ attributes:
     elements: []
     compositeelements: []
     listelements: {}
-status: DRAFT

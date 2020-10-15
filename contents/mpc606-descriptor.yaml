@@ -2,6 +2,7 @@ id: MPC606
 typeCode: MPC
 description: About Seed Insurance
 mainGroup: free
+status: PUBLIC
 attributes:
   - code: title
     value: null
@@ -22,11 +23,8 @@ attributes:
   - code: body
     value: null
     values:
-      en: >
-        <p>Insurance is a topic that&#39;s misunderstood by many people, even
-        those who have it. Ultimately, insurance is a way to transfer risk of
-        financial loss to your insurance company. The cost of transferring that
-        risk is the premium you pay.</p>
+      en: |
+        <p>Insurance is a topic that&#39;s misunderstood by many people, even those who have it. Ultimately, insurance is a way to transfer risk of financial loss to your insurance company. The cost of transferring that risk is the premium you pay.</p>
     elements: []
     compositeelements: []
     listelements: {}
@@ -55,4 +53,3 @@ attributes:
         listelements: {}
     compositeelements: []
     listelements: {}
-status: PUBLIC
