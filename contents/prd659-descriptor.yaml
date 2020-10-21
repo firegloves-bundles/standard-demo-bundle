@@ -55,7 +55,7 @@ attributes:
     value: null
     values:
       en:
-        id: '660'
+        correlationCode: '660'
         name: Seed Life Family
     elements: []
     compositeelements: []

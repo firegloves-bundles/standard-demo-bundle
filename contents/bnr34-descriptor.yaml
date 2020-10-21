@@ -29,7 +29,7 @@ attributes:
     value: null
     values:
       en:
-        id: '35'
+        correlationCode: '35'
         name: we got your back.png
     elements: []
     compositeelements: []

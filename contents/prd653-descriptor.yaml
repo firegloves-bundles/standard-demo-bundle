@@ -55,7 +55,7 @@ attributes:
     value: null
     values:
       en:
-        id: '654'
+        correlationCode: '654'
         name: Card_1_Picture_Green_1_d0 (1).png
     elements: []
     compositeelements: []

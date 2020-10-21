@@ -82,7 +82,7 @@ attributes:
             value: null
             values:
               en:
-                id: '103'
+                correlationCode: '103'
                 name: Checking v Savings.png
             elements: []
             compositeelements: []
@@ -130,7 +130,7 @@ attributes:
             value: null
             values:
               en:
-                id: '104'
+                correlationCode: '104'
                 name: Checking v Savings.png
             elements: []
             compositeelements: []
@@ -178,7 +178,7 @@ attributes:
             value: null
             values:
               en:
-                id: '105'
+                correlationCode: '105'
                 name: Checking v Savings.png
             elements: []
             compositeelements: []

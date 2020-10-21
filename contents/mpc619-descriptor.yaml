@@ -30,7 +30,7 @@ attributes:
     value: null
     values:
       en:
-        id: '620'
+        correlationCode: '620'
         name: Card_1_Picture_Green_1_d0.png
     elements: []
     compositeelements: []

@@ -29,7 +29,7 @@ attributes:
     value: null
     values:
       en:
-        id: '57'
+        correlationCode: '57'
         name: flowers
     elements: []
     compositeelements: []

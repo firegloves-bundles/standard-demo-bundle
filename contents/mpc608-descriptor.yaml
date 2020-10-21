@@ -30,7 +30,7 @@ attributes:
     value: null
     values:
       en:
-        id: '609'
+        correlationCode: '609'
         name: Header_Image1_1_d0.png
     elements: []
     compositeelements: []

@@ -55,7 +55,7 @@ attributes:
     value: null
     values:
       en:
-        id: '657'
+        correlationCode: '657'
         name: Seed Car
     elements: []
     compositeelements: []

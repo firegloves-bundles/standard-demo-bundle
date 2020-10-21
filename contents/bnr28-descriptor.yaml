@@ -28,7 +28,7 @@ attributes:
     value: null
     values:
       en:
-        id: '29'
+        correlationCode: '29'
         name: dashboard.png
     elements: []
     compositeelements: []

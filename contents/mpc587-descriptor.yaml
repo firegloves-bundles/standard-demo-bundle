@@ -33,7 +33,7 @@ attributes:
     value: null
     values:
       en:
-        id: '588'
+        correlationCode: '588'
         name: Call us
     elements: []
     compositeelements: []

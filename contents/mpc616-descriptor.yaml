@@ -32,7 +32,7 @@ attributes:
     value: null
     values:
       en:
-        id: '617'
+        correlationCode: '617'
         name: Image_DX_1_d0 (1).png
     elements: []
     compositeelements: []

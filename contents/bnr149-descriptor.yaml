@@ -28,7 +28,7 @@ attributes:
     value: null
     values:
       en:
-        id: '150'
+        correlationCode: '150'
         name: Frame 1winefield.png
     elements: []
     compositeelements: []

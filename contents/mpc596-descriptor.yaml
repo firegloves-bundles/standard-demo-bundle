@@ -30,7 +30,7 @@ attributes:
     value: null
     values:
       en:
-        id: '597'
+        correlationCode: '597'
         name: Seed_Bikes_d0.png
     elements: []
     compositeelements: []

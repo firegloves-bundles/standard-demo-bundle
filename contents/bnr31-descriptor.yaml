@@ -31,7 +31,7 @@ attributes:
     value: null
     values:
       en:
-        id: '32'
+        correlationCode: '32'
         name: infographic.png
     elements: []
     compositeelements: []

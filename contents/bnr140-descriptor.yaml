@@ -28,7 +28,7 @@ attributes:
     value: null
     values:
       en:
-        id: '141'
+        correlationCode: '141'
         name: Rectangle 11leftpad.png
     elements: []
     compositeelements: []

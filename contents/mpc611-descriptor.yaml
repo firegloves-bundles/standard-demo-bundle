@@ -33,7 +33,7 @@ attributes:
     value: null
     values:
       en:
-        id: '612'
+        correlationCode: '612'
         name: Exclusive offers
     elements: []
     compositeelements: []

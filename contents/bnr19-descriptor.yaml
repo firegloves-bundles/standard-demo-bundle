@@ -28,7 +28,7 @@ attributes:
     value: null
     values:
       en:
-        id: '20'
+        correlationCode: '20'
         name: cta-image
     elements: []
     compositeelements: []

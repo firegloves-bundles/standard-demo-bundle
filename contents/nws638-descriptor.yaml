@@ -31,7 +31,7 @@ attributes:
     value: null
     values:
       en:
-        id: '639'
+        correlationCode: '639'
         name: coronavirus
     elements: []
     compositeelements: []
@@ -76,7 +76,7 @@ attributes:
         value: null
         values:
           en:
-            id: '205'
+            correlationCode: '205'
             name: Entando_Admin_Console_Overview_4.3.3_EN.pdf
         elements: []
         compositeelements: []

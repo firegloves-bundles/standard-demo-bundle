@@ -69,7 +69,7 @@ attributes:
             value: null
             values:
               en:
-                id: '663'
+                correlationCode: '663'
             elements: []
             compositeelements: []
             listelements: {}
@@ -87,7 +87,7 @@ attributes:
     value: null
     values:
       en:
-        id: '664'
+        correlationCode: '664'
         name: Travel_Insurance_Image_d0.png
     elements: []
     compositeelements: []
@@ -119,7 +119,7 @@ attributes:
         value: null
         values:
           en:
-            id: '205'
+            correlationCode: '205'
             name: Download
         elements: []
         compositeelements: []

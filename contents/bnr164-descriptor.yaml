@@ -82,7 +82,7 @@ attributes:
             value: null
             values:
               en:
-                id: '165'
+                correlationCode: '165'
                 name: Hidden Feesnomoney.png
             elements: []
             compositeelements: []
@@ -130,7 +130,7 @@ attributes:
             value: null
             values:
               en:
-                id: '166'
+                correlationCode: '166'
                 name: Hidden Feesnomoney.png
             elements: []
             compositeelements: []
@@ -178,7 +178,7 @@ attributes:
             value: null
             values:
               en:
-                id: '167'
+                correlationCode: '167'
                 name: Hidden Feesnomoney.png
             elements: []
             compositeelements: []

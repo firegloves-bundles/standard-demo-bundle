@@ -32,7 +32,7 @@ attributes:
     value: null
     values:
       en:
-        id: '591'
+        correlationCode: '591'
         name: Live Chat
     elements: []
     compositeelements: []

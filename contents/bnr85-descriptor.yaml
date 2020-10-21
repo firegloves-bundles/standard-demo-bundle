@@ -30,7 +30,7 @@ attributes:
     value: null
     values:
       en:
-        id: '86'
+        correlationCode: '86'
         name: Framepresent.png
     elements: []
     compositeelements: []

@@ -82,7 +82,7 @@ attributes:
             value: null
             values:
               en:
-                id: '81'
+                correlationCode: '81'
                 name: Frame3x.png
             elements: []
             compositeelements: []
@@ -130,7 +130,7 @@ attributes:
             value: null
             values:
               en:
-                id: '82'
+                correlationCode: '82'
                 name: Frame3x.png
             elements: []
             compositeelements: []
@@ -178,7 +178,7 @@ attributes:
             value: null
             values:
               en:
-                id: '83'
+                correlationCode: '83'
                 name: Frame3x.png
             elements: []
             compositeelements: []

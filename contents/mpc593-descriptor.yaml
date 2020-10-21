@@ -30,7 +30,7 @@ attributes:
     value: null
     values:
       en:
-        id: '594'
+        correlationCode: '594'
         name: Flexible Cover Icon
     elements: []
     compositeelements: []

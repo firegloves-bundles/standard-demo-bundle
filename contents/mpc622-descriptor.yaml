@@ -30,7 +30,7 @@ attributes:
     value: null
     values:
       en:
-        id: '623'
+        correlationCode: '623'
         name: Icon_1_d0.svg
     elements: []
     compositeelements: []
