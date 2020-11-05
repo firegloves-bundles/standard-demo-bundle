@@ -116,7 +116,6 @@ components:
     - pages/interest-descriptor.yaml
     - pages/manage_users-descriptor.yaml
     - pages/seed_insurances-descriptor.yaml
-    - pages/dashboard_protected-descriptor.yaml
   groups:
     - groups/groups-descriptor.yaml
   contentTypes:
@@ -152,54 +151,54 @@ components:
     - contentModels/product-detail-descriptor.yaml
     - contentModels/products-text-left-image-right-descriptor.yaml
   assets:
-    - ./assets/35/35-descriptor.yaml
-    - ./assets/32/32-descriptor.yaml
-    - ./assets/17/17-descriptor.yaml
-    - ./assets/585/585-descriptor.yaml
-    - ./assets/20/20-descriptor.yaml
-    - ./assets/29/29-descriptor.yaml
-    - ./assets/588/588-descriptor.yaml
-    - ./assets/654/654-descriptor.yaml
-    - ./assets/671/671-descriptor.yaml
-    - ./assets/620/620-descriptor.yaml
-    - ./assets/660/660-descriptor.yaml
-    - ./assets/103/103-descriptor.yaml
-    - ./assets/167/167-descriptor.yaml
-    - ./assets/594/594-descriptor.yaml
-    - ./assets/150/150-descriptor.yaml
-    - ./assets/81/81-descriptor.yaml
-    - ./assets/82/82-descriptor.yaml
-    - ./assets/86/86-descriptor.yaml
-    - ./assets/83/83-descriptor.yaml
-    - ./assets/657/657-descriptor.yaml
-    - ./assets/609/609-descriptor.yaml
-    - ./assets/165/165-descriptor.yaml
-    - ./assets/104/104-descriptor.yaml
-    - ./assets/166/166-descriptor.yaml
-    - ./assets/623/623-descriptor.yaml
-    - ./assets/626/626-descriptor.yaml
-    - ./assets/617/617-descriptor.yaml
-    - ./assets/612/612-descriptor.yaml
-    - ./assets/591/591-descriptor.yaml
-    - ./assets/705/705-descriptor.yaml
-    - ./assets/663/663-descriptor.yaml
-    - ./assets/145/145-descriptor.yaml
-    - ./assets/141/141-descriptor.yaml
-    - ./assets/667/667-descriptor.yaml
-    - ./assets/597/597-descriptor.yaml
-    - ./assets/674/674-descriptor.yaml
-    - ./assets/664/664-descriptor.yaml
-    - ./assets/105/105-descriptor.yaml
-    - ./assets/57/57-descriptor.yaml
-    - ./assets/651/651-descriptor.yaml
-    - ./assets/632/632-descriptor.yaml
-    - ./assets/629/629-descriptor.yaml
-    - ./assets/639/639-descriptor.yaml
-    - ./assets/645/645-descriptor.yaml
-    - ./assets/642/642-descriptor.yaml
-    - ./assets/635/635-descriptor.yaml
-    - ./assets/497/497-descriptor.yaml
-    - ./assets/648/648-descriptor.yaml
+    - assets/35-descriptor.yaml
+    - assets/32-descriptor.yaml
+    - assets/17-descriptor.yaml
+    - assets/585-descriptor.yaml
+    - assets/20-descriptor.yaml
+    - assets/29-descriptor.yaml
+    - assets/588-descriptor.yaml
+    - assets/654-descriptor.yaml
+    - assets/671-descriptor.yaml
+    - assets/620-descriptor.yaml
+    - assets/660-descriptor.yaml
+    - assets/103-descriptor.yaml
+    - assets/167-descriptor.yaml
+    - assets/594-descriptor.yaml
+    - assets/150-descriptor.yaml
+    - assets/81-descriptor.yaml
+    - assets/82-descriptor.yaml
+    - assets/86-descriptor.yaml
+    - assets/83-descriptor.yaml
+    - assets/657-descriptor.yaml
+    - assets/609-descriptor.yaml
+    - assets/165-descriptor.yaml
+    - assets/104-descriptor.yaml
+    - assets/166-descriptor.yaml
+    - assets/623-descriptor.yaml
+    - assets/626-descriptor.yaml
+    - assets/617-descriptor.yaml
+    - assets/612-descriptor.yaml
+    - assets/591-descriptor.yaml
+    - assets/705-descriptor.yaml
+    - assets/663-descriptor.yaml
+    - assets/145-descriptor.yaml
+    - assets/141-descriptor.yaml
+    - assets/667-descriptor.yaml
+    - assets/597-descriptor.yaml
+    - assets/674-descriptor.yaml
+    - assets/664-descriptor.yaml
+    - assets/105-descriptor.yaml
+    - assets/57-descriptor.yaml
+    - assets/651-descriptor.yaml
+    - assets/632-descriptor.yaml
+    - assets/629-descriptor.yaml
+    - assets/639-descriptor.yaml
+    - assets/645-descriptor.yaml
+    - assets/642-descriptor.yaml
+    - assets/635-descriptor.yaml
+    - assets/497-descriptor.yaml
+    - assets/648-descriptor.yaml
   contents:
     - contents/bnr16-descriptor.yaml
     - contents/bnr19-descriptor.yaml
