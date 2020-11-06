@@ -1,9 +1,9 @@
 id: PRD670
 typeCode: PRD
 description: Seed Home
-mainGroup: administrators
+mainGroup: free
 groups:
-  - administrators
+  - free
 status: PUBLIC
 attributes:
   - code: title

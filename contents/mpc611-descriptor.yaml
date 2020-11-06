@@ -1,9 +1,9 @@
 id: MPC611
 typeCode: MPC
 description: Exclusive offers
-mainGroup: administrators
+mainGroup: free
 groups:
-  - administrators
+  - free
 status: PUBLIC
 attributes:
   - code: title

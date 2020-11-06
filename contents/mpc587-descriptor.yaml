@@ -1,9 +1,9 @@
 id: MPC587
 typeCode: MPC
 description: Call Us
-mainGroup: administrators
+mainGroup: free
 groups:
-  - administrators
+  - free
 status: PUBLIC
 attributes:
   - code: title

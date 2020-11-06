@@ -1,9 +1,9 @@
 id: MPC590
 typeCode: MPC
 description: Live Chat
-mainGroup: administrators
+mainGroup: free
 groups:
-  - administrators
+  - free
 status: PUBLIC
 attributes:
   - code: title

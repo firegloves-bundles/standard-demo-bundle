@@ -1,9 +1,9 @@
 id: PRD673
 typeCode: PRD
 description: Seed International Travel
-mainGroup: administrators
+mainGroup: free
 groups:
-  - administrators
+  - free
 status: PUBLIC
 attributes:
   - code: title
