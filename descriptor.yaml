@@ -242,9 +242,9 @@ components:
     - contents/prd666-descriptor.yaml
     - contents/prd670-descriptor.yaml
     - contents/prd673-descriptor.yaml
-  plugins:
-    - plugins/standard-demo-banking-descriptor.yaml
-    - plugins/std-demo-customer-descriptor.yaml
+#  plugins:
+#    - plugins/standard-demo-banking-descriptor.yaml
+#    - plugins/std-demo-customer-descriptor.yaml
   categories:
     - categories/categories-descriptor.yaml
   labels:
