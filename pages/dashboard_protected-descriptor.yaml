@@ -3,7 +3,7 @@ parentCode: homepage
 titles:
   en: Dashboard Protected
 pageModel: dashboard
-ownerGroup: administrators
+ownerGroup: free
 joinGroups: []
 displayedInMenu: true
 seo: false

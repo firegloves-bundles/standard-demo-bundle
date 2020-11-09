@@ -10,3 +10,13 @@ displayedInMenu: false
 seo: false
 charset: utf-8
 status: published
+widgets:
+  - code: Brand-Logo
+    config: null
+    pos: 0
+  - code: Login_buttons
+    config: null
+    pos: 2
+  - code: signup
+    config: null
+    pos: 4

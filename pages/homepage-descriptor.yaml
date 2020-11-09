@@ -10,3 +10,49 @@ displayedInMenu: true
 seo: false
 charset: utf8
 status: published
+widgets:
+  - code: Brand-Logo
+    config: null
+    pos: 0
+  - code: Login_buttons
+    config: null
+    pos: 2
+  - code: content_viewer
+    config:
+      contentDescription: main-banner
+      contentId: BNR37
+      modelId: '1'
+    pos: 4
+  - code: content_viewer
+    config:
+      contentDescription: banner light green
+      contentId: BNR34
+      modelId: '2'
+    pos: 5
+  - code: content_viewer
+    config:
+      contentDescription: Banner with inner card
+      contentId: BNR31
+      modelId: '3'
+    pos: 6
+  - code: content_viewer
+    config:
+      contentDescription: Banner with accordion
+      contentId: BNR16
+      modelId: '4'
+    pos: 7
+  - code: content_viewer
+    config:
+      contentDescription: Banner with dark green background
+      contentId: BNR28
+      modelId: '5'
+    pos: 8
+  - code: content_viewer
+    config:
+      contentDescription: Banner with white background
+      contentId: BNR19
+      modelId: '6'
+    pos: 9
+  - code: footer
+    config: null
+    pos: 13
