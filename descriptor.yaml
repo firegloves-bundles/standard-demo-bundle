@@ -37,7 +37,6 @@ components:
     - fragments/default_pagerblock-descriptor.yaml
     - fragments/default_pagerformblock_is-descriptor.yaml
     - fragments/default_pagerinfo_is-descriptor.yaml
-    - fragments/entando-widget-navigation_bar-descriptor.yaml
     - fragments/entando-widget-navigation_bar_include-descriptor.yaml
     - fragments/entandoapi_is_resource_detail-descriptor.yaml
     - fragments/entandoapi_is_resource_detail_include-descriptor.yaml
