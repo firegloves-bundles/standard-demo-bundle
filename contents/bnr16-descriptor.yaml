@@ -3,7 +3,7 @@ typeCode: BNR
 description: Banner with accordion
 mainGroup: free
 status: DRAFT
-attributes:
+#attributes:
 #  - code: title
 #    value: null
 #    values:
@@ -19,27 +19,27 @@ attributes:
 #    elements: []
 #    compositeelements: []
 #    listelements: {}
-  - code: descr
-    value: null
-    values: {}
-    elements: []
-    compositeelements: []
-    listelements: {}
-  - code: img
-    value: null
-    values:
-      en:
-        correlationCode: '57'
-        name: flowers
-    elements: []
-    compositeelements: []
-    listelements: {}
-  - code: link
-    value: null
-    values: {}
-    elements: []
-    compositeelements: []
-    listelements: {}
+#  - code: descr
+#    value: null
+#    values: {}
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
+#  - code: img
+#    value: null
+#    values:
+#      en:
+#        correlationCode: '57'
+#        name: flowers
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
+#  - code: link
+#    value: null
+#    values: {}
+#    elements: []
+#    compositeelements: []
+#    listelements: {}
 #  - code: accord
 #    value: null
 #    values: {}
