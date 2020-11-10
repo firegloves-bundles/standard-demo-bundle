@@ -65,7 +65,6 @@ components:
     - fragments/jacms_content_viewer_list_userfilter_met_fulltext-descriptor.yaml
     - fragments/jacms_content_viewer_list_userfilters-descriptor.yaml
     - fragments/jacms_row_content_viewer_list-descriptor.yaml
-    - fragments/keycloak-descriptor.yaml
     - fragments/language_choose-descriptor.yaml
     - fragments/list_item-descriptor.yaml
     - fragments/login_form-descriptor.yaml
