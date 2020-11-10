@@ -30,7 +30,6 @@ components:
     - pageModels/seed_home-descriptor.yaml
     - pageModels/service-descriptor.yaml
   fragments:
-    - fragments/angular-descriptor.yaml
     - fragments/apply_form_banner-descriptor.yaml
     - fragments/back_to_seed-descriptor.yaml
     - fragments/brand_insurance-descriptor.yaml
