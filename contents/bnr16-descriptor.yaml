@@ -4,13 +4,13 @@ description: Banner with accordion
 mainGroup: free
 status: DRAFT
 attributes:
-#  - code: title
-#    value: null
-#    values:
-#      en: Helping You Reach Financial Freedom
-#    elements: []
-#    compositeelements: []
-#    listelements: {}
+  - code: title
+    value: null
+    values:
+      en: Helping You Reach Financial Freedom
+    elements: []
+    compositeelements: []
+    listelements: {}
 #  - code: subtitle
 #    value: null
 #    values:
