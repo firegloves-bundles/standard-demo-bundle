@@ -1,0 +1,43 @@
+apiVersion: entando.org/v1
+kind: EntandoDeBundle
+metadata:
+  name: standard-demo-bundle-firegloves
+  labels:
+    plugin: 'true'
+    widget: 'true'
+spec:
+  details:
+    name: standard-demo-bundle
+    description: This is the standard demo bundle
+    dist-tags:
+      latest: v1.0.0
+    versions:
+      - v0.0.1
+      - v0.0.2
+      - v0.0.3
+      - v0.0.4
+      - v1.0.0
+  tags:
+    - version: v0.0.1
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/standard-demo-bundle.git'
+    - version: v0.0.2
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/standard-demo-bundle.git'
+      description: 'all but plugins'
+    - version: v0.0.3
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/standard-demo-bundle.git'
+      description: 'all but plugins and contents'
+    - version: v0.0.4
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/firegloves-bundles/standard-demo-bundle.git'
+      description: 'all but plugins and fragment solved'
+    - version: v1.0.0
+      shasum: e986aa2c426987b979ab68a4de71e5ac587d735f
+      integrity: e986aa2c426987b979ab68a4de71e5ac587d735f
+      tarball: 'https://github.com/entando-samples/standard-demo-bundle.git'
