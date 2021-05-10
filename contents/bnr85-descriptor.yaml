@@ -2,7 +2,7 @@ id: BNR85
 typeCode: BNR
 description: Credit light green
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

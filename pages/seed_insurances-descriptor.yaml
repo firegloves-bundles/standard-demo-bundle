@@ -50,16 +50,16 @@ widgets:
     pos: 9
   - code: content_viewer_list
     config:
-      title_it: Perchè Seed Assicurazioni
+      modelId: '103'
       maxElemForItem: '3'
-      categories:
-        - benefits
       filters:
         - attributeFilter: false
           key: modified
           order: DESC
+      title_it: Perchè Seed Assicurazioni
       title_en: Why Seed Insurance
-      modelId: '103'
+      categories:
+        - benefits
       contentType: MPC
     pos: 10
   - code: footer-insurance

@@ -1,7 +1,7 @@
 id: 7
 contentType: BNR
 description: "Credit light green\t"
-contentShape: |
+contentShape: |-
   <div class="credit-banner-green">
       <div class="row">
           <div class="col-12 col-lg-6 image-center">

@@ -1,9 +1,9 @@
 id: PRD666
 typeCode: PRD
 description: Seed Bikes
-mainGroup: free
+mainGroup: administrators
 groups:
-  - free
+  - administrators
 status: PUBLIC
 attributes:
   - code: title

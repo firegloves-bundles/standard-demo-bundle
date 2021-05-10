@@ -41,7 +41,7 @@ contentShape: |-
       </div>
   </div>
 
-  <script>
+  <script nonce="<@wp.cspNonce />">
   $(document).ready(function() {
     $('#collapse-1').addClass('show');
   });

@@ -1,2 +1,0 @@
-code: seeds_card
-guiCode: '<#assign wp=JspTaglibs[ "/aps-core"]><script async src="<@wp.resourceURL />standard-demo-bundle/widgets/seeds-card/js/runtime~main.3441d7be.js"></script><script async src="<@wp.resourceURL />standard-demo-bundle/widgets/seeds-card/js/2.f3e1a060.chunk.js"></script><script async src="<@wp.resourceURL />standard-demo-bundle/widgets/seeds-card/js/main.8b3c01ae.chunk.js"></script><@wp.currentWidget param="config" configParam="cardname" var="configName" /><seedscard-details  cardname="${configName}" />'

@@ -1,9 +1,9 @@
 id: MPC584
 typeCode: MPC
 description: 24 Hours Support
-mainGroup: free
+mainGroup: administrators
 groups:
-  - free
+  - administrators
 status: PUBLIC
 attributes:
   - code: title

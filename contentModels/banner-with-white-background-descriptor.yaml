@@ -1,7 +1,7 @@
 id: 6
 contentType: BNR
 description: Banner with white background
-contentShape: |
+contentShape: |-
   <div class="main-banner-white">
               <div class="row">
                   <div class="col-lg-6 col-xs-12">

@@ -2,7 +2,7 @@ id: BNR28
 typeCode: BNR
 description: Banner with dark green background
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

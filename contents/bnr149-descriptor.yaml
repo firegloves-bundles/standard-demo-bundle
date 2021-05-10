@@ -2,7 +2,7 @@ id: BNR149
 typeCode: BNR
 description: banner landscape wine yard
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

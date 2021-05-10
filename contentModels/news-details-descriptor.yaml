@@ -1,7 +1,7 @@
 id: 15
 contentType: NWS
 description: News Details
-contentShape: |
+contentShape: |-
   <div class="search-result">
       <div class="default-detail-model">
           <div class="row no-gutters">

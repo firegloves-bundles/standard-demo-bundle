@@ -20,38 +20,38 @@ widgets:
   - code: content_viewer
     config:
       contentDescription: main-banner
-      contentId: BNR37
       modelId: '1'
+      contentId: BNR37
     pos: 4
   - code: content_viewer
     config:
       contentDescription: banner light green
-      contentId: BNR34
       modelId: '2'
+      contentId: BNR34
     pos: 5
   - code: content_viewer
     config:
       contentDescription: Banner with inner card
-      contentId: BNR31
       modelId: '3'
+      contentId: BNR31
     pos: 6
   - code: content_viewer
     config:
       contentDescription: Banner with accordion
-      contentId: BNR16
       modelId: '4'
+      contentId: BNR16
     pos: 7
   - code: content_viewer
     config:
       contentDescription: Banner with dark green background
-      contentId: BNR28
       modelId: '5'
+      contentId: BNR28
     pos: 8
   - code: content_viewer
     config:
       contentDescription: Banner with white background
-      contentId: BNR19
       modelId: '6'
+      contentId: BNR19
     pos: 9
   - code: footer
     config: null

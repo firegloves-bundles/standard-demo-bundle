@@ -2,7 +2,7 @@ id: BNR80
 typeCode: BNR
 description: Credit & benefits & features
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

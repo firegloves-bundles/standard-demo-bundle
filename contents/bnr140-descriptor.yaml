@@ -2,7 +2,7 @@ id: BNR140
 typeCode: BNR
 description: Interest banner white img first
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

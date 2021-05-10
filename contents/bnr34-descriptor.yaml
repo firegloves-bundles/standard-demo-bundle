@@ -2,7 +2,7 @@ id: BNR34
 typeCode: BNR
 description: banner light green
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

@@ -1,0 +1,16 @@
+code: products
+parentCode: homepage
+titles:
+  en: Products
+  it: Prodotti
+pageModel: service
+ownerGroup: free
+joinGroups: []
+displayedInMenu: false
+seo: false
+charset: utf8
+status: published
+widgets:
+  - code: search_form
+    config: null
+    pos: 0

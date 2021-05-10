@@ -1,9 +1,9 @@
 id: MPC614
 typeCode: MPC
 description: Welcome to My Portal
-mainGroup: free
+mainGroup: administrators
 groups:
-  - free
+  - administrators
 status: PUBLIC
 attributes:
   - code: title

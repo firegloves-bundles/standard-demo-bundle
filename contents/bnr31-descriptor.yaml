@@ -2,7 +2,7 @@ id: BNR31
 typeCode: BNR
 description: Banner with inner card
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

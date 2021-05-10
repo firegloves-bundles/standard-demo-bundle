@@ -2,7 +2,7 @@ id: BNR147
 typeCode: BNR
 description: Interest simple composite banner
 mainGroup: free
-status: DRAFT
+status: PUBLIC
 attributes:
   - code: title
     value: null

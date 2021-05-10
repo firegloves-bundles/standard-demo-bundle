@@ -31,14 +31,14 @@ widgets:
     pos: 6
   - code: list_item
     config:
-      icon: managealerts
       count: '0'
+      icon: managealerts
       title: Alerts
     pos: 7
   - code: list_item
     config:
-      icon: viewstatements
       count: '0'
+      icon: viewstatements
       title: View Statements
     pos: 11
   - code: seedscard-transaction-table
